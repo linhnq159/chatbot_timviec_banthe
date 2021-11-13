@@ -1,0 +1,1540 @@
+version: "2.0"
+
+stories:
+#str_chung
+- story: great
+  steps:
+  - intent: great
+  - action: utter_great
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: happy
+  steps:
+  - intent: happy
+  - action: utter_happy
+
+- story: unhappy
+  steps:
+  - intent: unhappy
+  - action: act_unknown
+
+- story: surprise
+  steps:
+  - intent: surprise
+  - action: utter_surprise
+
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- story: scold
+  steps:
+  - intent: scold
+  - action: utter_scold
+
+- story: ask_author
+  steps:
+  - intent: ask_author
+  - action: utter_ask_author
+
+- story: goodnight
+  steps:
+  - intent: goodnight
+  - action: utter_goodnight
+
+- story: how_are_u
+  steps:
+  - intent: how_are_u
+  - action: utter_how_are_u
+
+- story: name
+  steps:
+  - intent: wait_name
+  - action: utter_wait_name
+
+- story: how_old
+  steps:
+  - intent: how_old
+  - action: utter_how_old
+
+#str_tim_viec
+
+- story: great_timviec
+  steps:
+  - intent: great_timviec
+  - action: utter_great_timviec
+
+- story: tim_viec
+  steps:
+  - intent: tim_viec
+  - action: utter_tim_viec
+
+- story: hoi_chuyen_nganh
+  steps:
+  - intent: hoi_chuyen_nganh
+  - action: utter_hoi_chuyen_nganh
+
+- story: tim_viec_trang_vang
+  steps:
+  - intent: tim_viec_trang_vang
+  - action: utter_tim_viec_trang_vang
+
+- story: dang_tin_trang_vang
+  steps:
+  - intent: dang_tin_trang_vang
+  - action: utter_dang_tin_trang_vang
+
+- story: viet_thu_hoi_hop
+  steps:
+  - intent: viet_thu_hoi_hop
+  - action: utter_viet_thu_hoi_hop
+
+- story: tai_sao_can_thu_hoi_hop
+  steps:
+  - intent: tai_sao_can_thu_hoi_hop
+  - action: utter_tai_sao_can_thu_hoi_hop
+
+- story: hoi_them_trang_vang
+  steps:
+  - intent: hoi_them_trang_vang
+  - action: utter_hoi_them_trang_vang
+
+- story: thac_mac_tim_viec
+  steps:
+  - intent: thac_mac_tim_viec
+  - action: utter_thac_mac_tim_viec
+
+- story: tim_viec_pham_vi
+  steps:
+  - intent: tim_viec_pham_vi
+  - action: utter_tim_viec_pham_vi
+
+- story: gioi_han_tim_kiem
+  steps:
+  - intent: gioi_han_tim_kiem
+  - action: utter_gioi_han_tim_kiem
+
+- story: tim_kiem_quanh_day
+  steps:
+  - intent: tim_kiem_quanh_day
+  - action: utter_tim_kiem_quanh_day
+
+- story : thu_hop_tac_english
+  steps:
+  - intent: thu_hop_tac_english
+  - action: utter_thu_hop_tac_english
+
+- story : tai_sao_can_thu_gt_cty
+  steps:
+  - intent: tai_sao_can_thu_gt_cty
+  - action: utter_tai_sao_can_thu_gt_cty
+
+- story : mau_thu_gioi_thieu
+  steps:
+  - intent: mau_thu_gioi_thieu
+  - action: utter_mau_thu_gioi_thieu
+
+- story : gui_mail_tl_uv
+  steps:
+  - intent: gui_mail_tl_uv
+  - action: utter_gui_mail_tl_uv
+
+- story : tu_choi_uv
+  steps:
+  - intent: tu_choi_uv
+  - action: utter_tu_choi_uv
+
+- story : thu_nhan_viec
+  steps:
+  - intent: thu_nhan_viec
+  - action: utter_thu_nhan_viec
+
+- story : thu_trung_tuyen
+  steps:
+  - intent: thu_trung_tuyen
+  - action: utter_thu_trung_tuyen
+
+- story : thu_moi_phong_van
+  steps:
+  - intent: thu_moi_phong_van
+  - action: utter_thu_moi_phong_van
+
+- story : cbi_phong_van
+  steps:
+  - intent: cbi_phong_van
+  - action: utter_cbi_phong_van
+
+- story : mau_so_yeu_li_lich
+  steps:
+  - intent: mau_so_yeu_li_lich
+  - action: utter_mau_so_yeu_li_lich
+
+- story : hd_viet_so_yeu_li_lich
+  steps:
+  - intent: hd_viet_so_yeu_li_lich
+  - action: utter_hd_viet_so_yeu_li_lich
+
+- story : sd_so_yeu_li_lich
+  steps:
+  - intent: sd_so_yeu_li_lich
+  - action: utter_sd_so_yeu_li_lich
+
+- story : can_so_yeu_li_lich
+  steps:
+  - intent: can_so_yeu_li_lich
+  - action: utter_can_so_yeu_li_lich
+
+- story : danh_may_viet_tay_syll
+  steps:
+  - intent: danh_may_viet_tay_syll
+  - action: utter_danh_may_viet_tay_syll
+
+- story : luu_y_viet_syll
+  steps:
+  - intent: luu_y_viet_syll
+  - action: utter_luu_y_viet_syll
+
+- story : syll_di_nhat
+  steps:
+  - intent: syll_di_nhat
+  - action: utter_syll_di_nhat
+
+- story : syll_di_tq
+  steps:
+  - intent: syll_di_tq
+  - action: utter_syll_di_tq
+
+- story : syll_di_han
+  steps:
+  - intent: syll_di_han
+  - action: utter_syll_di_han
+
+- story : nop_hs_qua_mang
+  steps:
+  - intent: nop_hs_qua_mang
+  - action: utter_nop_hs_qua_mang
+
+- story : viet_thu_gui_ntd
+  steps:
+  - intent: viet_thu_gui_ntd
+  - action: utter_viet_thu_gui_ntd
+
+- story : trinh_do_chinh_tri
+  steps:
+  - intent: trinh_do_chinh_tri
+  - action: utter_trinh_do_chinh_tri
+
+- story : mau_thu_xin_viec
+  steps:
+  - intent: mau_thu_xin_viec
+  - action: utter_mau_thu_xin_viec
+
+- story : vai_tro_thu_xin_viec
+  steps:
+  - intent: vai_tro_thu_xin_viec
+  - action: utter_vai_tro_thu_xin_viec
+
+- story : them_nguoi_tham_chieu_cv
+  steps:
+  - intent: them_nguoi_tham_chieu_cv
+  - action: utter_them_nguoi_tham_chieu_cv
+
+- story : loi_nguoi_tham_chieu
+  steps:
+  - intent: loi_nguoi_tham_chieu
+  - action: utter_loi_nguoi_tham_chieu
+
+- story : can_chinh_cv
+  steps:
+  - intent: can_chinh_cv
+  - action: utter_can_chinh_cv
+
+- story : kinh_nghiem_viet_cv
+  steps:
+  - intent: kinh_nghiem_viet_cv
+  - action: utter_kinh_nghiem_viet_cv
+
+- story : tao_cv_word_pp
+  steps:
+  - intent: tao_cv_word_pp
+  - action: utter_tao_cv_word_pp
+
+- story : tao_cv
+  steps:
+  - intent: tao_cv
+  - action: utter_tao_cv
+
+- story : tao_cv_theo_nganh_nghe
+  steps:
+  - intent: tao_cv_theo_nganh_nghe
+  - action: utter_tao_cv_theo_nganh_nghe
+
+- story : bao_mat_td
+  steps:
+  - intent: bao_mat_td
+  - action: utter_bao_mat_td
+
+- story : ntd_thu_hut_uv
+  steps:
+  - intent: ntd_thu_hut_uv
+  - action: utter_ntd_thu_hut_uv
+
+- story : tim_hieu_tuyen_dung
+  steps:
+  - intent: tim_hieu_tuyen_dung
+  - action: utter_tim_hieu_tuyen_dung
+
+- story : tao_TK_ntd
+  steps:
+  - intent: tao_TK_ntd
+  - action: utter_tao_TK_ntd
+
+- story : dang_tin_free
+  steps:
+  - intent: dang_tin_free
+  - action: utter_dang_tin_free
+
+- story : gioi_han_dang_tin
+  steps:
+  - intent: gioi_han_dang_tin
+  - action: utter_gioi_han_dang_tin
+
+- story : dang_tin_hieu_qua
+  steps:
+  - intent: dang_tin_hieu_qua
+  - action: utter_dang_tin_hieu_qua
+
+- story : ko_dang_dc_tin
+  steps:
+  - intent: ko_dang_dc_tin
+  - action: utter_ko_dang_dc_tin
+
+- story : viet_mo_ta
+  steps:
+  - intent: viet_mo_ta
+  - action: utter_viet_mo_ta
+
+- story : tim_uv
+  steps:
+  - intent: tim_uv
+  - action: utter_tim_uv
+
+- story : goi_dang_tin
+  steps:
+  - intent: goi_dang_tin
+  - action: utter_goi_dang_tin
+
+- story : tim_inf_uv
+  steps:
+  - intent: tim_inf_uv
+  - action: utter_tim_inf_uv
+
+
+- story : loi_serve
+  steps:
+  - intent: loi_serve
+  - action: utter_loi_serve
+
+- story : dang_ki_tk
+  steps:
+  - intent: dang_ki_tk
+  - action: utter_dang_ki_tk
+
+- story : dk_tk_uv
+  steps:
+  - intent: dk_tk_uv
+  - action: utter_dk_tk_uv
+
+- story : dk_tk_app
+  steps:
+  - intent: dk_tk_app
+  - action: utter_dk_tk_app
+
+- story : ko_up_dc_anh
+  steps:
+  - intent: ko_up_dc_anh
+  - action: utter_ko_up_dc_anh
+
+- story : dki_sai_mail
+  steps:
+  - intent: dki_sai_mail
+  - action: utter_dki_sai_mail
+
+- story : kich_hoat_mail
+  steps:
+  - intent: kich_hoat_mail
+  - action: utter_kich_hoat_mail
+
+- story : mau_cv
+  steps:
+  - intent: mau_cv
+  - action: utter_mau_cv
+
+- story : ko_dang_nhap_dc
+  steps:
+  - intent: ko_dang_nhap_dc
+  - action: utter_ko_dang_nhap_dc
+
+- story : sua_mail_dk
+  steps:
+  - intent: sua_mail_dk
+  - action: utter_sua_mail_dk
+
+- story : cv_an_tuong
+  steps:
+  - intent: cv_an_tuong
+  - action: utter_mau_cv
+
+- story : xem_cv
+  steps:
+  - intent: xem_cv
+  - action: utter_xem_cv
+
+- story : ko_chon_dc_huyen
+  steps:
+  - intent: ko_chon_dc_huyen
+  - action: utter_ko_chon_dc_huyen
+
+- story : loi_dang_ki
+  steps:
+  - intent: loi_dang_ki
+  - action: utter_loi_dang_ki
+
+- story : bao_mat_inf_uv
+  steps:
+  - intent: bao_mat_inf_uv
+  - action: utter_bao_mat_inf_uv
+
+- story : ntd_thay_cv
+  steps:
+  - intent: ntd_thay_cv
+  - action: utter_ntd_thay_cv
+
+- story : xac_nhan_email
+  steps:
+  - intent: xac_nhan_email
+  - action: utter_xac_nhan_email
+
+- story : tim_kiem_nang_cao
+  steps:
+  - intent: tim_kiem_nang_cao
+  - action: utter_tim_kiem_nang_cao
+
+- story : ko_dki_dc_tk
+  steps:
+  - intent: ko_dki_dc_tk
+  - action: utter_ko_dki_dc_tk
+
+- story : tim_ntd
+  steps:
+  - intent: tim_ntd
+  - action: utter_tim_ntd
+
+- story : sd_app_cham_cong
+  steps:
+  - intent: sd_app_cham_cong
+  - action: utter_sd_app_cham_cong
+
+- story : xuat_cong
+  steps:
+  - intent: xuat_cong
+  - action: utter_xuat_cong
+
+- story : update_di_muon
+  steps:
+  - intent: update_di_muon
+  - action: utter_update_di_muon
+
+- story : gh_nv
+  steps:
+  - intent: gh_nv
+  - action: utter_gh_nv
+
+- story : ktra_cham_cong
+  steps:
+  - intent: ktra_cham_cong
+  - action: utter_ktra_cham_cong
+
+- story : khoang_cach_cham_cong
+  steps:
+  - intent: khoang_cach_cham_cong
+  - action: utter_khoang_cach_cham_cong
+
+- story : cham_cong_tai_nha
+  steps:
+  - intent: cham_cong_tai_nha
+  - action: utter_cham_cong_tai_nha
+
+- story : loi_tai_cty
+  steps:
+  - intent: loi_tai_cty
+  - action: utter_loi_tai_cty
+
+- story : loi_cham_cong
+  steps:
+  - intent: loi_cham_cong
+  - action: utter_loi_cham_cong
+
+- story : cai_dat_ca
+  steps:
+  - intent: cai_dat_ca
+  - action: utter_cai_dat_ca
+
+- story : app_free
+  steps:
+  - intent: app_free
+  - action: utter_app_free
+
+- story : cham_cong_nv
+  steps:
+  - intent: cham_cong_nv
+  - action: utter_cham_cong_nv
+
+- story : phe_duyet_nv
+  steps:
+  - intent: phe_duyet_nv
+  - action: utter_phe_duyet_nv
+
+- story : quyen_truy_cap
+  steps:
+  - intent: quyen_truy_cap
+  - action: utter_quyen_truy_cap
+
+- story : qli_nv
+  steps:
+  - intent: qli_nv
+  - action: utter_qli_nv
+
+- story : dki_tk
+  steps:
+  - intent: dki_tk
+  - action: utter_dki_tk
+
+- story : xem_ca_di_muon_ve_som
+  steps:
+  - intent: xem_ca_di_muon_ve_som
+  - action: utter_xem_ca_di_muon_ve_som
+
+- story : duyet_nv_moi
+  steps:
+  - intent: duyet_nv_moi
+  - action: utter_duyet_nv_moi
+
+- story : qli_ca_lam
+  steps:
+  - intent: qli_ca_lam
+  - action: utter_qli_ca_lam
+
+- story : gh_phong_ban
+  steps:
+  - intent: gh_phong_ban
+  - action: utter_gh_phong_ban
+
+- story : xuat_cong_excel
+  steps:
+  - intent: xuat_cong_excel
+  - action: utter_xuat_cong_excel
+
+- story : ung_tuyen
+  steps:
+  - intent: ung_tuyen
+  - action: utter_ung_tuyen
+
+- story : cong_an_bac_nam
+  steps:
+  - intent: cong_an_bac_nam
+  - action: utter_cong_an_bac_nam
+
+- story : muc_tieu_nghe_nghiep
+  steps:
+  - intent: muc_tieu_nghe_nghiep
+  - action: utter_muc_tieu_nghe_nghiep
+
+- story : tinh_cach_cv
+  steps:
+  - intent: tinh_cach_cv
+  - action: utter_tinh_cach_cv
+
+- story : so_thich_cv
+  steps:
+  - intent: so_thich_cv
+  - action: utter_so_thich_cv
+
+- story : lam_cv_pp
+  steps:
+  - intent: lam_cv_pp
+  - action: utter_lam_cv_pp
+
+- story : hoi_them_cv
+  steps:
+  - intent: hoi_them_cv
+  - action: utter_hoi_them_cv
+
+- story : ss_luong
+  steps:
+  - intent: ss_luong
+  - action: utter_ss_luong
+
+- story : luong_tinh_thanh
+  steps:
+  - intent: luong_tinh_thanh
+  - action: action_luong_tinh_thanh
+
+- story : luong_nganh_nghe
+  steps:
+  - intent: luong_nganh_nghe
+  - action: utter_luong_nganh_nghe
+
+- story : luong_net_gross
+  steps:
+  - intent: luong_net_gross
+  - action: utter_luong_net_gross
+
+- story : tim_viec_theo_h
+  steps:
+  - intent: tim_viec_theo_h
+  - action: utter_tim_viec_theo_h
+
+- story : tim_nha_tro
+  steps:
+  - intent: tim_nha_tro
+  - action: utter_tim_nha_tro
+
+- story : mua_goi
+  steps:
+  - intent: mua_goi
+  - action: utter_mua_goi
+
+- story : hoan_diem
+  steps:
+  - intent: hoan_diem
+  - action: utter_hoan_diem
+
+- story : dien_cv_bi_mat
+  steps:
+  - intent: dien_cv_bi_mat
+  - action: utter_dien_cv_bi_mat
+
+- story : luu_cv_da_tao
+  steps:
+  - intent: luu_cv_da_tao
+  - action: utter_luu_cv_da_tao
+
+- story : tao_xong_cv_moi_dki
+  steps:
+  - intent: tao_xong_cv_moi_dki
+  - action: utter_tao_xong_cv_moi_dki
+
+- story : sdt_dki_nhieu_tk
+  steps:
+  - intent: sdt_dki_nhieu_tk
+  - action: utter_sdt_dki_nhieu_tk
+
+- story : dien_ba_noi_lam_viec
+  steps:
+  - intent: dien_ba_noi_lam_viec
+  - action: utter_dien_ba_noi_lam_viec
+
+- story : an_tk
+  steps:
+  - intent: an_tk
+  - action: utter_an_tk
+
+- story : chi_tao_cv
+  steps:
+  - intent: chi_tao_cv
+  - action: utter_chi_tao_cv
+
+- story : an_cv
+  steps:
+  - intent: an_cv
+  - action: utter_an_cv
+
+- story : sdt_bao_loi
+  steps:
+  - intent: sdt_bao_loi
+  - action: utter_sdt_bao_loi
+
+- story : muc_gt_cty
+  steps:
+  - intent: muc_gt_cty
+  - action: utter_muc_gt_cty
+
+- story : tao_ho_so
+  steps:
+  - intent: tao_ho_so
+  - action: utter_tao_ho_so
+
+- story : app_tim_viec
+  steps:
+  - intent: app_tim_viec
+  - action: utter_app_tim_viec
+
+- story : xem_tin_dang
+  steps:
+  - intent: xem_tin_dang
+  - action: utter_xem_tin_dang
+
+- story : tim_uv_moi_nhat
+  steps:
+  - intent: tim_uv_moi_nhat
+  - action: utter_tim_uv_moi_nhat
+
+- story : tim_uv_quanh_day
+  steps:
+  - intent: tim_uv_quanh_day
+  - action: utter_tim_uv_quanh_day
+
+- story : xem_uv
+  steps:
+  - intent: xem_uv
+  - action: utter_xem_uv
+
+- story : ko_xem_dc_cv_uv
+  steps:
+  - intent: ko_xem_dc_cv_uv
+  - action: utter_ko_xem_dc_cv_uv
+
+- story : doi_mk_tk_uv
+  steps:
+  - intent: doi_mk_tk_uv
+  - action: utter_doi_mk_tk_uv
+
+- story : doi_mk_tk_ntd
+  steps:
+  - intent: doi_mk_tk_ntd
+  - action: utter_doi_mk_tk_ntd
+
+- story : quen_mk
+  steps:
+  - intent: quen_mk
+  - action: utter_quen_mk
+
+- story : qli_inf_ntd
+  steps:
+  - intent: qli_inf_ntd
+  - action: utter_qli_inf_ntd
+
+- story : cau_hoi_td
+  steps:
+  - intent: cau_hoi_td
+  - action: utter_cau_hoi_td
+
+- story : tin_dang_het_han
+  steps:
+  - intent: tin_dang_het_han
+  - action: utter_tin_dang_het_han
+
+- story : danh_gia_chuyen_vien
+  steps:
+  - intent: danh_gia_chuyen_vien
+  - action: utter_danh_gia_chuyen_vien
+
+- story : sl_tren_web
+  steps:
+  - intent: sl_tren_web
+  - action: utter_sl_tren_web
+
+- story : ko_tl
+  steps:
+  - intent: ko_tl
+  - action: utter_ko_tl
+
+- story : khieu_nai_ho_tro_vien
+  steps:
+  - intent: khieu_nai_ho_tro_vien
+  - action: utter_khieu_nai_ho_tro_vien
+
+- story : de_nghi_hoan_tien
+  steps:
+  - intent: de_nghi_hoan_tien
+  - action: utter_de_nghi_hoan_tien
+
+- story : web_ko_ho_tro
+  steps:
+  - intent: web_ko_ho_tro
+  - action: utter_web_ko_ho_tro
+
+- story : qli_tin_dang
+  steps:
+  - intent: qli_tin_dang
+  - action: utter_qli_tin_dang
+
+- story : cach_dang_tin_free
+  steps:
+  - intent: cach_dang_tin_free
+  - action: utter_cach_dang_tin_free
+
+- story : tao_banner_quang_cao
+  steps:
+  - intent: tao_banner_quang_cao
+  - action: utter_tao_banner_quang_cao
+
+- story : lam_ctv
+  steps:
+  - intent: lam_ctv
+  - action: utter_lam_ctv
+
+- story : cach_giao_dich
+  steps:
+  - intent: cach_giao_dich
+  - action: utter_cach_giao_dich
+
+- story : den_vp_trao_doi
+  steps:
+  - intent: den_vp_trao_doi
+  - action: utter_den_vp_trao_doi
+
+- story : lay_lai_tk_nhan_su_cu
+  steps:
+  - intent: lay_lai_tk_nhan_su_cu
+  - action: utter_lay_lai_tk_nhan_su_cu
+
+- story : them_chi_nhanh_cty
+  steps:
+  - intent: them_chi_nhanh_cty
+  - action: utter_them_chi_nhanh_cty
+
+- story : gt_ntd
+  steps:
+  - intent: gt_ntd
+  - action: utter_gt_ntd
+
+- story : nhap_tt_tt_uv
+  steps:
+  - intent: nhap_tt_tt_uv
+  - action: utter_nhap_tt_tt_uv
+
+- story : dang_tai_inf_uv
+  steps:
+  - intent: dang_tai_inf_uv
+  - action: utter_dang_tai_inf_uv
+
+- story : uu_dai_ctv
+  steps:
+  - intent: uu_dai_ctv
+  - action: utter_uu_dai_ctv
+
+- story : nop_ho_qua_mang_ko
+  steps:
+  - intent: nop_ho_qua_mang_ko
+  - action: utter_nop_ho_qua_mang_ko
+
+- story : dam_phan_cty
+  steps:
+  - intent: dam_phan_cty
+  - action: utter_dam_phan_cty
+
+- story : tinh_luong_theo_ngay_cong
+  steps:
+  - intent: tinh_luong_theo_ngay_cong
+  - action: utter_tinh_luong_theo_ngay_cong
+
+- story : cach_viet_ho_so
+  steps:
+  - intent: cach_viet_ho_so
+  - action: utter_cach_viet_ho_so
+
+- story : don_xin_viec_word
+  steps:
+  - intent: don_xin_viec_word
+  - action: utter_don_xin_viec_word
+
+- story : don_ung_tuyen
+  steps:
+  - intent: don_ung_tuyen
+  - action: utter_don_ung_tuyen
+
+- story : lai_xe_xep_can_bang_ko
+  steps:
+  - intent: lai_xe_xep_can_bang_ko
+  - action: utter_lai_xe_xep_can_bang_ko
+
+- story : ko_ho_tro_ship
+  steps:
+  - intent: ko_ho_tro_ship
+  - action: utter_ko_ho_tro_ship
+
+- story : thu_xin_viec_tieng_nhat
+  steps:
+  - intent: thu_xin_viec_tieng_nhat
+  - action: utter_thu_xin_viec_tieng_nhat
+
+- story : thu_xin_viec_tieng_trung
+  steps:
+  - intent: thu_xin_viec_tieng_trung
+  - action: utter_thu_xin_viec_tieng_trung
+
+- story : thu_xin_viec_tieng_anh
+  steps:
+  - intent: thu_xin_viec_tieng_anh
+  - action: utter_thu_xin_viec_tieng_anh
+
+- story : viet_cover_letter_english
+  steps:
+  - intent: viet_cover_letter_english
+  - action: utter_viet_cover_letter_english
+
+- story : xin_viec_lai_xe
+  steps:
+  - intent: xin_viec_lai_xe
+  - action: utter_xin_viec_lai_xe
+
+- story : thu_xin_viec_qua_mail
+  steps:
+  - intent: thu_xin_viec_qua_mail
+  - action: utter_thu_xin_viec_qua_mail
+
+- story : mua_ho_so_xin_viec
+  steps:
+  - intent: mua_ho_so_xin_viec
+  - action: utter_mua_ho_so_xin_viec
+
+- story : viet_mau_ho_so_co_san
+  steps:
+  - intent: viet_mau_ho_so_co_san
+  - action: utter_viet_mau_ho_so_co_san
+
+- story : download_mau_ho_so_mail
+  steps:
+  - intent: download_mau_ho_so_mail
+  - action: utter_download_mau_ho_so_mail
+
+- story : cv_bach_hoa_xanh
+  steps:
+  - intent: cv_bach_hoa_xanh
+  - action: utter_cv_bach_hoa_xanh
+
+- story : ng_mau_nhi
+  steps:
+  - intent: ng_mau_nhi
+  - action: utter_ng_mau_nhi
+
+- story : kq_sau_pv
+  steps:
+  - intent: kq_sau_pv
+  - action: utter_kq_sau_pv
+
+- story : bang_diem_trong_hs
+  steps:
+  - intent: bang_diem_trong_hs
+  - action: utter_bang_diem_trong_hs
+
+- story : cong_chung_giay_to
+  steps:
+  - intent: cong_chung_giay_to
+  - action: utter_cong_chung_giay_to
+
+- story : giay_xac_nhan_nhan_than
+  steps:
+  - intent: giay_xac_nhan_nhan_than
+  - action: utter_giay_xac_nhan_nhan_than
+
+- story : mk_len_web
+  steps:
+  - intent: mk_len_web
+  - action: utter_mk_len_web
+
+- story : mau_bao_cao_cv
+  steps:
+  - intent: mau_bao_cao_cv
+  - action: utter_mau_bao_cao_cv
+
+- story : giay_kham_sk
+  steps:
+  - intent: giay_kham_sk
+  - action: utter_giay_kham_sk
+
+- story : hoc_qtkd_ra_lam_gi
+  steps:
+  - intent: hoc_qtkd_ra_lam_gi
+  - action: utter_hoc_qtkd_ra_lam_gi
+
+- story : viec_lam_thcs
+  steps:
+  - intent: viec_lam_thcs
+  - action: action_viec_lam_thcs
+
+- story : xac_thuc_mail
+  steps:
+  - intent: xac_thuc_mail
+  - action: utter_xac_thuc_mail
+
+- story : xem_sdt_uv
+  steps:
+  - intent: xem_sdt_uv
+  - action: utter_xem_sdt_uv
+
+- story : dki_cv_time_ntd_lh
+  steps:
+  - intent: dki_cv_time_ntd_lh
+  - action: utter_dki_cv_time_ntd_lh
+
+- story : time
+  steps:
+  - intent: time
+  - action: action_time
+
+- story : luu_cv_da_cu
+  steps:
+  - intent: luu_cv_da_cu
+  - action: utter_luu_cv_da_cu
+
+#str_ban_the
+- story: great_banthe
+  steps:
+  - intent: great_banthe
+  - action: utter_great_banthe
+
+- story: bao_loi_mua_the
+  steps:
+  - intent: bao_loi_mua_the
+  - action: utter_bao_loi_mua_the
+
+- story: cach_mua_the
+  steps:
+  - intent: cach_mua_the
+  - action: utter_cach_mua_the
+
+- story: dai_ly_the
+  steps:
+  - intent: dai_ly_the
+  - action: utter_dai_ly_the
+
+- story: chiet_khau
+  steps:
+  - intent: chiet_khau
+  - action: action_chiet_khau
+
+- story: hoi_gia
+  steps:
+  - intent: hoi_gia
+  - action: action_hoi_gia
+
+- story : phan_anh_loi
+  steps:
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+
+- story : loi_dang_nhap
+  steps:
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+
+- story : khong_ho_tro
+  steps:
+  - intent: khong_ho_tro
+  - action: utter_khong_ho_tro
+
+- story : tich_hop_API
+  steps:
+  - intent: tich_hop_API
+  - action: utter_tich_hop_API
+
+- story : mua_the_game
+  steps:
+  - intent: mua_the_game
+  - action: utter_mua_the_game
+
+- story : the_web_khong_ho_tro
+  steps:
+  - intent: the_web_khong_ho_tro
+  - action: utter_the_web_khong_ho_tro
+
+- story : tai_ung_dung_mua_the
+  steps:
+  - intent: tai_ung_dung_mua_the
+  - action: action_tai_ung_dung_mua_the
+
+- story : lien_he_tong_dai
+  steps:
+  - intent: lien_he_tong_dai
+  - action: action_lien_he_tong_dai
+
+- story : mua_the_cao
+  steps:
+  - intent: mua_the_cao
+  - action: utter_mua_the_cao
+
+- story : dang_ki_tk_timvic
+  steps:
+  - intent: dang_ki_tk_timviec
+  - action: utter_dang_ki_tk_timviec
+
+- story : mk_ko_hop_le
+  steps:
+  - intent: mk_ko_hop_le
+  - action: utter_mk_ko_hop_le
+
+- story : sdt_ko_hop_le
+  steps:
+  - intent: sdt_ko_hop_le
+  - action: utter_sdt_ko_hop_le
+
+- story : bao_loi_qua_gmail
+  steps:
+  - intent: bao_loi_qua_gmail
+  - action: utter_bao_loi_qua_gmail
+
+- story : gia_chiet_khau
+  steps:
+  - intent: gia_chiet_khau
+  - action: utter_gia_chiet_khau
+
+- story : doi_tac
+  steps:
+  - intent: doi_tac
+  - action: action_doi_tac
+
+- story : uy_tin
+  steps:
+  - intent: uy_tin
+  - action: utter_uy_tin
+
+- story : dich_vu_khong_ho_tro
+  steps:
+  - intent: dich_vu_khong_ho_tro
+  - action: utter_dich_vu_khong_ho_tro
+
+- story : dk_internetbanking
+  steps:
+  - intent: dk_internetbanking
+  - action: utter_dk_internetbanking
+
+- story : ko_ho_tro_game
+  steps:
+  - intent: ko_ho_tro_game
+  - action: utter_ko_ho_tro_game
+
+- story : ki_tu_dacbiet
+  steps:
+  - intent: ki_tu_dacbiet
+  - action: utter_ki_tu_dacbiet
+
+- story : tuyen_ctv
+  steps:
+  - intent: tuyen_ctv
+  - action: utter_tuyen_ctv
+
+- story : ho_tro_allday
+  steps:
+  - intent: ho_tro_allday
+  - action: utter_ho_tro_allday
+
+- story : thanh_toan_the_ngan_hang
+  steps:
+  - intent: thanh_toan_the_ngan_hang
+  - action: utter_thanh_toan_the_ngan_hang
+
+- story : hoi_CSKH
+  steps:
+  - intent: hoi_CSKH
+  - action: utter_hoi_CSKH
+
+- story : phuong_thuc_thanh_toan
+  steps:
+  - intent: phuong_thuc_thanh_toan
+  - action: utter_phuong_thuc_thanh_toan
+
+- story : loi
+  steps:
+  - intent: loi
+  - action: utter_loi
+
+- story : ko_thanh_toan_dc
+  steps:
+  - intent: ko_thanh_toan_dc
+  - action: utter_ko_thanh_toan_dc
+
+- story : loi_khi_mua_the
+  steps:
+  - intent: loi_khi_mua_the
+  - action: utter_loi_khi_mua_the
+
+- story : loi_he_thong
+  steps:
+  - intent: loi_he_thong
+  - action: utter_loi_he_thong
+
+- story : loi_nap_the
+  steps:
+  - intent: loi_nap_the
+  - action: utter_loi_nap_the
+
+- story : loi_giao_dich
+  steps:
+  - intent: loi_giao_dich
+  - action: utter_loi_giao_dich
+
+- story : mua_the_tren_ung_dung
+  steps:
+  - intent: mua_the_tren_ung_dung
+  - action: action_mua_the_tren_ung_dung
+
+- story : dk_sai_gmail
+  steps:
+  - intent: dk_sai_gmail
+  - action: utter_dk_sai_gmail
+
+- story : khoa_tai_khoan
+  steps:
+  - intent: khoa_tai_khoan
+  - action: utter_khoa_tai_khoan
+
+- story : mua_nhieu_the_mot_luc
+  steps:
+  - intent: mua_nhieu_the_mot_luc
+  - action: utter_mua_nhieu_the_mot_luc
+
+- story : nhan_ma_khi_dang_nhap
+  steps:
+  - intent: nhan_ma_khi_dang_nhap
+  - action: utter_nhan_ma_khi_dang_nhap
+
+- story : nhan_ma_the_cao
+  steps:
+  - intent: nhan_ma_the_cao
+  - action: utter_nhan_ma_the_cao
+
+- story : nhan_ma_khi_dang_ki
+  steps:
+  - intent: nhan_ma_khi_dang_ki
+  - action: utter_nhan_ma_khi_dang_ki
+
+- story : mua_may_in
+  steps:
+  - intent: mua_may_in
+  - action: utter_mua_may_in
+
+- story : khac_nhau_thanh_toan
+  steps:
+  - intent: khac_nhau_thanh_toan
+  - action: utter_khac_nhau_thanh_toan
+
+- story : tai_phan_mem_may_in
+  steps:
+  - intent: tai_phan_mem_may_in
+  - action: utter_tai_phan_mem_may_in
+
+- story : in_the_ko_thanh_cong
+  steps:
+  - intent: in_the_ko_thanh_cong
+  - action: utter_in_the_ko_thanh_cong
+
+- story : sua_doi_inf_may_in
+  steps:
+  - intent: sua_doi_inf_may_in
+  - action: utter_sua_doi_inf_may_in
+
+- story : chua_nhan_dc_the
+  steps:
+  - intent: chua_nhan_dc_the
+  - action: utter_chua_nhan_dc_the
+
+- story : chuyen_tien_ko_nhan_dc_the
+  steps:
+  - intent: chuyen_tien_ko_nhan_dc_the
+  - action: utter_chuyen_tien_ko_nhan_dc_the
+
+- story: the_chi_co_seri
+  steps:
+  - intent: the_chi_co_seri
+  - action: utter_the_chi_co_seri
+
+- story: ko_vao_dc_gmail
+  steps:
+  - intent: ko_vao_dc_gmail
+  - action: utter_ko_vao_dc_gmail
+
+- story: kich_hoat_tai_khoan
+  steps:
+  - intent: kich_hoat_tai_khoan
+  - action: utter_kich_hoat_tai_khoan
+
+- story: ko_gui_dc_yc_chuyen_tien
+  steps:
+  - intent: ko_gui_dc_yc_chuyen_tien
+  - action: utter_ko_gui_dc_yc_chuyen_tien
+
+- story: ko_login_dc
+  steps:
+  - intent: ko_login_dc
+  - action: utter_ko_login_dc
+
+- story: interactive_story_1
+  steps:
+  - intent: bao_loi_mua_the
+  - action: utter_bao_loi_mua_the
+
+- story: interactive_story_1
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: dich_vu_khong_ho_tro
+  - action: utter_dich_vu_khong_ho_tro
+  - intent: khong_ho_tro
+  - action: utter_khong_ho_tro
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_2
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: dich_vu_khong_ho_tro
+  - action: utter_dich_vu_khong_ho_tro
+  - intent: tich_hop_API
+  - action: utter_tich_hop_API
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_1
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+
+- story : noi_gui_inf_the
+  steps:
+  - intent: noi_gui_inf_the
+  - action: utter_noi_gui_inf_the
+
+- story : nap_the_tra_sau
+  steps:
+  - intent: nap_the_tra_sau
+  - action: utter_nap_the_tra_sau
+
+- story : API_domain
+  steps:
+  - intent: API_domain
+  - action: utter_API_domain
+
+- story : doi_mk_ko_login_dc
+  steps:
+  - intent: doi_mk_ko_login_dc
+  - action: utter_doi_mk_ko_login_dc
+
+- story : bao_mat
+  steps:
+  - intent: bao_mat
+  - action: utter_bao_mat
+
+- story : viet_tat_nha_mang
+  steps:
+  - intent: viet_tat_nha_mang
+  - action: utter_viet_tat_nha_mang
+
+- story : the_game
+  steps:
+  - intent: the_game
+  - action: utter_the_game
+
+- story : time_sd_the
+  steps:
+  - intent: time_sd_the
+  - action: utter_time_sd_the
+
+- story : time
+  steps:
+  - intent: time
+  - action: action_time
+
+- story: interactive_story_1
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: noi_gui_inf_the
+  - action: utter_noi_gui_inf_the
+  - intent: dich_vu_khong_ho_tro
+  - action: utter_dich_vu_khong_ho_tro
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_2
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_3
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_4
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: noi_gui_inf_the
+  - action: utter_noi_gui_inf_the
+  - intent: cach_mua_the
+  - action: utter_cach_mua_the
+  - intent: thanks
+  - action: utter_thanks
+
+- story : kh_xin_sdt
+  steps:
+  - intent: kh_xin_sdt
+  - action: utter_kh_xin_sdt
+
+- story : nap_tien_tai_web
+  steps:
+  - intent: nap_tien_tai_web
+  - action: utter_nap_tien_tai_web
+
+- story: interactive_story_1
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+
+- story: interactive_story_2
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_3
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: bao_mat
+  - action: utter_bao_mat
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_5
+  steps:
+  - intent: cach_mua_the
+  - action: utter_cach_mua_the
+  - intent: khong_ho_tro
+  - action: utter_khong_ho_tro
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_6
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+  - intent: tich_hop_API
+  - action: utter_tich_hop_API
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_7
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: API_domain
+  - action: utter_API_domain
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_8
+  steps:
+  - intent: gia_chiet_khau
+  - action: utter_gia_chiet_khau
+  - intent: hoi_gia
+  - action: action_hoi_gia
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_9
+  steps:
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_10
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_11
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: viet_tat_nha_mang
+  - action: utter_viet_tat_nha_mang
+  - intent: nlu_fallback
+  - action: act_unknown
+
+- story: interactive_story_12
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: chiet_khau
+  - action: action_chiet_khau
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+
+- story: interactive_story_13
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: phan_anh_loi
+  - action: utter_phan_anh_loi
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_14
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: bao_mat
+  - action: utter_bao_mat
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_15
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: nlu_fallback
+  - action: act_unknown
+  - intent: cach_mua_the
+  - action: utter_cach_mua_the
+  - intent: thanks
+  - action: utter_thanks
+
+- story: interactive_story_16
+  steps:
+  - intent: great
+  - action: utter_great
+  - intent: ko_vao_dc_gmail
+  - action: utter_ko_vao_dc_gmail
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+  - intent: happy
+  - action: utter_happy
+
+- story: interactive_story_17
+  steps:
+  - intent: loi_dang_nhap
+  - action: utter_loi_dang_nhap
+  - intent: thanks
+  - action: utter_thanks

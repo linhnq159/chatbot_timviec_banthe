@@ -1,0 +1,2774 @@
+version: "2.0"
+
+nlu:
+- intent: great
+  examples: |
+    - này
+    - xin chào
+    - chào
+    - chào buổi sáng
+    - chào buổi tối
+    - chào buổi chiều
+    - hi
+    - hello
+    - ní hảo
+    - chào bạn
+    - chào mày
+    - helo
+    - hê lo
+    - có ai ở đây không
+    - xin chao
+    - Alo
+    - Cho em hỏi chút
+    - Admin cho mình hỏi
+    - Mình nhờ chút
+    - Bạn ơi
+    - Hello
+    - Có ai ở đó không
+    - Còn onl không ạ
+    - Có hỗ trợ không ạ
+    - Add ơi
+    - Tôi cần hỗ trợ
+    - Hi bạn,
+    - Chào bạn
+    - Alo ạ
+    - Hi bạn
+    - Mình cần người hỗ trợ
+    - alo
+    - alo b ơi
+    - hi ad
+- intent: great_banthe
+  examples: |
+    - xin chào web bán thẻ 
+    - hi web bán thẻ
+- intent: great_vieclam
+  examples: |
+    - xin chào web tìm việc
+    - hi web tìm việc 
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại
+    - gặp lại sau
+    - lúc khác gặp lại
+    - bye
+    - bye bye
+    - bai bai
+- intent: happy
+  examples: |
+    - ok
+    - oke
+    - hihi
+    - hehe
+    - OK
+    - Ok
+    - tuyệt vời
+    - rất tốt
+    - tuyệt
+    - đáng kinh ngạc
+    - hoàn hảo
+    - tôi cảm thấy rất tuyệt
+    - tôi rất khỏe
+    - tôi rất tốt
+    - tin hữu ích
+    - thông tin tuyệt vời
+    - vâng
+    - được rồi
+    - tất nhiên
+    - nghe hay đó
+    - chính xác
+    - okay
+    - oki
+    - ok mình gửi r
+    - oke nha bạn
+    - oke bạn
+    - vâng ạ
+- intent: unhappy
+  examples: |
+    - buồn ghê
+    - quá buồn
+    - quá chán
+    - tệ
+    - rất tệ
+    - tồi tệ
+    - kinh khủng
+    - không ổn lắm
+    - cực kỳ chán
+    - cực kỳ buồn
+    - tôi buồn
+    - huhu
+    - khoc
+    - hic
+- intent: surprise
+  examples: |
+    - ôi trời
+    - trời ơi
+    - quao
+    - wow
+- intent: thanks
+  examples: |
+    - cảm ơn nhiều
+    - cảm ơn nhé
+    - cảm ơn nha
+    - cảm ơn
+    - cảm ơn rất nhiều
+    - cam on
+    - Mình cảm ơn
+    - Cảm ơn bạn
+    - Mình cảm ơn.
+    - Dạ em cảm ơn ạ
+    - Dạ em cảm ơn ạ.
+    - mình cảm ơn.
+    - Cảm ơn nha
+    - Thế mình không chuyển khoản được rồi. Không mua thẻ được. Mình cảm ơn nha
+    - cảm ơn bạn
+    - cảm ơn ad
+    - Dạ vâng, em cảm ơn ạ
+    - Cảm ơn
+    - thank you
+    - thank
+- intent: scold
+  examples: |
+    - khùng quá
+    - điên quá
+    - chập mạch
+    - hâm quá
+    - mất dạy
+    - vô học
+    - bạn bị ngu hả
+    - thần kinh
+    - ngáo quá
+    - gà vl
+    - vl
+    - dot
+    - dốt
+    - ngu
+- intent: time
+  examples: |
+    - mấy giờ
+    - what time
+    - bây giờ là mấy h
+    - mấy h rồi
+    - mấy giờ rồi
+    - thời gian
+    - thời gian bây giờ
+- intent: ask_author
+  examples: |
+    - ai là người tạo ra bạn
+    - ai đẻ ra bạn
+    - bố là ai
+    - bố mày là ai
+    - ai đẻ ra
+- intent: goodnight
+  examples: |
+    - chúc ngủ ngon
+    - chúc bạn ngủ ngon
+    - ngủ ngon nha
+    - ngủ ngon
+    - ngu ngon
+- intent: how_are_u
+  examples: |
+    - bạn có khỏe không
+    - dạo này bạn thế nào
+    - bạn sao rồi
+    - bạn thế nào
+    - thế nào rồi bạn
+    - bot có khỏe không
+- intent: wait_name
+  examples: |
+    - bạn tên gì thế
+    - tên của bạn là gì
+    - bạn tên gì
+- intent: how_old
+  examples: |
+    - bạn mấy tuổi rồi
+    - bạn nhiêu tuổi thế
+    - bạn sinh năm bao nhiêu
+    - bạn học lớp mấy rồi
+    - bạn học cấp mấy
+    - tuổi
+
+- intent: bao_loi_mua_the
+  examples: |
+    - Tại sao mua thẻ báo k thành công
+    - Mua thẻ ko thành công
+    - Không mua được thẻ
+    - Mua thẻ bị lỗi
+    - Mua thẻ báo không thành công
+    - Mua thẻ không thành công
+- intent: cach_mua_the
+  examples: |
+    - Xin gửi mã thẻ zing giúp ạ
+    - làm sao mua thẻ được vậy
+    - Sao mua thẻ cào dc
+    - Mua thẻ cào ntn
+    - Mua thẻ cào ra sao
+    - Làm cách nào để mua thẻ cào
+    - muốn tậu thẻ cào thì làm ntn
+    - Mua thẻ thế nào
+    - Nạp tiền vào tài khoản như nào
+    - làm thế nào để mua thẻ viettel
+    - làm thế nào để mua thẻ vinaphone
+    - làm thế nào để mua thẻ mobiphone
+    - Mình muốn mua thẻ cào
+    - Mua thẻ cào
+    - Mình muốn mua thẻ cào.
+    - Mình mua 1 cái 50k chơi game thôi
+    - Mình ko biết mua thẻ như nào
+    - Đăng ký tài khoản xong làm gì tiếp bạn
+    - Mình cần mua thẻ ạ
+    - mình cần mua thẻ ạ
+    - mua thẻ như nào nhỉ
+- intent: loi_nap_the
+  examples: |
+    - em nạp tiền điện thoại ngay bị lỗi mất luôn tiền rồi ad
+    - nạp thẻ bị lỗi
+    - lỗi nạp thẻ
+- intent: dai_ly_the
+  examples: |
+    - Tôi muốn làm đại lý thẻ game thì cách thức như nào
+    - Đăng kí làm đại lý cần thủ tục gì
+    - E muốn làm đại lý sao ạ
+    - Chào add, chiết khấu cho đại lý bn ạ?
+- intent: phan_anh_loi
+  examples: |
+    - Sao anh nạp tiền mấy hôm rồi sao vẫn chưa nhận được vậy
+    - Mình nạp tiền mấy hôm chưa nhận được
+    - Mình chuyển khoản cũng được 20 phút rồi mà chưa thấy tiền về tài khoản.
+    - Mình mới nạp 200k vào dinhbaomaster@gmail.com
+    - báo không thành công nhưng vẫn bị trừ tiền
+    - Mình nạp số dư 40 phút rồi nhưng chưa thấy cộng tiền
+    - Thẻ hết hạn sử dụng
+    - Thẻ báo lỗi
+    - Mới nạp mà tài khoản ko có tiền
+    - Nạp thẻ mà tài khoản ko có tiền
+    - Anh mới nạp 600000 đồng sao trong tài khoản không có tiền vậy
+    - Lúc sáng mình nạp tiền, hình như chưa vào
+    - sao mình nạp điện thoại thất bại mà vẫn bị trừ tiền vậy
+    - Mình nạp tiền tài khoản mà chưa được cộng ạ
+    - Mình gửi hỗ trợ lâu rồi mà chưa thấy tiền trong tài khoản
+    - admin ơi, em vừa nạp tiền vào hệ thống thì bao lâu sẽ nhận được ạ
+    - Mình nạp số dư 40 phút rồi nhưng chưa thấy
+    - tôi vừa mua thẻ nạp game nhưng game báo thẻ hết hạn sử dụng
+    - Tại sao nạp tiền đt k thành công bị trừ tiền
+    - Nạp thẻ không thành công bị trừ tiền
+- intent: loi_dang_nhap
+  examples: |
+    - Quên tài khoản thì làm sao add
+    - sao tài khoản của mình không đăng nhập được nữa, bảo lỗi đăng nhập
+    - Web hiển thị lỗi đăng nhập là bị gì vậy ạ?
+    - sao lại lỗi đang nhập nhỉ bạn
+    - sao mình ko đăng nhập đc
+    - Tại sao k đăng nhập được tài khoản
+    - em quen mat khau dang nhap roi
+    - Tại sao đăng nhập báo lỗi
+    - Sao bị lỗi đăng nhập vậy?
+    - Quên mật khẩu thì làm thế nào
+    - Mình đăng nhập bị lỗi ạ
+    - trước mình có tạo tài khoản rồi mà quên mật khẩu, đây là mail và số điện thoại của mình
+    - Quên mật khẩu
+    - Sao pass mình không vào được
+    - Mình quên mật khẩu sao log in được bạn
+    - trước mình có tạo tài khoản rồi mà quên mật khẩu
+    - mình quên mật khẩu sao log in được bạn
+    - sao mình đăng nhập tài khoản mà không được ạ
+    - Quên mật khẩu lấy lại như nào
+- intent: khong_ho_tro
+  examples: |
+    - Nạp tiền điện thoại thế nào
+    - Tại sao mua gửi tin nhắn mua thẻ bị trừ tiền k có thẻ
+    - Mua thẻ cào bằng sms như nào
+    - Mua thẻ cào bằng sim như nào
+    - Mua thẻ cào trả sau như nào
+    - Mua thẻ cào nợ như nào
+    - Tôi muốn đổi thẻ như nào
+    - Mình muốn lấy mã seri bằng thẻ cào đc ko
+    - Mua thẻ cào ghi nợ à
+    - Mình muôốn mua thẻ bằng sms
+    - Mình muốn mua thẻ bằng paypal ạ
+    - Nạp tiền để mua thẻ như nào
+    - Mua thẻ bằng tin nhắn
+    - Mua thẻ trừ vào tài khoản chính như nào
+    - Nạp tiền bằng thẻ cào như nào
+    - Đổi thẻ thành tiền như nào
+    - Nạp thẻ thành tiền như nào
+    - Thanh toán bằng thẻ cào kiểu gì
+    - Mình cần đổi card mobifone sang viettel
+    - Mình muốn bán thẻ điện thoại, web có mua không
+    - Minh muon ban thẻ Viettel 500
+    - Minh muốn lay mã seri bằng the cào dc ko
+    - Mình muốn đổi sdt Tài khoản garena
+    - Tôi có cạc điện thoại mobile cần để đổi cạc zing để nạp game thì phải làm sao
+    - Có thể chỉ mình mua thẻ zingplay bằng sim vinaphone k ạ
+    - Dạ hk biết bên mình có đổi lại thẻ cào chưa sử dụng mà bị mất số thẻ không ạ
+    - Mình muốn bán thẻ cào viettel mệnh giá 20k
+    - Sao để đổi thẻ cào để nhận tiền mặt tại nhà khi không có tài khoản ngân hàng
+    - Ở đây có bán phần mềm diệt virus k
+    - Mình có 1 lượng lớn thẻ đt muốn bán lại
+    - Bên bạn có thu mua thẻ đt không
+    - Vậy mình muốn đổi thì làm như thế nào ạ?
+    - bên mình có nhận mua thẻ điện thoại bằng tin nhắn sms không nhỉ?
+    - Vậy mình muốn đổi thì làm như thế nào ạ
+    - Giờ tài khoản mình không còn tiền thì chuyển như thế nào ạ
+- intent: mua_the_game
+  examples: |
+    - Cách mua thẻ game
+    - Mua thẻ gate ở đâu
+    - Mua thẻ garena như thế nào
+    - Mua thẻ cào zing kiểu gì
+    - Mua thẻ fpt để nạp xem truyền hình
+    - Mua thẻ VTC nạp game
+    - Mua thẻ data ở chỗ nào
+    - Mua thẻ game bằng tiền điện thoại
+    - Mua thẻ game bằng tài khoản ngân hàng
+    - Mua thẻ game giá rẻ ở đâu?
+    - Cách mua thẻ cào điện thoại online bằng tài khoản ngân hàng
+    - Cách mua thẻ điện thoại online chiết khấu cao qua
+    - Cách mua thẻ cào online
+    - Thực hiện thao tác mua mã thẻ cào thế nào
+- intent: the_web_khong_ho_tro
+  examples: |
+    - Bên bạn có thẻ bit không
+    - Bên bạn có thẻ apota không
+    - Bên bạn có thẻ megacard không
+    - Bên bạn có bán thẻ game liên quân không
+    - Cách nạp tiền vào game gunny
+    - Em vừa quên mk acc liên quân
+    - Em vừa bị hack nick liên quân
+    - Có phải bên freefire không
+    - Chị bên vinagame phải không
+    - cách nạp thẻ vào mua đồ trong game liên quân
+- intent: tich_hop_API
+  examples: |
+    - Mình cần kết nối API
+    - tích hợp API kiểu gì hả b
+    - Tích hợp API ở đâu
+    - Cho em hỏi phương thức API e lấy ở đâu ạ
+    - vậy làm cách nào để tích hợp API ạ?
+    - vậy làm cách nào để tích hợp API ạ
+    - Trước mình chưa đấu API, giờ mình vào đấu thì điền website sao bạn nhỉ
+- intent: mua_the_cao
+  examples: |
+    - Mua thẻ cào Vật lý
+    - Mua thẻ cào giấy
+- intent: dang_ki_tk
+  examples: |
+    - Cách đăng kí tài khoản mua thẻ
+    - Đăng kí tài khoản mua thẻ ntn
+    - Mình muốn đăng kí tài khoản mua thẻ
+- intent: mk_ko_hop_le
+  examples: |
+    - Sao điền mật khẩu đăng kí báo lỗi
+    - Mật khẩu đăng kí lỗi
+    - Mật khẩu đăng kí như nào cho đúng
+    - Mật khẩu đăng kí không hợp lệ
+- intent: sdt_ko_hop_le
+  examples: |
+    - Sao số điện thoại báo k hợp lệ
+    - Tại sao số điện thoại báo ko hợp lệ
+    - Số điện thoại không hợp lệ
+- intent: bao_loi_qua_gmail
+  examples: |
+    - Sao điền mail đk lại k hợp lệ
+    - Sao k nhận được mail kích hoạt tk
+    - Sao mua thẻ chưa có mail
+    - Sao mua thẻ chỉ có seri
+    - Nạp tiền rồi sao chưa nhận được thẻ
+    - Thẻ đã mua lấy ở đâu
+    - Quên mật khẩu tài khoản làm thế nào
+    - Quên tk đăng nhập làm gì
+    - Tại sao k đăng nhập được tk
+    - Tại sao đã kích hoạt mà k đăng nhập được
+    - Tại sao hiển thị Lỗi đăng nhập
+    - Sao tk tôi có tiền mà vào báo 0đ
+    - Tại sao tk tôi bị trừ tiền mà tôi k mua thẻ
+    - Tại sao mail tôi tự động gửi thẻ mua mà tôi k vào mua
+    - Mua thẻ rồi mà sao vẫn chưa thấy gửi về
+- intent: gia_chiet_khau
+  examples: |
+    - Hiện tại nạp luôn cho khách đang chiết khấu bao nhiêu
+    - Chiết khấu hiện giờ đang là bao nhiêu
+    - Chiết khẩu bây giờ thế nào
+    - Chiết khấu nạp thẻ thì sao bạn
+    - Chiết khẩu nạp thẻ bao nhiêu
+    - Nạp tiền vào tài khoản có chiết khấu không
+    - Chiết khấu nạp thẻ bao nhiêu phần trăm
+- intent: uy_tin
+  examples: |
+    - Bên bạn có bảo mật không
+    - Bên bạn tin tưởng được không
+    - Có bị lừa đảo k
+    - Bên bạn uy tín chứ
+    - Bạn có lừa đảo không
+    - Bên bạn uy tín ko
+- intent: dich_vu_khong_ho_tro
+  examples: |
+    - Em muốn nạp tiền vào pubg
+    - Game này có bản crack không
+    - Game này có hack được không
+    - Cách nạp tiền để nâng hạng tướng
+    - Dùng tiền trong CHplay để mua thẻ được không
+    - Game này có cần nạp tiền không
+    - Game này có nạp được bằng thẻ viettel không
+    - Nạp tiền bằng sms như nào
+    - Dùng tiền trong điện thoại để mua thẻ được không
+    - Mua bằng ATM được không
+    - Thanh toán bằng momo được không
+    - Thanh toán bằng paypal được không
+    - Thanh toán qua viettelpay được không
+    - Mình mua thẻ viettel nhưng nhầm sang vina
+    - Thẻ cào bị mất số thì làm thế nào
+    - Thẻ cào bị dính nước nên mất số
+    - Mình cào bị mất 1 số thì làm kiểu gì
+    - Mình nạp nhiều quá nên bị khóa sim
+    - Check giùm tôi số này là của ai
+    - Thẻ cào của bên bạn có seri không
+    - Mình mua nhầm thẻ thì có đổi được không
+    - Đổi thẻ thì chiết khấu bao nhiêu vậy
+    - Bên bạn có mua thẻ đt không
+    - Mình muốn đổi thẻ
+    - Nạp tiền rồi bao giờ mới mua được thẻ
+    - Mình mua thẻ nhưng không nạp được
+    - Mình mua thẻ nhưng không nhận được
+    - E muốn rút tiền từ sim về thẻ ngân hàng đc k ạ
+    - Các bước đổi thẻ Garena sang thẻ điện thoại
+    - Đăng ký 3G bằng tài khoản khuyến mãi Mobifone
+    - Sao nạp tiền Viettel hơn 10 phút mà chưa nhận được tiền?
+    - Cho mình hỏi bên mình có hỗ trợ mất mã thẻ cào đúng ko ạ
+    - Sim vietnammobie đổi ỏ đâu
+    - Đăng kí gói cước gọi rẻ của viettel
+    - Đăng kí gói cước gọi rẻ của mobi
+    - Đăng kí gói cước gọi rẻ của Vina
+    - Đăng kí nhạc chờ của viettel
+    - Đăng kí nhạc chờ của mobi
+    - Đăng kí nhạc chờ của Vina
+    - Nạp tiền qua paypal
+    - Nạp tiền vào tinder
+    - Nạp tiền mua quần áo game
+    - Nạp tiền trực tiếp vào ATM có được không?
+    - Cách đổi rik ra thẻ điện thoại
+    - cách đổi thẻ Tip Club
+    - Cách chơi Poke
+    - Cách chơi VLTK Mobile
+    - Tải game fifa
+    - Nạp game fifa
+    - Tạo tk gmail thế nào
+    - Chuyển đổi nhà mạng viettel sang mobi
+    - Chuyển đổi nhà mạng viettel sang vina
+    - Chuyển đổi nhà mạng mobi sang viettel
+    - Chuyển đổi nhà mạng vina sang viettel
+    - Chuyển đổi nhà mạng mobi sang vina
+    - Chuyển đổi nhà mạng vina sang mobi
+    - Nạp tiền vào google play bằng thẻ điện thoại
+    - Tài khoản google thanh toán được k
+    - Đổi thẻ bit sang tiền mặt
+    - Cách thanh toán bằng thẻ visa
+    - Bán thẻ cào điện thoại lời bao nhiêu?
+    - Tôi có thể thanh toán cước trả sau không?
+    - Thẻ Vietnamobile nạp được game gì?
+    - Cách đổi thẻ cào điện thoại thành tiền
+    - Cách nạp thẻ liên quân bằng SMS
+    - Cách mua thêm dung lượng 3g Mobifone
+    - Tôi rút tiền sau 30 phút vẫn chưa thấy về tài khoản?
+    - Em pass lại acc được không ạ
+    - Tôi muốn đổi từ vina sang Mobi
+    - Mình muốn chuyển đổi thẻ từ gmobile sang mobiphone ạ.
+    - Em muốn đổi thẻ cào mobi sang sms.
+    - Chuyển khoản qua momo được không ạ?
+    - Mình muốn chuyển đổi thẻ từ gmobile sang mobiphone ạ
+    - Chuyển khoản qua momo được không ạ
+- intent: dk_internetbanking
+  examples: |
+    - Đăng kí internetbanking của BIDV
+    - Đăng kí internetbanking của ACB
+    - Đăng kí internetbanking của SCB
+    - Đăng kí internetbanking của Ngân hàng QĐ MB
+    - Đăng kí internetbanking của MSB
+    - Đăng kí internetbanking của vietcombank
+    - Đăng kí internetbanking của Viettinbank
+    - Đăng kí internetbanking của Agribank
+    - Đăng kí internetbanking của Techcombank
+- intent: ki_tu_dacbiet
+  examples: |
+    - Chuyển tiền k viết kí tự đặc biệt được
+    - Không viết @ trong nội dung được
+    - Không viết đc kí tự đặc biệt
+    - Không viết ! trong nội dung được
+    - Không viết # trong lúc chuyển tiền được
+    - Cái phần nội dung giao dịch hệ thống không cho sử dụng ký tự đặc biệt ạ
+    - Ko đc sử dụng kí tự đặc biệt
+- intent: tuyen_ctv
+  examples: |
+    - Làm cộng tác viên được k?
+    - Đại lý có tuyển cộng tác viên k?
+    - Bên mình có tuyển cộng tác viên ko
+    - Bên mình vẫn tuyển cộng tác viên chứ
+    - Muốn làm cộng tác viên bên mình thì ntn
+    - Ctv bên mình cần những gì
+    - Làm ctv được ko
+    - Bên mình tuyển ctv chứ
+- intent: ho_tro_allday
+  examples: |
+    - Tôi có thể mua thẻ cào vào ban đêm không?
+    - Mua thẻ cào được lúc nào
+    - Mua thẻ cào được vào thời gian nào
+    - Mua thẻ cào lúc 12h được không
+    - Đêm hôm mua thẻ cào có được không
+- intent: ko_ho_tro_game
+  examples: |
+    - tuyệt chiêu chinh phục Game 7 viên ngọc rồng online
+    - Nạp Mộng Giang Hồ qua những hình thức phổ biến nào?
+    - Cách chơi game nổ hũ đổi thưởng
+- intent: thanh_toan_the_ngan_hang
+  examples: |
+    - Nhắn tin đúng rồi mà sao vẫn không thấy mua được thẻ
+    - Nhắn tin theo cú pháp nhưng vẫn không mua được thẻ
+    - Bên bạn có thẻ garena không
+    - Bên bạn có thẻ zing không
+    - Bên bạn có thẻ vcoin không
+- intent: hoi_CSKH
+  examples: |
+    - Có phải bên cskh của vinagame không
+    - Phải bên garena không
+    - Phải bên gate không
+    - Phải bên CSKH Zing không
+    - Phải bên CSKH VIettel không
+    - Phải bên CSKH Vinaphone không
+    - Phải bên CSKH Mobifone không
+    - Tra giúp tôi đầu số thuê bao này
+- intent: loi
+  examples: |
+    - Xử lý lỗi chuyển tiền vào tài khoản của web ra sao?
+    - Tại sao đăng nhập vào phần mềm k dùng được
+- intent: ko_thanh_toan_dc
+  examples: |
+    - Không thanh toán được
+    - Mình bị lỗi ko thể thanh toán được
+- intent: phuong_thuc_thanh_toan
+  examples: |
+    - Mình vẫn chưa mua được thẻ đt
+    - Không mua được mã thẻ cào?
+- intent: chuyen_tien_ko_nhan_dc_the
+  examples: |
+    - Sao chuyển tiền k nhận được thẻ cào
+    - Chuyển tiền ko nhận được thẻ cào là ntn
+- intent: loi_khi_mua_the
+  examples: |
+    - Tại sao mua thẻ lỗi -5
+    - Mua thẻ lỗi -5
+- intent: loi_he_thong
+  examples: |
+    - Hệ thống lỗi rồi bạn ơi
+    - Bị lỗi hệ thống rùi
+- intent: mua_the_tren_ung_dung
+  examples: |
+    - Mình muốn mua mã thẻ cào dt trên ứng dụng này thì phải làm thế nào vậy ?
+    - Mua thẻ trên ứng dụng
+    - Mình muốn mua thẻ cào trên ứng dụng thì phải làm như
+- intent: loi_giao_dich
+  examples: |
+    - Lỗi giao dịch thì phải làm thế nào?
+    - Lỗi giao dịch
+- intent: khoa_tai_khoan
+  examples: |
+    - Sao acc của em tự nhiên bị khóa vậy ạ
+    - Tài khoản bí khóa đột ngột
+    - Tại sao tài khoản bị khóa
+    - Acc tự nhiên bị khóa
+- intent: mua_nhieu_the_mot_luc
+  examples: |
+    - Tôi có thể mua một lúc nhiều thẻ không?
+    - Mua 1 lúc nhiều thẻ đc ko
+    - Mua một lúc nhiều thẻ
+- intent: nhan_ma_khi_dang_ki
+  examples: |
+    - Tôi không nhận được mã xác nhận khi đăng ký mới
+    - Lúc đăng kí không nhận được mã
+    - Tại sao lúc đăng kí không thấy mã gửi về
+    - Lúc đăng kí chả thấy mã nào gửi về
+    - Tôi k nhận được OTP đăng kí
+    - Tại sao lúc đăng kí không thấy OTP gửi về
+    - Lúc đăng kí chả thấy OTP nào gửi về
+- intent: nhan_ma_khi_dang_nhap
+  examples: |
+    - Tôi k nhận được OTP đăng nhập
+    - Lúc đăng nhập ko nhận được mã
+    - Mã lúc đăng nhập không được gửi về
+    - Không có OTP gửi về khi đăng nhập
+    - Lúc đăng nhập ko thấy OTP nào gửi về
+- intent: nhan_ma_the_cao
+  examples: |
+    - Tôi mua thẻ cào nhận mã thẻ ở đâu?
+    - Mã thẻ cào sau khi mua nhận ở đâu
+- intent: mua_may_in
+  examples: |
+    - Máy in mua ở đâu
+    - Nơi mua máy in
+    - Mình muốn mua máy in mua ở đâu
+    - Ở đâu có thể mua được máy in
+    - Mình muốn mua máy in thì làm ntn
+    - Muốn mua máy in thì phải làm sao
+- intent: tai_phan_mem_may_in
+  examples: |
+    - Tải phần mềm máy in ở đâu
+    - Phần mềm máy tin tải ntn
+    - Làm thế nào có thể tải phần mềm máy in
+- intent: khac_nhau_thanh_toan
+  examples: |
+    - Khác nhau khi thanh toán bằng tài khoản ngân hàng và thành viên
+    - Thanh toán bằng tk ngân hàng vs thành viên khác nhau ntn
+- intent: in_the_ko_thanh_cong
+  examples: |
+    - Sao tôi in thẻ không thành công
+    - in thẻ không được
+    - in thẻ bị lỗi
+    - không tin được thẻ
+    - In thẻ bị sai
+- intent: sua_doi_inf_may_in
+  examples: |
+    - Làm thế nào để đổi thông tin cửa hàng trên máy in
+    - Sửa đổi thông tin trên máy in như thế nào
+    - Thông tin máy in muốn đổi thì phải làm sao
+    - Sửa đổi thông tin tên họ địa chỉ trên máy in làm như thế nào
+- intent: chua_nhan_dc_the
+  examples: |
+    - Sao mua mà vẫn chưa nhận đc mã thẻ
+    - Mua thành công mà chưa nhận được mã thẻ
+    - Sao ko nhận được mã thẻ khi đã mua thành công nhỉ
+- intent: the_chi_co_seri
+  examples: |
+    - Tại sao mua thẻ chỉ có số seri
+    - Mua thẻ có mỗi seri là sao
+    - Tại sao mua thẻ có mỗi số seri
+- intent: ko_vao_dc_gmail
+  examples: |
+    - sao gmail của tôi k vào đc
+    - Gmail ko thể vào được
+    - gmail ko đăng nhập được
+    - tôi không nhập gmail được
+- intent: dk_sai_gmail
+  examples: |
+    - Mình đăng ký lộn mail rồi phải làm sao
+    - Đăng kí sai gmail rồi phải làm thế nào ạ
+    - Mail dk bị sai
+    - Gmail đăng kí nhầm thì phải làm thế nào
+- intent: kich_hoat_tai_khoan
+  examples: |
+    - làm thế nào để kích hoạt tk
+    - kích hoạt tài khoản như nào
+    - kích hoạt tk như thế nào
+    - mình muốn kích hoạt tài khoản thì phải làm sao
+- intent: ko_gui_dc_yc_chuyen_tien
+  examples: |
+    - Không gửi được yêu cầu chuyen tien bạn ạ
+    - Mình ko gửi được yêu cầu chuyển tiền
+    - Yêu cầu chuyển tiền ko gửi được thì làm ntn
+- intent: ko_login_dc
+  examples: |
+    - dki tk nhưng k login được
+    - Đã đăng kí gmail nhưng ko login được
+    - đk tk rồi sao ko login được nhỉ
+- intent: nap_the_tra_sau
+  examples: |
+    - Trả sau ạ
+    - Mình cần mua thẻ nạp game , trả sau ạ
+    - Bên mình có mua thẻ trả sau được ko ạ
+- intent: doi_mk_ko_login_dc
+  examples: |
+    - Bữa mình đổi rồi mà giờ không login được
+    - Mình đổi mật khẩu rồi vẫn ko login được
+    - Đổi mật ko vẫn ko đăng nhập được
+    - Không đăng nhập được mặc dù đã đổi mật khẩu
+- intent: viet_tat_nha_mang
+  examples: |
+    - Kí hiệu viết tắt các nhà mạng là gì
+    - Cái tên nhà mạng có thể đổi được không? VMS thành Vietnammobile. Viết tắt khách không hiểu
+    - Không hiểu ý nghĩa viết tắt nhà mạng
+    - Viết tắt nhà mạng
+    - Cái tên nhà mạng có thể đổi được không? VMS thành Vietnammobile. Viết tắt khách không hiểu.
+- intent: tai_ung_dung_mua_the
+  examples: |
+    - Tải ứng dụng [banthe247](web) ở đâu?
+    - Tải ứng dụng [banthe24h](web) ở đâu?
+    - Tải ứng dụng [napthe365](web) ở đâu?
+    - Tải ứng dụng [muathe123](web) ở đâu?
+    - Tải ứng dụng [muathe24h](web) ở đâu?
+    - Tôi có thể tải ứng dụng [banthe247](web) ở đâu?
+- intent: hoi_gia
+  examples: |
+    - Mua thẻ [10k](gia) viettel hết bao nhiêu tiền
+    - Mua thẻ [20k](gia) hết bao nhiêu tiền
+    - Mua thẻ [30k](gia) hết bao nhiêu tiền
+    - Mua thẻ [50k](gia) hết bao nhiêu tiền
+    - Mua thẻ [100k](gia) hết bao nhiêu tiền
+    - Mua thẻ [200k](gia) hết bao nhiêu tiền
+    - Mua thẻ [300k](gia) hết bao nhiêu tiền
+    - Mua thẻ [500k](gia) hết bao nhiêu tiền
+    - Mua thẻ zing [100000](gia) đồng thì cần phải nạp bao nhiêu tiền vào tài khoản
+    - Mua thẻ zing 100000 đồng thì cần phải nạp bao nhiêu tiền vào tài khoản
+    - mua thẻ vina [50](gia) hết bao nhiêu
+- intent: chiet_khau
+  examples: |
+    - Xem chiết khấu [b247](web) chỗ nào bạn
+    - Xem chiết khấu [b24h](web) chỗ nào bạn
+    - Xem chiết khấu [n365](web) chỗ nào bạn
+    - Xem chiết khấu [m24h](web) chỗ nào bạn
+    - Xem chiết khấu [m123](web) chỗ nào bạn
+    - Thẻ cào chiết xuất ở [banthe247](web) nhiều % bạn
+    - Thẻ cào chiết xuất ở [banthe24h](web) nhiều % bạn
+    - Thẻ cào chiết xuất ở [365](web) nhiều % bạn
+    - Thẻ cào chiết xuất ở [muathe24h](web) nhiều % bạn
+    - Thẻ cào chiết xuất ở [muathe123](web) nhiều % bạn
+    - Giá  [b247](web) ad?
+    - Giá  [b24h](web) ad?
+    - Giá  [n365](web) ad?
+    - Giá  [m24h](web) ad?
+    - Giá  [m123](web) ad?
+    - Xin bảng giá [b247](web)
+    - Xin bảng giá [b24h](web)
+    - Xin bảng giá [n365](web)
+    - Xin bảng giá [m24h](web)
+    - Xin bảng giá [m123](web)
+    - Chiết khấu của thẻ game như nào bạn ơi
+    - Zing 50k chiết khấu bao nhiêu ạ
+    - Chiết khấu làm đại lý
+    - Muốn bán thẻ chiết khấu sao
+    - Thẻ viettel chiết khấu thế nào
+    - Thẻ vina chiết khấu thế nào
+    - Thẻ mobi chiết khấu thế nào
+    - Thẻ vietnammobie chiết khấu thế nào
+    - Thẻ Gate chiết khấu thế nào
+    - Thẻ Garena chiết khấu thế nào
+    - Thẻ Zing chiết khấu thế nào
+    - Thẻ VTC chiết khấu thế nào
+    - Xem chiết khấu
+    - Chiết khẩu thế nào
+    - Cái bán thẻ qua API chiết khấu sao vậy bạn
+- intent: API_domain
+  examples: |
+    - 1 API mà xài cho 2 domain thì có được không
+    - 1 API dùng được mấy domain
+    - 1 API sử dụng 2 domain được ko
+- intent: lien_he_tong_dai
+  examples: |
+    - Tổng đài [vietnammobile](tongdai) số bao nhiêu
+    - Tổng đài [garena](tongdai) số bao nhiêu
+    - Tổng đài [vtc](tongdai) số bao nhiêu
+    - Tổng đài [zing](tongdai) số bao nhiêu
+    - Tổng đài [fpt](tongdai) số bao nhiêu
+    - Tổng đài [viettel](tongdai) số bao nhiêu
+    - Tổng đài [mobi](tongdai) số bao nhiêu
+    - Tổng đài [vina](tongdai) số bao nhiêu
+    - Cách ứng tiền [Viettel](tongdai)
+    - Cách kiểm tra số seri thẻ cào [Viettel](tongdai)
+    - Cách ứng tiền [Mobifone](tongdai)
+    - Cách kiểm tra số seri thẻ cào [Mobifone](tongdai)
+    - Cách ứng tiền [Vinaphone](tongdai)
+    - Cách kiểm tra số seri thẻ cào [Vinaphone](tongdai)
+    - Muốn liên hệ tổng đài [zing](tongdai) thì làm ntn
+    - Có cách nào để liên hệ tổng đài [viettel](tongdai) không
+- intent: doi_tac
+  examples: |
+    - [Muathe24h.vn](web1) va [banthe24h.vn](web2) la cung mot cty dung ko a?
+    - [napthe365](web1) và [muathe123](web2) là cùng một cty đúng không ạ
+    - [muathe24h](web1) và [banthe247](web2) là công ty giống nhau đúng ko ạ
+    - [napthe365](web1) và [banthe247](web2) có phải là một cty
+    - [muathe24h](web1) có phải là đối tác của [banthe24h](web2) không
+    - [napthe365.vn](web1) là đồi tác của [banthe247](web2) đúng ko
+    - [muathe123](web1) là gì của [napthe365](web2)
+    - [banthe247](web1) có mối quan hệ gì với [muathe24h](web2)
+- intent: bao_mat
+  examples: |
+    - Tôi muốn có bảo mật ạ
+    - Tôi muốn đặt bảo mật
+    - security banthe247.com là cái gì ạ
+    - security API là gì
+    - mình cần đấu API mà đoạn security mình không biết nhập g
+    - Security em cần cái này
+    - Cần cấp mã bảo mật API
+- intent: the_game
+  examples: |
+    - Không biết có thẻ game không nhỉ
+    - Bên mình ngoài thẻ đt có thẻ game ko
+    - Bên mình có bán thẻ game ko
+    - Thẻ game bên mình có những loại nào
+- intent: noi_gui_inf_the
+  examples: |
+    - Cho em hỏi là mua thẻ thì sẽ gửi luôn qua tin nhắn số seri với mã cho mình đúng không ạ?
+    - Mua thẻ điện thoại có số seri không bạn ơi?
+    - Mua thẻ có seri ko nhỉ
+    - Mã thẻ với seri để ở đâu nhỉ
+    - Cho em hỏi là mua thẻ thì sẽ gửi luôn qua tin nhắn số seri với mã cho mình đúng không ạ
+    - Mua thẻ điện thoại có số seri không bạn ơi
+    - Mua thẻ cào không nhận được mã thẻ và số serial
+    - Thẻ mua xong gửi vào đâu
+- intent: time_sd_the
+  examples: |
+    - thẻ in này mình để được bao lâu nhỉ
+    - Thẻ in để được bao lâu
+    - Thẻ để được bao lâu
+- intent: kh_xin_sdt
+  examples: |
+    - Cho mình xin số điện thoại telegram để được hỗ trợ kết nối API mua thẻ auto ạ
+    - Cho mình xin sđt để kết nối API
+    - Cho mình xin số điện thoại
+    - Số điện thoại web là gì
+- intent: nap_tien_tai_web
+  examples: |
+    - em muốn nạp tiền vào web thì nạp như nào ạ
+    - Cách nạp tiền vào web
+    - Nạp tiền vào web như nào
+    - Nạp tiền vào tài khoản bằng cách nào?
+    - Nạp tiền vào tài khoản bằng cách nào
+    - Có cách nào nạp tiền tài khoản
+    - Có những cách nào nạp tiền vào tài khoản
+    - Nạp tiền vào tài khoản ra sao
+
+- intent: tim_viec
+  examples: |
+    - Muốn tìm việc ạ
+    - Tôi muốn được bắt đầu công việc ngay ạ
+    - Mình đang cần tìm việc thủ kho
+    - Mình muốn tìm việc trợ giảng Tiếng anh
+    - Mình muốn tìm việc trợ giảng Tiếng trung
+    - Mình muốn tìm việc trợ giảng Tiếng Pháp
+    - Mình muốn tìm việc trợ giảng Tiếng Nhật
+    - Mình muốn tìm việc trợ giảng Tiếng Hàn
+    - Mình muốn tìm việc làm tại nhà
+    - Mình muốn tìm việc Kế toán
+    - Mình muốn tìm việc Giảng viên tiếng anh online
+    - Mình muốn tìm việc Giảng viên tiếng hàn online
+    - Mình muốn tìm việc Giảng viên tiếng trung online
+    - Mình muốn tìm việc Giảng viên tiếng Pháp online
+    - Mình muốn tìm việc Freelancer
+    - Bên mình còn tuyển vị trí nhân viên kinh doanh ko
+    - Bên mình còn tuyển trợ giảng tiếng anh ko
+    - Bên mình còn tuyển trợ giảng tiếng trung ko
+    - Bên mình còn tuyển trợ giảng tiếng hàn ko
+    - Bên mình còn tuyển trợ giảng tiếng nhật ko
+    - Bên mình còn tuyển trợ giảng tiếng anh online ko
+    - Bên mình còn tuyển trợ giảng tiếng trung online ko
+    - Bên mình còn tuyển trợ giảng tiếng nhật online ko
+    - Bên mình còn tuyển trợ giảng tiếng hàn online ko
+    - Trung tâm anh ngữ Ames còn tuyển giảng viên ko
+    - Trung tâm anh ngữ Lapo còn tuyển giảng viên ko
+    - Trung tâm anh ngữ No Pain No Gain còn tuyển giảng viên ko
+    - Trung tâm anh ngữ Ames còn tuyển trợ giảng ko
+    - Trung tâm anh ngữ Lapo còn tuyển trợ giảng ko
+    - Trung tâm anh ngữ No Pain No Gain còn tuyển trợ giảng ko
+    - mình muốn tìm việc làm thêm cho sinh viên
+    - mình muốn tìm việc làm bán thời gian buổi sáng
+    - mình muốn tìm việc làm bán thời gian buổi tối
+    - mình muốn tìm việc ngành IT
+    - mình muốn tìm việc ngành SEO Website
+    - mình muốn tìm việc ngành Marketing
+    - mình muốn tìm việc ngành Kế toán
+    - mình muốn tìm việc ngành Hành chính nhân sự
+    - mình muốn tìm việc ngành Kinh doanh
+    - mình muốn tìm việc ngành Xây dựng
+    - mình muốn tìm việc ngành Cơ khí
+    - mình muốn tìm việc ngành Điện tử
+    - mình muốn tìm việc ngành Xuất nhập khẩu
+    - mình muốn tìm việc ngành Biên phiên dịch
+    - mình muốn tìm việc ngành Kiến Trúc Nội Thất
+    - mình muốn tìm việc ngành Bất Động Sản
+    - mình muốn tìm việc ngành Quản Trị Kinh Doanh
+    - mình muốn tìm việc Thư Ký - Trợ Lý
+    - mình muốn tìm việc Tư Vấn Viên
+    - mình muốn tìm việc Chăm Sóc Khách Hàng
+    - mình muốn tìm việc Tiếp Thị Quảng Cáo
+    - mình muốn tìm việc Y Tế Dược
+    - mình muốn tìm việc Thương Mại Điện Tử
+    - mình muốn tìm việc ngành Luật Pháp Lý
+    - mình muốn tìm việc ngành Thiết Bị Vật Tư
+    - mình muốn tìm việc ngành Giao Thông Vận Tải
+    - mình muốn tìm việc ngành Quản Lý Điều Hành
+    - mình muốn tìm việc ngành Phát Triển Thị Trường
+    - mình muốn tìm việc ngành Vận Hành Sản Xuất
+    - mình muốn tìm việc ngành Nhập Liệu
+    - mình muốn tìm việc ngành Du Lịch
+    - mình muốn tìm việc ngành Nhà Hàng Khách Sạn
+    - mình muốn tìm việc ngành Báo Chí - Truyền Hình
+    - mình muốn tìm việc ngành Bưu Chính Viễn Thông
+    - mình muốn tìm việc ngành Điện Tử Viễn Thông
+    - mình muốn tìm việc ngành Hành Chính Văn Phòng
+    - mình muốn tìm việc ngành Kỹ Thuật
+    - mình muốn tìm việc ngành Thiết Kế - Mỹ Thuật
+    - mình muốn tìm việc làm Bảo Hiểm
+    - mình muốn tìm việc làm Bảo Vệ
+    - mình muốn tìm việc  ngành  Dệt May - Da Giày
+    - mình muốn tìm việc  ngành  Hóa Học - Sinh Học
+    - mình muốn tìm việc  ngành  Hoạch Định - Dự Án
+    - mình muốn tìm việc  ngành Lao Động Phổ Thông
+    - mình muốn tìm việc  ngành  Mỹ Phẩm - Thời Trang
+    - mình muốn tìm việc ngành Ngân Hàng
+    - mình muốn tìm việc ngành Dịch Vụ
+    - mình muốn tìm việc ngành Kỹ Thuật Ứng Dụng
+    - mình muốn tìm việc ngành Nông Lâm Ngư Nghiệp
+    - mình muốn tìm việc ngành Quan Hệ Đối Ngoại
+    - mình muốn tìm việc Vận Tải - Lái Xe
+    - mình muốn tìm việc ngành Làm Đẹp - Spa
+    - mình muốn tìm việc ngành Chăn Nuôi Thú Y
+    - mình muốn tìm việc ngành Thủy Sản
+    - mình muốn tìm việc ngành Công Nghệ Thực Phẩm
+    - mình muốn tìm việc ngành Hàng Không
+    - mình muốn tìm việc ngành Truyền Thông
+    - mình muốn tìm việc ngành Nấu Ăn
+    - mình muốn tìm việc ngành Hàng Hải
+    - mình muốn tìm việc Tổ Chức Sự Kiện
+    - mình muốn tìm việc Thu Ngân
+    - mình muốn tìm việc Developers
+    - mình muốn tìm việc Việc Làm Phục Vụ
+    - mình muốn tìm việc Việc Làm Telesale
+    - mình muốn tìm việc Việc Làm Lễ Tân
+    - mình muốn tìm việc Copywriter
+    - mình muốn tìm việc Logistic
+    - mình muốn tìm việc ngành Tài Chính
+    - mình muốn tìm việc tại Khu Chế Xuất - Khu Công Nghiệp
+    - Mình muốn tìm việc tại Quận Long Biên
+    - Mình muốn tìm việc tại Quận Từ Liêm.
+    - Mình muốn tìm việc tại Quận Hà Đông.
+    - Mình muốn tìm việc tại Quận Thanh Trì.
+    - Mình muốn tìm việc tại Quận Ba Đình
+    - Mình muốn tìm việc tại Quận Hoàn Kiếm
+    - Mình muốn tìm việc tại Quận Đống Đa
+    - Mình muốn tìm việc tại Quận Thanh Xuân
+    - Mình muốn tìm việc tại Quận Cầu Giấy
+    - Mình muốn tìm việc tại Quận Hoàng Mai
+    - Mình muốn tìm việc tại Quận Hai Bà Trưng
+    - Mình muốn tìm việc tại Quận Tây Hồ
+    - Mình muốn tìm việc tại Quận 1
+    - Mình muốn tìm việc tại Quận 2
+    - Mình muốn tìm việc tại Quận 3
+    - Mình muốn tìm việc tại Quận 4
+    - Mình muốn tìm việc tại Quận 5
+    - Mình muốn tìm việc tại Quận 6
+    - Mình muốn tìm việc tại Quận 7
+    - Mình muốn tìm việc tại Quận 8
+    - Mình muốn tìm việc tại Quận 9
+    - Mình muốn tìm việc tại Quận 10
+    - Mình muốn tìm việc tại Quận 11
+    - Mình muốn tìm việc tại Quận 12
+    - Mình muốn tìm việc tại Quận Bình Tân
+    - Mình muốn tìm việc tại Quận Bình Thạnh
+    - Mình muốn tìm việc tại Quận Gò Vấp
+    - Mình muốn tìm việc tại Quận Phú Nhuận
+    - Mình muốn tìm việc tại Quận Tân Bình
+    - Mình muốn tìm việc tại Quận Tân Phú
+    - Mình muốn tìm việc tại Quận Thủ Đức
+    - Mình muốn tìm việc tại Huyện Bình Chánh
+    - Mình muốn tìm việc tại Huyện Cần Giờ
+    - Mình muốn tìm việc tại Huyện Củ Chi
+    - Mình muốn tìm việc tại Huyện Hóc Môn
+    - Mình muốn tìm việc tại Huyện Nhà Bè
+    - Mình muốn tìm việc tại Bà rịa – Vũng tàu
+    - Mình muốn tìm việc tại Bắc Giang
+    - Mình muốn tìm việc tại Bắc Kạn
+    - Mình muốn tìm việc tại Bạc Liêu
+    - Mình muốn tìm việc tại Bắc Ninh
+    - Mình muốn tìm việc tại Bến Tre
+    - Mình muốn tìm việc tại Bình Định
+    - Mình muốn tìm việc tại Bình Dương
+    - Mình muốn tìm việc tại Bình Phước
+    - Mình muốn tìm việc tại Bình Thuận
+    - Mình muốn tìm việc tại Cà Mau
+    - Mình muốn tìm việc tại Cần Thơ
+    - Mình muốn tìm việc tại Cao Bằng
+    - Mình muốn tìm việc tại Đà Nẵng
+    - Mình muốn tìm việc tại Đắk Lắk
+    - Mình muốn tìm việc tại Đắk Nông
+    - Mình muốn tìm việc tại Điện Biên
+    - Mình muốn tìm việc tại Đồng Nai
+    - Mình muốn tìm việc tại Đồng Tháp
+    - Mình muốn tìm việc tại Gia Lai
+    - Mình muốn tìm việc tại Hà Giang
+    - Mình muốn tìm việc tại Hà Nam
+    - Mình muốn tìm việc tại Hà Nội
+    - Mình muốn tìm việc tại Hà Tĩnh
+    - Mình muốn tìm việc tại Hải Dương
+    - Mình muốn tìm việc tại Hải Dương
+    - Mình muốn tìm việc tại Hậu Giang
+    - Mình muốn tìm việc tại Hòa Bình
+    - Mình muốn tìm việc tại Hưng Yên
+    - Mình muốn tìm việc tại Khánh Hòa
+    - Mình muốn tìm việc tại Kiên Giang
+    - Mình muốn tìm việc tại Kon Tum
+    - Mình muốn tìm việc tại Lai Châu
+    - Mình muốn tìm việc tại Lâm Đồng
+    - Mình muốn tìm việc tại Lạng Sơn
+    - Mình muốn tìm việc tại Lào Cai
+    - Mình muốn tìm việc tại Long An
+    - Mình muốn tìm việc tại Nam Định
+    - Mình muốn tìm việc tại Nghệ An
+    - Mình muốn tìm việc tại Ninh Bình
+    - Mình muốn tìm việc tại Ninh Thuận
+    - Mình muốn tìm việc tại Phú Thọ
+    - Mình muốn tìm việc tại Phú Yên
+    - Mình muốn tìm việc tại Quảng Bình
+    - Mình muốn tìm việc tại Quảng Nam
+    - Mình muốn tìm việc tại Quảng Ngãi
+    - Mình muốn tìm việc tại Quảng Ninh
+    - Mình muốn tìm việc tại Quảng Trị
+    - Mình muốn tìm việc tại Sóc Trăng
+    - Mình muốn tìm việc tại Sơn La
+    - Mình muốn tìm việc tại Tây Ninh
+    - Mình muốn tìm việc tại Thái Bình
+    - Mình muốn tìm việc tại Thái Nguyên
+    - Mình muốn tìm việc tại Thanh Hóa
+    - Mình muốn tìm việc tại Thừa Thiên Huế
+    - Mình muốn tìm việc tại Tiền Giang
+    - Mình muốn tìm việc tại Thành phố Hồ Chí Minh
+    - Mình muốn tìm việc tại Trà Vinh
+    - Mình muốn tìm việc tại Tuyên Quang
+    - Mình muốn tìm việc tại Vĩnh Long
+    - Mình muốn tìm việc tại Vĩnh Phúc
+    - Mình muốn tìm việc tại Yên Bái
+    - công ty cần tuyển nhân viên kinh doanh không ạ
+    - Có việc nào làm ngay k ạ
+    - cty kpf còn tuyển cn ko vậy
+    - tìm việc làm trợ giảng tiếng anh tại Hà nội
+    - tìm việc làm trợ giảng tiếng anh tại hồ chí minh
+    - tìm việc làm trợ giảng tiếng anh tại quận 1
+    - tìm việc làm trợ giảng tiếng anh tại quận 2
+    - tìm việc làm trợ giảng tiếng anh tại quận 3
+    - tìm việc làm trợ giảng tiếng anh tại quận 4
+    - tìm việc làm trợ giảng tiếng anh tại quận 5
+    - tìm việc làm trợ giảng tiếng anh tại quận 6
+    - tìm việc làm trợ giảng tiếng anh tại quận 7
+    - tìm việc làm trợ giảng tiếng anh tại quận 8
+    - tìm việc làm trợ giảng tiếng anh tại quận 9
+    - tìm việc làm trợ giảng tiếng anh tại quận 10
+    - tìm việc làm trợ giảng tiếng anh tại quận 11
+    - tìm việc làm trợ giảng tiếng anh tại quận 12
+    - tìm việc làm trợ giảng tiếng anh tại quận Bình Thạnh
+    - tìm việc làm trợ giảng tiếng anh tại quận Thủ đức
+    - tìm việc làm trợ giảng tiếng anh tại quận gò vấp
+    - tìm việc làm trợ giảng tiếng anh tại quận Phú nhuận
+    - tìm việc làm trợ giảng tiếng anh tại quận Tân Bình
+    - tìm việc làm trợ giảng tiếng anh tại quận Tân Phú
+    - tìm việc làm trợ giảng tiếng anh tại quận Bình Tân
+    - tìm việc làm trợ giảng tiếng anh tại huyện Nhà Bè
+    - tìm việc làm trợ giảng tiếng anh tại huyện Hóc Môn
+    - tìm việc làm trợ giảng tiếng anh tại huyện Bình chánh
+    - tìm việc làm trợ giảng tiếng anh tại huyện Củ chi
+    - tìm việc làm trợ giảng tiếng anh tại quận Hoàng mai
+    - tìm việc làm trợ giảng tiếng anh tại quận hai bà trưng
+    - tìm việc làm trợ giảng tiếng anh tại quận cầu giấy
+    - tìm việc làm trợ giảng tiếng anh tại quận nam từ liêm
+    - tìm việc làm trợ giảng tiếng anh tại quận bắc từ liêm
+    - tìm việc làm trợ giảng tiếng anh tại quận hà đông
+    - tìm việc làm gia sư dạy toán
+    - tìm việc làm gia sư dạy tiếng anh
+    - tìm việc làm gia sư dạy tiếng việt
+    - tìm việc làm gia sư dạy hóa
+    - tìm việc làm gia sư dạy lý
+    - tìm việc làm gia sư dạy tiếng pháp
+    - tìm việc làm gia sư dạy tiếng nhật
+    - tìm việc làm gia sư dạy tiếng hàn
+    - tìm việc làm giảng viên tiếng anh tại Hà Nội
+    - tìm việc làm giảng viên tiếng anh tại bắc từ liêm
+    - tìm việc làm giảng viên tiếng anh tại nam từ liêm
+    - tìm việc làm giảng viên tiếng anh tại  cầu giấy
+    - tìm việc làm giảng viên tiếng anh tại hà  đông
+    - tìm việc làm giảng viên tiếng anh tại hoàng mai
+    - tìm việc làm giảng viên tiếng anh tại hai bà trưng
+    - Tìm việc làm freelancer IT & Lập trình
+    - Tìm việc làm freelancer Thiết kế
+    - Tìm việc làm freelancer Video
+    - Tìm việc làm freelancer Dịch thuật
+    - Tìm việc làm freelancer Kinh doanh
+    - Tìm việc làm freelancer Nhập liệu
+    - Tìm việc làm freelancer Kế toán
+    - Tìm việc làm freelancer Luật
+    - Tìm việc làm freelancer Kiến trúc
+    - Tìm việc làm freelancer Xây dựng
+    - Tìm việc làm freelancer Biên tập
+    - Tìm việc gia sư văn
+    - Tìm việc gia sư toán
+    - Tìm việc gia sư tiếng anh
+    - Tìm việc gia sư vật lý
+    - Tìm việc gia sư hóa
+    - Tìm việc gia sư lịch sử
+    - Tìm việc gia sư địa lý
+    - Tìm việc gia sư dạy vẽ
+    - Tìm việc gia sư luyện chữ đẹp
+    - Tìm việc gia sư piano
+    - Tìm việc gia sư ielts
+    - Tìm việc gia sư guitar
+    - Công việc đọc báo mạng có k
+    - Công việc xâu vòng có k
+    - Công việc làm tranh đá có k
+    - Công việc làm gấp phong bì có k
+    - Công việc làm ruột bút bi có k
+    - Điện máy xanh có tuyển nhân viên k
+    - Chưa tốt nghiệp cấp 3 có được nhận vào làm k
+    - Có công việc cho người tàn tật k
+    - Còn tuyển công việc tại nhà ở đây k
+    - Tôi có khuyến khuyết ở tay có được nhận k
+    - Mình muốn tìm việc làm tài xế
+    - Mình muốn tìm việc giao hàng cho siêu thị ạ
+    - Mình muốn tìm việc làm tài xế. giao hàng cho siêu thị ạ.
+
+- intent: hoi_chuyen_nganh
+  examples: |
+    - Quản trị và khởi nghiệp là gì
+    - luật tài chính ngân hàng là gì
+    - học mba ở đâu
+    - lữ hành là gì
+    - kinh doanh quốc tế là gì
+    - đầu tư tài chính là gì
+    - luật kinh tế là gì
+    - giáo viên là gì
+    - tự động hóa là gì
+    - ngành ngôn ngữ học ra làm gì
+    - xã hội học là gì
+    - cách lấy lòng sếp
+    - tài chính ngân hàng là gì
+    - y học cổ truyền là gì
+    - kịch là gì
+    - chuyên ngành cơ khí chế tạo máy là gì
+    - kế toán doanh nghiệp là gì
+    - ngành giáo viên mầm non ra làm gì
+    - ngành truyền thông marketing ra làm gì
+    - truyền thông đa phương tiện là gì
+    - ngành toán học ra làm gì
+    - quản trị doanh nghiệp là gì
+    - bạo lực học đường là gì
+    - luật hình sự là gì
+    - quản trị thương hiệu là gì
+    - thủy văn là gì
+    - nữ hộ sinh là gì
+    - những câu hỏi phỏng vấn hay nhất
+    - luật hành chính là gì
+    - sư phạm tiếng anh là gì
+    - công nghệ kỹ thuật ô tô ra làm gì
+    - Nội dung của hoạch định bao gồm các yếu TỐ
+    - Mình muốn mở Cửa hàng Nhượng Quyền được không
+    - Cho xin mail của cty taishodo với ạ
+    - giáo viên tiểu học là gì
+    - Học ngành IT ra làm gì
+    - Học SEO Website ra làm gì
+    - Học Marketing ra làm gì
+    - Học Kế Toán ra làm gì
+    - Học ngành Hành Chính Nhân Sự ra làm gì
+    - Học Kinh Doanh ra làm gì
+    - Học ngành Xây Dựng ra làm gì
+    - Học Cơ Khí ra làm gì
+    - Học ngành Điện - Điện Tử ra làm gì
+    - Học ngành Biên Phiên Dịch ra làm gì
+    - Học ngành Kiến Trúc Nội Thất ra làm gì
+    - Sinh Viên Mới Ra Trường ra làm gì
+    - Học ngành Quản Trị Kinh Doanh ra làm gì
+    - Học ngành Y Tế Dược ra làm gì
+    - Học ngành Thương Mại Điện Tử ra làm gì
+    - Học ngành Luật Pháp Lý ra làm gì
+    - Học Thiết Bị Vật Tư ra làm gì
+    - Học Giao Thông Vận Tải ra làm gì
+    - Học ngành Quản Lý Điều Hành ra làm gì
+    - Học Phát Triển Thị Trường ra làm gì
+    - Học ngành Du Lịch ra làm gì
+    - Học ngành Báo Chí - Truyền Hình  ra làm gì
+    - Học Bưu Chính Viễn Thông ra làm gì
+    - Học ngành Điện Tử Viễn Thông ra làm gì
+    - Học ngành Hành Chính Văn Phòng ra làm gì
+    - Học Hành Chính Văn Phòng ra làm gì
+    - Học It - Phần Cứng - Mạng ra làm gì
+    - Học ngành Kỹ Thuật ra làm gì
+    - Học Thiết Kế - Mỹ Thuật ra làm gì
+    - Học ngành Dệt May - Da Giày ra làm gì
+    - Học Hóa Học - Sinh Học ra làm gì
+    - Học Hoạch Định - Dự Án ra làm gì
+    - Học Mỹ Phẩm - Thời Trang ra làm gì
+    - Học Ngân Hàng ra làm gì
+    - Học ngành Kỹ Thuật Ứng Dụng ra làm gì
+    - Học ngành Nông Lâm Ngư Nghiệp ra làm gì
+    - Học ngành Quan Hệ Đối Ngoại ra làm gì
+    - Học ngành Công Nghệ Thực Phẩm  ra làm gì
+    - Học ngành Truyền Thông  ra làm gì
+    - Học ngành Ngôn ngữ Anh ra làm gì
+    - Học ngành Ngôn ngữ Hàn ra làm gì
+    - Học ngành Ngôn ngữ Nhật ra làm gì
+    - Học ngành Ngôn ngữ Trung Quốc ra làm gì
+    - Học ngành Ngôn ngữ Italia ra làm gì
+    - Học ngành Công nghệ May ra làm gì
+    - Học ngành thiết kế thời trang ra làm gì
+    - ĐH Công Nghiệp có những ngành gì?
+    - ĐH Hà nội có những ngành gì?
+    - ĐH Giao thông vận tải có những ngành gì?
+    - ĐH Xây Dựng có những ngành gì?
+    - ĐH mỹ thuật công nghiệp ra làm gì?
+    - ĐH nông nghiệp ra làm gì?
+    - Khối A làm nghề gì?
+    - Khối B làm nghề gì?
+    - khối C làm nghề gì?
+    - khối D làm nghề gì?
+    - trường đại học hà nội lấy bao nhiêu điểm?
+    - trường đh công nghiệp lấy bao nhiêu điểm?
+    - trường đh xây dựng lấy bao nhiêu điểm?
+    - trường đại học thương mại lấy bao nhiêu điểm?
+    - trường đại học ngoại thương lấy bao nhiêu điểm?
+    - trường đại học bách khoa lấy bao nhiêu điểm?
+    - trường đại học thủy lợi lấy bao nhiêu điểm?
+    - trường đại học nông nghiệp lấy bao nhiêu điểm?
+    - trường đại học y hà nội lấy bao nhiêu điểm?
+    - muốn kiếm việc lm dành cho học sinh
+
+- intent: tim_viec_trang_vang
+  examples: |
+    - Ứng viên có dễ tìm được công việc trên trang vàng không
+    - Ứng viên có nên tìm kiếm công ty trên trang vàng không
+    - Tìm việc trên trang vàng
+
+- intent: dang_tin_trang_vang
+  examples: |
+    - Đăng tin trên trang vàng có chắc chắn tìm được ứng viên không
+    - Tôi muốn tin tuyển dụng trên trang vàng doanh nghiệp
+    - Liên hệ như thế nào để được đăng tin trên trang vàng
+    - Đăng tin trên trang vàng có mất phí không
+    - Có thể đăng tin trên trang vàng trong bao lâu
+    - Đăng tin trên trang vàng
+
+- intent: hoi_them_trang_vang
+  examples: |
+    - Có phân loại ngành nghề trên trang vàng không
+    - Đăng tin trên trang vàng có ưu điểm gì
+    - Doanh nghiệp trên trang vàng tuyển dụng có uy tín không
+    - Các công ty lớn có trên trang vàng tuyển dụng không
+    - Tôi có nên đăng tin trên trang vàng tuyển dụng không
+    - Có nên đăng tin trên trang vàng không
+    - Trang vàng doanh nghiệp là gì?
+
+- intent: thac_mac_tim_viec
+  examples: |
+    - Sao tôi không tìm được công ty quanh khu vực Long Biên
+    - Tìm việc làm quanh khu vực mình ở như thế nào
+    - Sao mình tìm việc quanh khu vực Định Công ko được nhỉ
+    - Làm thế nào để tìm việc quanh Hà Nội
+    - Muốn tìm việc ở Quảng Ninh thì phải làm sao
+
+- intent: tim_viec_pham_vi
+  examples: |
+    - Muốn tìm công việc trong phạm vi 10km làm như thế nào
+    - Tìm việc quanh phạm vi
+    - Làm thế nào để tìm việc quanh phạm vi 5km
+
+- intent: gioi_han_tim_kiem
+  examples: |
+    - Có thể tìm kiếm công ty tối đa bán kính bao nhiêu mét
+    - Tìm việc bán kính tối đa bao nhiêu km
+    - Mình có thể tìm việc phạm vi bao nhiêu
+    - Tìm việc giới hạn khoảng cách tối đa bao nhiêu
+
+- intent : tim_kiem_quanh_day
+  examples: |
+    - Nhà tuyển dụng có sử dụng được tính năng tìm kiếm quanh đây không?
+    - Làm thế nào để sử dụng tính năng tìm kiếm quanh đây
+    - Tìm kiếm quanh đây
+    - Sử dụng tính năng tìm kiếm quanh đây như thế nào nhỉ
+
+- intent: thong_tin_thu_moi_ung_tuyen
+  examples: |
+    - Nhà tuyển dụng cần gửi những thông tin gì trong thư mời họp
+    - Thông tin trong thư mời ứng tuyển
+    - Thông tin trong thư mời họp
+    - Nhà tuyển dụng cần gì trong thư mời
+    - Những nội dung cần có trong thư mời hợp tác
+    - Trong thư mời hợp tác cần có những thông tin gì
+
+- intent: viet_thu_hoi_hop
+  examples: |
+    - Viết thư mời họp như thế nào
+    - viết thư mời hợp
+    - viết giấy mời hợp ra sao
+    - Làm thế nào để viết giấy mời họp
+
+- intent: tai_sao_can_thu_hoi_hop
+  examples: |
+    - Tại sao cần gửi thư mời hội họp
+    - Vì sao cần gửi thư mời họp
+    - Gửi thư mời hộp họp có cần thiết không
+    - Gửi thư mời hội họp thực sự cần thiết chứ
+
+- intent: thu_hop_tac_english
+  examples: |
+    - Các mẫu thư mời hợp tác bằng tiếng Anh
+    - Thư hợp tác bằng tiếng Anh
+    - Có mẫu thư hợp tác bằng tiếng Anh không
+    - Cách viết thư mời hợp tác bằng tiếng Anh
+
+- intent: tai_sao_can_thu_gt_cty
+  examples: |
+    - Tại sao cần viết thư giới thiệu về công ty
+    - Chi tiết cách viết một mẫu thư giới thiệu nhân sự mới
+    - Cách viết thư giới thiệu
+    - Thư giới thiệu về công ty là gì
+    - Viết thư giới thiệu công ty như thế nào
+
+- intent: mau_thu_gioi_thieu
+  examples: |
+    - Tham khảo mẫu thư giới thiệu về công ty ở đâu
+    - Mẫu thư giới thiệu
+    - Bạn có các mẫu thư giới thiệu không
+
+- intent: gui_mail_tl_uv
+  examples: |
+    - Gửi mail trả lời ứng viên trên web như thế nào
+    - Gửi mail tl ứng viên
+    - Gửi mail trả lời ứng viên
+    - Làm thế nào để gửi mail tl ứng viên
+
+- intent: tu_choi_uv
+  examples: |
+    - Từ chối ứng viên nộp hồ sơ như thế nào
+    - Từ chối ứng viên
+    - Làm thế nào để từ chối ứng viên nộp hồ sơ nhỉ
+    - Có cách nào để từ chối ứng viên ko
+
+- intent: thu_nhan_viec
+  examples: |
+    - Thư mời nhận việc viết như thế nào
+    - Có cần gửi thư mời nhận việc cho ứng viên không
+    - Thư mời nhận việc
+    - Cho mình hỏi thư mời nhận việc viết thế nào
+
+- intent: thu_trung_tuyen
+  examples: |
+    - Tham khảo các mẫu thư thông báo trúng tuyển ở đâu
+    - Cần viết gì trong thư thông báo trúng tuyển
+    - Thư thông báo trúng tuyển là gì
+    - Thư báo trúng tuyển
+
+- intent: thu_moi_phong_van
+  examples: |
+    - Gửi thư mời phỏng vấn như thế nào
+    - Tham khảo thư mời phỏng vấn ở đâu
+    - Cần có những nội dung gì trong thư mời phỏng vấn ứng viên
+    - Thư mời phỏng vấn viết như thế nào
+    - Thư mời phỏng vấn là gì
+    - Thư mời phỏng vấn
+
+- intent: cbi_phong_van
+  examples: |
+    - Khi xin việc cần chuẩn bị những giấy tờ gì
+    - Khi phỏng vấn cần chuẩn bị những giấy tờ gì
+    - Chuẩn bị đi xin việc cần gì
+    - Chuẩn bị đi phỏng vấn cần gì
+    - Giấy tờ khi đi xin việc
+    - Giấy tờ khi đi phỏng vấn
+
+- intent: mau_so_yeu_li_lich
+  examples: |
+    - Tải sơ yếu lý lịch như thế nào
+    - Mẫu sơ yếu lí lịch
+    - Mình muốn tải mẫu sơ yếu lí lịch thì tải ở đâu
+    - Làm thế nà để tải mẫu sơ yếu lí lịch
+    - Tạo sơ yếu lý lịch online như thế nào
+    - Viết sơ yếu lý lịch như thế nào
+    - Sơ yếu lí lịch là gì
+
+- intent: hd_viet_so_yeu_li_lich
+  examples: |
+    - Các nội dung cần điền trong sơ yếu lý lịch là gì
+    - Hướng dẫn viết sơ yếu lí lịch
+    - Bạn có nội dung viết sơ yếu lí lịch không
+    - Trình độ văn hóa trong sơ yếu lý lịch ghi thế nào
+    - Thành phần gia đình ghi thế nào?
+    - Thành phần bản thân ghi thế nào?
+    - Sơ yếu lý lịch gồm những gì?
+    - Công chứng sơ yếu lý lịch cần những gì?
+    - Sơ yếu lý lịch công chứng có thời hạn bao lâu?
+    - Sơ yếu lý lịch dán ảnh 3x4 hay 4x6?
+    - Sơ yếu lý lịch khi cần báo tin cho ai?
+    - Cách viết sơ yếu lý lịch?
+    - Cách điền sơ yếu lý lịch học sinh sinh viên?
+
+- intent: sd_so_yeu_li_lich
+  examples: |
+    - Có được sử dụng các mẫu sơ yếu lý lịch trên mạng không
+    - Sử dụng sơ yếu lí lịch trên mạng có được không
+    - Sử dụng mẫu sơ yếu lí lịch trên mạng có làm sao không
+
+- intent: can_so_yeu_li_lich
+  examples: |
+    - Có cần sơ yếu lý lịch khi đi xin việc không
+    - Xin việc có cần sơ yếu lí lịch ko
+    - Khi đi phỏng vấn có cần đem theo sơ yếu lí lịch không
+
+- intent: danh_may_viet_tay_syll
+  examples: |
+    - nên viết tay hay đánh máy sơ yếu lý lịch?
+    - Sơ yếu lí lịch nên đánh máy hay viết tay
+
+- intent: luu_y_viet_syll
+  examples: |
+    - những lưu ý khi viết sơ yếu lí lịch là gì?
+    - lưu ý viết sơ yếu lí lịch
+
+- intent: syll_di_nhat
+  examples: |
+    - cách điền sơ yếu lí lịch đi Nhật
+    - Viết sơ yếu lí lịch đi Nhật
+    - Sơ yếu lí lịch sang Nhật
+
+- intent: syll_di_han
+  examples: |
+    - cách điền sơ yếu lí lịch đi Hàn
+    - Viết sơ yếu lí lịch đi Hàn
+    - Sơ yếu lí lịch sang Hàn
+
+- intent: syll_di_tq
+  examples: |
+    - cách điền sơ yếu lí lịch đi Trung quốc
+    - Viết sơ yếu lí lịch đi trung quốc
+    - Sơ yếu lí lịch sang trung quốc
+
+- intent: nop_hs_qua_mang
+  examples: |
+    - nộp sơ xin việc qua mạng như nào?
+    - Nộp hồ sơ xin việc qua mạng
+    - Hướng dẫn nộp hồ sơ xin việc qua email hiệu quả
+    - hướng dẫn nộp hồ sơ xin việc qua mạng hiệu quả
+    - Bộ hồ sơ xin việc qua email gồm những gì?
+
+- intent: viet_thu_gui_ntd
+  examples: |
+    - Có cần viết thư xin việc gửi nhà tuyển dụng không
+    - Viết thư gửi nhà tuyển dụng
+    - Viết thư gửi nhà tuyển dụng như nào cho hiệu quả
+
+- intent: trinh_do_chinh_tri
+  examples: |
+    - trình độ chính trị là gì
+    - trình độ chính trị ghi trong sơ yếu lí lịch như nào
+    - vai trò của trình độ chính trị trong sơ yếu lí lịch
+
+- intent: mau_thu_xin_viec
+  examples: |
+    - Tạo thư xin việc như thế nào
+    - Mẫu thư xin việc ấn tượng
+    - Cho mình xem vài mẫu thư xin việc
+    - Đơn xin việc gồm những gì?
+    - Tạo đơn xin việc ở đâu?
+    - Cách bày tỏ nguyện vọng trong đơn xin việc?
+    - Cách viết đơn xin việc nhân sự?
+    - Viết thư xin việc thế nào?
+    - Tạo thư xin việc ở đâu?
+
+- intent: vai_tro_thu_xin_viec
+  examples: |
+    - Vai trò của thư xin việc
+    - Thư xin việc quan trọng ntn
+    - Thư xin việc có cần thiết ko
+    - Sự cần thiết của mẫu thư xin việc
+
+- intent: them_nguoi_tham_chieu_cv
+  examples: |
+    - Thêm người tham chiếu trong CV như thế nào
+    - Thêm người tham chiếu trong cv
+    - Muốn thêm người tham chiếu trong cv ta làm như thế nào
+
+- intent: loi_nguoi_tham_chieu
+  examples: |
+    - Cho e hỏi là e xoá mục người tham chiếu rồi mà sao khi xuất trong cv vẫn còn ạ
+    - Mình thêm mục người tha chiếu rồi mà sao cv vẫn chưa có nhỉ
+    - Không xóa được mục người tham chiếu
+
+- intent: can_chinh_cv
+  examples: |
+    - Căn chỉnh trong CV như thế nào cho hợp lý
+    - Căn chỉnh cv như nào đẹp nhất
+    - Có cách nào để căn chỉnh cv đẹp không
+
+- intent: kinh_nghiem_viet_cv
+  examples: |
+    - Có nên sử dụng CV có sẵn trên mạng không
+    - Làm thế nào để thêm phần kinh nghiệm trong CV
+
+- intent: tao_cv_word_pp
+  examples: |
+    - Nên tạo CV bằng word hay powerpoint
+    - Tạo cv bằng powerpoint hay word
+
+- intent: tao_cv
+  examples: |
+    - Tải CV đã tạo như thế nào
+    - Tại sao đăng nhập mà không tạo được CV
+    - Lưu CV đã tạo như thế nào
+    - Ẩn CV đã tạo như thế nào
+    - Cách tạo cv trên trang web
+    - Muốn tạo cv thì phải làm sao
+    - Cho mình hỏi làm sao để hủy được công việc mình đã apply ?
+    - Sao tạo tài khoản ứng viên rồi mà không tải CV về được
+    - Xem CV vừa tạo như thế nào
+    - Làm thế nào để sửa CV tôi đã tạo
+    - Làm thế nào để nộp được hồ sơ ứng viên
+    - Tìm kiếm nhà tuyển dụng ở đâu
+    - Làm sao để liên hệ với nhà tuyển dụng được
+    - Sửa CV như thế nào
+    - Sao mình không sửa được CV đã tạo
+    - Sửa CV đã tạo có được không
+    - Muốn sửa CV đã apply như thế nào
+    - Tạo 2 CV có được không
+    - Muốn tìm mẫu CV đẹp cho dân thiết kế
+    - Không tải được CV về ạ
+    - Không xem được CV
+    - Không lưu được CV ạ
+    - Có mẫu CV thiết kế thời trang không ạ
+    - Thiết kế CV đẹp như thế nào ạ
+    - Tham khảo mẫu CV kế toán ở đâu
+    - Tôi muốn tạo CV ngành quản trị khách sạn
+    - Cập nhật thông tin cá nhân ở đâu
+    - Tôi muốn xóa tài khoản
+    - Tải CV từ điện thoại lên thế nào
+    - Sao k tải CV về được
+    - Sao k lưu được CV
+    - làm sao để tải mẫu CV xuống
+
+- intent: tao_cv_theo_nganh_nghe
+  examples: |
+    - Tạo CV SEO Website như thế nào
+    - Tạo CV Marketing như thế nào
+    - Tạo CV kế toán như thế nào
+    - Tạo CV hành chính nhân sự như thế nào
+    - Tạo CV xây dựng như thế nào
+    - Tạo CV ngành cơ khí như thế nào
+    - Tạo CV ngành điện tử như thế nào
+    - Tạo CV xuất nhập khẩu như thế nào
+    - Tạo CV biên phiên dịch như thế nào
+    - Tạo CV ngành kiến trúc nội thất như thế nào
+    - Tạo CV bất động sản như thế nào
+    - CV cho sinh viên mới ra trường
+    - Tạo CV nhân viên bán hàng như thế nào
+    - Tạo CV quản trị kinh doanh như thế nào
+    - Tạo CV thư ký - trợ lý như thế nào
+    - Tạo CV tư vấn viên như thế nào
+    - Tạo CV nhân viên chăm sóc khách hàng như thế nào
+    - Tạo CV tiếp thị quảng cáo như thế nào
+    - Tạo CV y tế dược như thế nào
+    - Tạo CV ngành thương mại điện tử như thế nào
+    - Tạo CV luật pháp lý như thế nào
+    - Tạo CV thiết bị vật tư như thế nào
+    - Tạo CV ngành giao thông vận tải như thế nào
+    - Tạo CV quản lý điều hành như thế nào
+    - Tạo CV phát triển thị trường như thế nào
+    - Tạo CV nhập liệu như thế nào
+    - Tạo CV thẩm định giám định như thế nào
+    - Tạo CV ngành du lịch như thế nào
+    - Tạo CV nhà hàng khách sạn như thế nào
+    - Tạo CV báo chí truyền hình như thế nào
+    - Tạo CV ngành bưu chính viễn thông như thế nào
+    - Tạo CV ngành điện tử viễn thông như thế nào
+    - Tạo CV ngành kỹ thuật như thế nào
+    - Tạo CV ngành thiết kế như thế nào
+    - Tạo CV ngành bảo hiểm như thế nào
+    - Tạo CV bảo vệ như thế nào
+    - Tạo CV ngành dệt may như thế nào
+    - Tạo CV ngành hóa học như thế nào
+    - Tạo CV ngành hoạch định như thế nào
+    - Tạo CV lao động phổ thông như thế nào
+    - Tạo CV ngành mỹ phẩm - thời trang như thế nào
+    - Tạo CV ngân hàng như thế nào
+    - Tạo CV ngành dịch vụ như thế nào
+    - Tạo CV ngành kỹ thuật ứng dụng như thế nào
+    - Tạo CV ngành nông lâm ngư nghiệp như thế nào
+    - Tạo CV ngành quan hệ đối ngoại như thế nào
+    - Tạo CV ngành thực phẩm như thế nào
+    - Tạo CV lái xe như thế nào
+    - Tạo CV ngành spa như thế nào
+    - Tạo CV chăn nuôi thú y như thế nào
+    - Tạo CV ngành thủy sản như thế nào
+    - Tạo CV ngành hàng không như thế nào
+    - Tạo CV ngành truyền thông như thế nào
+    - Tạo CV hàng hải như thế nào
+    - Tạo CV tổ chức sự kiện như thế nào
+    - Tạo CV ngành địa chất như thế nào
+    - Tạo CV vận chuyển giao nhận như thế nào
+    - Tạo CV thu ngân như thế nào
+    - Tạo CV việc làm bán thời gian như thế nào
+    - Tạo CV developers như thế nào
+    - Tạo CV trợ giảng tiếng anh như thế nào
+    - Tạo CV ngành giáo dục như thế nào
+    - Tạo CV telesale như thế nào
+    - Tạo CV lễ tân như thế nào
+    - Tạo CV ngành thống kê như thế nào
+    - Tạo CV copywriter như thế nào
+    - Tạo CV logistic như thế nào
+    - Tạo CV ngành tài chính như thế nào
+    - Tạo CV tiếng Nhật như thế nào
+    - Tạo CV tiếng Hàn như thế nào
+    - Tạo CV tiếng Trung như thế nào
+    - Tạo CV tiếng Anh như thế nào
+    - Tạo CV online như thế nào?
+    - Tạo CV mới như thế nào ạ
+    - Tôi muốn tạo CV online
+
+- intent: bao_mat_td
+  examples: |
+    - Thông tin nhà tuyển dụng có được bảo mật không
+    - Thông tin ntd được bảo mật chứ
+    - Có bảo mật thông tin nhà tuyển dụng ko
+
+- intent: ntd_thu_hut_uv
+  examples: |
+    - Đăng tin tuyển dụng như thế nào để thu hút ứng viên
+    - Bí quyết thu hút ứng viên của nhà tuyển dụng
+    - Nhà tuyển dụng thu hút ứng viên
+    - Làm thế nào để tin tuyển dụng thu hút ứng viên
+
+- intent: tim_hieu_tuyen_dung
+  examples: |
+    - Mình muốn mua điểm
+    - Tôi muốn đăng tin tuyển dụng thì làm thế nào
+    - Tôi muốn tìm hiểu các gói tuyển dụng
+    - Bên mình có hỗ trợ đăng tin không ạ
+    - Làm thế nào để đăng tin tuyển dụng
+    - Tôi muốn đăng tin tuyển dụng thì làm thế nào
+    - Cần tư vấn về các gói đăng tin
+    - Đăng kí tài khoản nhà tuyển dụng như nào?
+    - Đăng tin tuyển dụng
+    - Mình muốn mua điểm để đăng tin tuyển dụng làm thế nào
+    - Cách đăng tin tuyển dụng hiệu quả
+    - Mình muốn đăng thông tin tuyển dụng
+
+- intent: tao_TK_ntd
+  examples: |
+    - Tạo TK nhà tuyển dụng như thế nào
+    - Tạo tài khoản ntd
+    - Mình muốn tạo tài khoản ntd để đăng tin thì làm thế nào
+
+- intent: dang_tin_free
+  examples: |
+    - Đăng tin có mất phí không
+    - Có mất phí khi đăng tin lên web ko
+    - Đăng tin có mất tiền ko
+    - Có mất tiền khi đăng tin ko
+
+
+- intent: gioi_han_dang_tin
+  examples: |
+    - Có giới hạn tin đăng không
+    - Giới hạn đăng tin thế nào
+    - Giới hạn đăng tin cách nhau bao lâu
+
+- intent: dang_tin_hieu_qua
+  examples: |
+    - Tôi đăng tin mà không thấy ứng viên nộp hồ sơ
+    - Không thấy ứng viên nộp hồ sơ
+    - Đăng tin sao cho hiệu quả
+    - Sao tôi không đăng tin đươc
+    - Hỗ trợ tôi đăng tin ạ
+    - Làm thế nào để đăng tin có hiệu quả nhất
+    - Sao tôi đăng tin ko thấy ứng viên nào apply
+
+- intent: ko_dang_dc_tin
+  examples: |
+    - Tại sao tôi không đăng được tin
+    - Muốn đăng tin làm ntn
+
+- intent: viet_mo_ta
+  examples: |
+    - Phần mô tả viết thế nào cho phù hợp
+    - Viết mô tả thế nào
+    - Viết mô tả làm sao cho hay
+    - Mô tả công ty viết như thế nào
+
+- intent: tim_uv
+  examples: |
+    - Cần tìm gấp ứng viên KCN
+    - Cần tìm lao động phổ thông
+    - Cần tìm ứng viên bàn giấy
+    - Cần tìm nhân viên tại Hà Nội
+    - Cần tìm nhân viên tại Hồ Chí Minh
+    - Cần tìm nhân viên tại Đà Nẵng
+    - Cần tìm nhân viên tại Hải Phòng
+    - Cần tìm nhân viên tại Nha Trang
+    - Cần tìm nhân viên tại Huế
+    - Cần tìm nhân viên tại Thanh Hóa
+    - Cần tìm nhân viên tại Lạng Sơn
+    - Cần tìm nhân viên tại Bắc Giang
+    - Cần tìm nhân viên tại Bắc Ninh
+    - Cần tìm nhân viên tại Hưng Yên
+    - Cần tìm nhân viên tại Đồng Nai
+    - Cần tìm nhân viên tại Cà Mau
+    - Cần tìm nhân viên tại Kiên Giang
+    - Cần tìm nhân viên tại Khu Công Nghiệp
+    - Tìm nhân viên làm bán thời gian buổi tối
+    - Tìm nhân viên IT
+    - Tìm nhân viên SEO Website
+    - Tìm nhân viên Marketing
+    - Tìm nhân viên Kế toán
+    - Tìm nhân viên Hành chính nhân sự
+    - Tìm nhân viên Kinh doanh
+    - Tìm nhân viên Xây dựng
+    - Tìm nhân viên Cơ khí
+    - Tìm nhân viên Điện tử
+    - Tìm nhân viên Xuất nhập khẩu
+    - Tìm nhân viên Biên phiên dịch
+    - Tìm nhân viên Kiến Trúc Nội Thất
+    - Tìm nhân viên Bất Động Sản
+    - Tìm nhân viên Quản Trị Kinh Doanh
+    - Tìm nhân viên Thư Ký - Trợ Lý
+    - Tìm nhân viên Tư Vấn Viên
+    - Tìm nhân viên Chăm Sóc Khách Hàng
+    - Tìm nhân viên Tiếp Thị Quảng Cáo
+    - Tìm nhân viên Y Tế Dược
+    - Tìm nhân viên Thương Mại Điện Tử
+    - Tìm nhân viên Luật Pháp Lý
+    - Tìm nhân viên Thiết Bị Vật Tư
+    - Tìm nhân viên Giao Thông Vận Tải
+    - Tìm nhân viên Quản Lý Điều Hành
+    - Tìm nhân viên Phát Triển Thị Trường
+    - Tìm nhân viên Vận Hành Sản Xuất
+    - Tìm nhân viên Nhập Liệu
+    - Tìm nhân viên Du Lịch
+    - Tìm nhân viên Nhà Hàng Khách Sạn
+    - Tìm nhân viên Báo Chí - Truyền Hình
+    - Tìm nhân viên Bưu Chính Viễn Thông
+    - Tìm nhân viên Điện Tử Viễn Thông
+    - Tìm nhân viên Hành Chính Văn Phòng
+    - Tìm nhân viên Kỹ Thuật
+    - Tìm nhân viên Thiết Kế - Mỹ Thuật
+    - Tìm nhân viên làm Bảo Hiểm
+    - Tìm nhân viên làm Bảo Vệ
+    - Tìm nhân viên Dệt May - Da Giày
+    - Tìm nhân viên Hóa Học - Sinh Học
+    - Tìm nhân viên Hoạch Định - Dự Án
+    - Tìm nhân viên Lao Động Phổ Thông
+    - Tìm nhân viên Mỹ Phẩm - Thời Trang
+    - Tìm nhân viên Ngân Hàng
+    - Tìm nhân viên Dịch Vụ
+    - Tìm nhân viên Kỹ Thuật Ứng Dụng
+    - Tìm nhân viên Nông Lâm Ngư Nghiệp
+    - Tìm nhân viên Quan Hệ Đối Ngoại
+    - Tìm nhân viên Vận Tải - Lái Xe
+    - Tìm nhân viên Làm Đẹp - Spa
+    - Tìm nhân viên Chăn Nuôi Thú Y
+    - Tìm nhân viên Thủy Sản
+    - Tìm nhân viên Công Nghệ Thực Phẩm
+    - Tìm nhân viên Hàng Không
+    - Tìm nhân viên Truyền Thông
+    - Tìm nhân viên Nấu Ăn
+    - Tìm nhân viên  Hàng Hải
+    - Tìm nhân viên Tổ Chức Sự Kiện
+    - Tìm nhân viên Thu Ngân
+    - Tìm nhân viên Developers
+    - Tìm nhân viên Việc Làm Phục Vụ
+    - Tìm nhân viên Việc Làm Telesale
+    - Tìm nhân viên Việc Làm Lễ Tân
+    - Tìm nhân viên Copywriter
+    - Tìm nhân viên Logistic
+    - Tìm nhân viên Tài Chính
+    - Tìm nhân viên
+    - Tìm ứng viên
+    - Mình muốn có thông tin bạn ứng viên
+    - Mình muốn phỏng vấn bạn ứng viên
+    - Em có nhu cầu đăng tin tuyển dụng tại Hà Nam
+    - Em có nhu cầu đăng tin tuyển dụng tại Hà Nam . Chi phí chạy quảng cáo ntn
+    - mình muốn xem biểu phí tìm ứng viên
+    - Phí tìm ứng viên thế nào
+    - Phí tìm ứng viên thế nào
+
+- intent: goi_dang_tin
+  examples: |
+    - Đăng tin tuyển dụng có những gói nào
+    - Gói đăng tin tuyển dụng
+    - Bảng giá dịch vụ đăng tin tuyển dụng
+    - Giá dịch vụ đăng tin td
+    - Xem các dịch vụ đang sử dụng của web ở đâu
+
+- intent: tim_inf_uv
+  examples: |
+    - Xem CV ứng viên mất tiền không
+    - Tại sao tôi đăng nhập tài khoản nhà tuyển dụng không được
+    - Xem CV uv có miễn phí không
+    - Sao không đăng nhập tk ntd được nhỉ
+    - Xem số điện thoại ứng viên thế nào
+    - Xem thông tin ứng viên ở đâu
+
+- intent: loi_serve
+  examples: |
+    - Sao hệ thống lại báo lỗi serve
+    - Hệ thống báo lỗi server
+    - Lỗi serve rồi
+
+- intent: dang_ki_tk_timviec
+  examples: |
+    - Làm thế nào để đăng kí tài khoản?
+    - Muốn đăng kí tài khoản làm thế nào
+
+- intent: dk_tk_uv
+  examples: |
+    - Đăng kí tài khoản ứng viên như nào ?
+    - Làm thế nào để đki tk ứng viên
+    - Mình muốn đăng kí tài khoản ứng viên
+    - Đăng ký ứng viên như thế nào
+    - Tạo tài khoản ứng viên như thế nào ạ
+    - Tạo tk uv
+    - Tạo tài khoản tìm việc làm thế nào
+    - Tạo tk ứng viên bằng tải CV lên thế nào
+    - Tạo tk ứng viên bằng tạo CV online thế nào
+
+- intent: dk_tk_app
+  examples: |
+    - Đăng kí tài khoản trên app thế nào?
+    - Muốn đăng kí tài khoản trên app phải làm thế nào
+    - Đki tài khoản trên app
+
+- intent: ko_up_dc_anh
+  examples: |
+    - ad cho e hỏi sao e k up ảnh đc ạ
+    - Ko upload được ảnh
+    - Tại sao ko tải được ảnh lên
+    - Tại sao tải ảnh đại diện báo lỗi
+    - Tải ảnh báo lỗi
+    - Mình thay ảnh đại diện mà không được, vẫn hiển thị ảnh cũ ạ .
+
+- intent: dki_sai_mail
+  examples: |
+    - Mình đăng ký lộn mail rồi phải làm sao
+    - Mình bị đk sai mail
+    - Đăng kí sai mail làm ntn
+
+- intent: kich_hoat_mail
+  examples: |
+    - Mình không thấy mail kích hoạt gửi về ạ
+    - Ko nhận được mail kích hoạt
+    - Tôi không nhận được email xác nhận tài khoản
+    - không nhận được mail xác nhận tài khoản
+    - Sao đăng kí tk k nhận được mail xác nhận
+    - mình tạo tài khoản trên website, nhưng không nhận được gmail xác nhận ạ
+
+- intent: mau_cv
+  examples: |
+    - Mẫu CV xin việc lấy ở đâu
+    - Mẫu Cv lấy ở đâu
+    - Muốn lấy mẫu cv ở đâu có
+
+- intent: ko_dang_nhap_dc
+  examples: |
+    - Sao không đăng nhập được tài khoản ứng viên
+    - Tôi không vào được tài khoản
+    - Không đăng nhập được tk
+    - Không vào đc tk
+    - Đăng nhập không được
+    - Không đăng nhập được
+
+- intent: sua_mail_dk
+  examples: |
+    - Sửa email đã đăng ký có được không
+    - Sửa gmail đã đăng kí thì làm ntn
+    - Muốn sửa mail đã đki ra sao
+
+- intent: cv_an_tuong
+  examples: |
+    - Viết cv như nào cho ấn tượng
+    - Cv ấn tượng nhất
+
+- intent: xem_cv
+  examples: |
+    - Tải CV lên được không
+    - Có tải cv lên đc ko
+    - Nhà tuyển dụng có xem được CV của tôi không
+
+- intent: ko_dki_dc_tk
+  examples: |
+    - Sao ko đki đc tk
+    - Ko đki được tk thì làm thế nào
+    - Không đăng kí được tài khoản
+    - tại sao mình dăng ký tài khoản tuyển dụng ko đk ạ
+
+- intent: ko_chon_dc_huyen
+  examples: |
+    - Tôi không chọn được quận huyện
+    - Tôi không chọn được tình thành
+    - Không chọn được quận huyện , tỉnh thành
+    - Không tìm kiếm được theo quận
+    - Không tìm kiếm được theo quận huyện tỉnh thành
+
+- intent: loi_dang_ki
+  examples: |
+    - báo lỗi đăng kí là sao
+    - đăng kí báo lỗi thì làm thế nào
+    - lỗi đăng kí
+    - báo lỗi đăng kí
+    - đăng kí bị lỗi
+
+- intent: bao_mat_inf_uv
+  examples: |
+    - Thông tin ứng viên có bảo mật không
+    - Muốn bảo mật thông tin ứng viên
+    - Bảo mật thông tin ứng viên
+    - Làm thế nào để bảo mật thông tin ứng viên
+
+- intent: ntd_thay_cv
+  examples: |
+    - Làm thế nào để ntd thấy CV của mình
+    - Muốn ntd thấy CV của mình thì làm thế nào
+
+- intent: xac_nhan_email
+  examples: |
+    - Xác nhận email là như thế nào
+    - Đăng kí tk phải xác nhận email là như nào
+
+- intent: tim_kiem_nang_cao
+  examples: |
+    - Tìm công ty gần khu vực mình ở được không ạ
+    - Tôi muốn tìm công ty gần khu vực ở được không
+    - Tôi muốn tìm công ty quanh tôi được không
+
+- intent: tim_ntd
+  examples: |
+    - Tìm kiếm nhà tuyển dụng như thế nào ạ
+    - Làm thế nào để nộp hồ sơ
+    - Tìm ntd
+    - Tìm kiếm nhà tuyền dụng
+    - Nộp hồ sơ
+
+- intent: sd_app_cham_cong
+  examples: |
+    - Dùng app chấm công như nào ạ
+    - tôi muốn đăng kí tài khoản công ty ở app chấm công
+    - Sử dụng app chấm công
+    - Đăng kí tk app chấm công như nào nhỉ
+    - Đăng ký app chấm công như thế nào ạ
+    - Có đăng ký được nhiều tài khoản không ạ
+    - Ưu điểm app chấm công là gì ạ
+    - Một công ty có nhiều chi nhánh tạo tài khoản thế nào
+    - Cách tạo các phòng ban làm việc
+    - Tải app chấm công qua đâu
+    - Cập nhật thông tin tài khoản nhân viên ở đâu
+    - Cập nhật thông tin tài khoản công ty ở đâu
+    - Mình muốn bạn tư vấn về máy chấm công.
+    - Công ty mình muốn mua máy chấm công để quản lý giờ giấc cho nhân viên.
+    - Sử dụng máy chấm công
+    - Mua máy chấm công
+
+- intent: xuat_cong
+  examples: |
+    - App có chủ động xuất và chấm công được không?
+    - App có chủ động xuất công được ko
+    - Xuất công đc ko
+
+- intent: update_di_muon
+  examples: |
+    - App có cập nhật được số giờ, phút đi muộn ko?
+    - App có tự động cập nhập đi muộn ko
+
+- intent: gh_nv
+  examples: |
+    - App có giới hạn số lượng nhân viên đăng nhập không?
+    - App có giới hạn sl nv ko
+
+- intent: ktra_cham_cong
+  examples: |
+    - Kiểm tra đã chấm được công chưa như thế nào ạ
+    - Có kiểm tra chấm công được chưa hay không
+    - Kiểm tra chấm công đc chưa
+
+- intent: khoang_cach_cham_cong
+  examples: |
+    - Khoảng cách chấm công là bao xa ạ
+    - Khoảng cách chấm công
+
+- intent: cham_cong_tai_nha
+  examples: |
+    - Ở nhà e có chấm được công k
+    - Chấm công ở bất kì nơi đâu được ko
+    - Chấm công tại nhà được chứ
+
+- intent: loi_tai_cty
+  examples: |
+    - Tại sao đứng ở địa điểm chấm công vẫn báo lỗi
+    - Đứng ở địa điểm chấm công vẫn báo lỗi
+    - Ở ngay cty chấm công mà vẫn báo lỗi
+    - Vẫn báo lỗi khi đứng ở địa điểm chấm công
+
+- intent: loi_cham_cong
+  examples: |
+    - Tại sao chấm công báo lỗi
+    - Chấm công báo lỗi là thế nào
+    - Sao chấm công lại báo lỗi
+    - Chấm công báo lỗi
+    - Em đang gặp vấn đề về app chấm công ạ
+
+- intent: cai_dat_ca
+  examples: |
+    - Cài đặt ca làm thế nào
+    - Cài đặt ca làm
+    - Cài đặt ca
+    - Làm thế nào để cài đặt ca làm
+
+- intent:  app_free
+  examples: |
+    - App chấm công mất phí k
+    - Mình muốn sd app chấm công có mất phí ko
+    - App chấm công dùng mất tiền ko
+
+- intent: cham_cong_nv
+  examples: |
+    - Theo dõi chấm công của nhân viên thế nào
+    - Xem lịch sử nhân viên chấm công thế nào
+    - Có xem được lịch sử chấm công của nhân viên ko
+    - Theo dõi chấm công nhân viên
+
+- intent: phe_duyet_nv
+  examples: |
+    - Phê duyệt nhân viên thế nào
+    - Làm thế nào để phê duyệt nhân viên
+
+- intent: quyen_truy_cap
+  examples: |
+    - Cho phép quyền truy cập kiểu gì
+    - Thay đổi quyền truy cập kiểu gì
+    - Quyền truy cập cho phép thế nào
+
+- intent: qli_nv
+  examples: |
+    - Quản lý danh sách nhân viên kiểu gì
+    - Quản lý nhân viên được ko
+    - Quản lý danh sách nhân viên thế nào
+
+- intent: dki_tk
+  examples: |
+    - Đăng kí tài khoản nhân viên thế nào
+    - Đăng kí tài khoản công ty thế nào
+
+- intent: xem_ca_di_muon_ve_som
+  examples: |
+    - Xem ca đi muộn về sớm ở đâu
+    - Xem ca đi muộn về sớm
+
+- intent: duyet_nv_moi
+  examples: |
+    - Duyệt nhân viên mới ở đâu
+    - Duyệt nv mới thế nào
+
+- intent: qli_ca_lam
+  examples: |
+    - Quản lý ca làm việc thế nào
+    - quản lý ca làm
+    - Làm thế nào để quản lí ca làm
+
+- intent: gh_phong_ban
+  examples: |
+    - Có giới hạn số lượng phòng ban k
+    - Giới hạn sl phòng ban ko
+
+- intent: xuat_cong_excel
+  examples: |
+    - Xuất công ra file excel được k
+    - Muốn xuất công ra excel đc ko
+    - Xuất công ra excel được chứ
+
+- intent: ung_tuyen
+  examples: |
+    - Dạ bao nhiêu tuổi mới được ứng tuyển vậy ạ và cần bằng cấp gì không ạ
+    - Ứng tuyển như thế nào
+    - Muốn ứng tuyển công việc phải làm sao
+
+- intent: cong_an_bac_nam
+  examples: |
+    - Em sắp lên 12 mà em thấy điểm công an miền bắc cao hơn nam vây em có thể đăng kí cả 2 miền đc ko ạ . Và nếu đăng kí ngành này thì em có thể đăng kí thêm 2 3 ngành khác đc ko ạ . Cảm ơn bên tư vấn ạ
+
+- intent: muc_tieu_nghe_nghiep
+  examples: |
+    - Cách viết mục tiêu nghề nghiệp
+    - Viết mục tiêu nghề nghiệp trong cv ntn
+    - Mục tiêu nghề nghiệp trong cv viết ra sao
+
+- intent: tinh_cach_cv
+  examples: |
+    - Nên viết gì ở mục tính cách trong CV?
+    - Tính cách trong CV viết ntn
+
+- intent: so_thich_cv
+  examples: |
+    - Cách viết sở thích trong CV?
+    - Viết sở thích trong CV
+    - Sở thích CV
+
+- intent: lam_cv_pp
+  examples: |
+    - Cách làm CV bằng powerpoint
+    - Làm cv bằng pp
+
+- intent: hoi_them_cv
+  examples: |
+    - Nên in CV 1 mặt hay 2 mặt?
+    - Cách thiết kế CV bằng photoshop
+    - Người tham chiếu trong CV là ai?
+
+- intent: ss_luong
+  examples: |
+    - So sánh lương thế nào
+    - So sánh lương như nào
+    - So sánh lương
+
+- intent: luong_nganh_nghe
+  examples: |
+    - Lương Chuyên Viên Kinh Doanh
+    - Lương Lập Trình Php
+    - Lương Kỹ Sư Viễn Thông
+    - Lương Chuyên Viên An Ninh
+    - Lương Nhân Viên Văn Phòng
+    - Lương Nhân Viên Bảo Hiểm
+    - Lương Kế Toán Bán Hàng
+    - Lương Trưởng Phòng Kinh Doanh
+    - Lương Trưởng Phòng Kế Toán
+    - Lương Chuyên Viên Marketing
+    - Lương Chuyên Viên Seo
+    - Lương Nhân Viên Hỗ Trợ Khách Hàng
+    - Tìm kiếm lương theo ngành nghề
+    - Làm thế nào được tăng lương
+    - Cách tính lương nhân viên kinh doanh
+    - Lương nhân viên kinh doanh bất động sản được bao nhiêu
+
+- intent: luong_net_gross
+  examples: |
+    - Lương gross là gì?
+    - Lương net là gì?
+    - Lương net và gross là gì
+    - Lương net
+    - Lương gross
+    - Cách tính lương net
+    - Cách tính lương gross
+
+- intent: tim_viec_theo_h
+  examples: |
+    - Tim việc làm theo giờ Bán Hàng kiểu gì
+    - Tim việc làm theo giờ Phục Vụ kiểu gì
+    - Tim việc làm theo giờ Tạp Vụ kiểu gì
+    - Tim việc làm theo giờ Xây Dựng kiểu gì
+    - Tim việc làm theo giờ Công Trình kiểu gì
+    - Tim việc làm theo giờ Vận Chuyển kiểu gì
+    - Tim việc làm theo giờ Bốc Vác kiểu gì
+    - Tim việc làm theo giờ Nấu Ăn kiểu gì
+    - Tim việc làm theo giờ Đầu Bếp kiểu gì
+    - Tim việc làm theo giờ Hành Chính kiểu gì
+    - Tim việc làm theo giờ Giao Hàng kiểu gì
+    - Tim việc làm theo giờ Nhà Hàng kiểu gì
+    - Tim việc làm theo giờ Khách Sạn kiểu gì
+    - Tim việc làm theo giờ Tổ Chức Sự Kiện kiểu gì
+    - Tim việc làm theo giờ Kho Bãi kiểu gì
+    - Tim việc làm theo giờ giúp việc ở đâu
+    - Tim việc làm theo giờ ở Hà Nội
+    - Tim việc làm theo giờ Hải Phòng
+    - Tim việc làm theo giờ Hồ Chí Minh
+    - tìm việc làm theo giờ
+
+- intent : tim_nha_tro
+  examples: |
+    - Tìm nhà trọ ở Hà Nội
+    - Tìm nhà trọ ở Hồ Chí Minh
+    - Tìm nhà trọ ở Hải Phòng
+    - Tìm nhà trọ ở Đà Nẵng
+    - Tìm nhà trọ ở Quận 1
+    - Tìm nhà trọ ở Quận Hà Đông
+    - Tìm nhà trọ ở Quận 3
+    - Tìm nhà trọ ở Quận Thanh Xuân
+    - Tìm nhà trọ ở Quận 8
+    - Tìm nhà trọ ở Quận Hoàn Kiếm
+    - Tìm nhà trọ ở Quận Tân Phú
+    - Tìm nhà trọ ở Quận Tìm nhà trọ ở2
+    - Tìm nhà trọ ở Quận Hai Bà Trưng
+    - Tìm nhà trọ ở Quận 7
+    - Tìm nhà trọ ở Quận Tây Hồ
+    - Thuê chung cư ở Quận 1
+    - Thuê chung cư ở Quận Hà Đông
+    - Thuê chung cư ở Quận 3
+    - Thuê chung cư ở Quận Thanh Xuân
+    - Thuê chung cư ở Quận 8
+    - Thuê chung cư ở Quận Hoàn Kiếm
+    - Thuê chung cư ở Quận Tân Phú
+    - Thuê chung cư ở Quận Thuê chung cư ở2
+    - Thuê chung cư ở Quận Hai Bà Trưng
+    - Thuê chung cư ở Quận 7
+    - Thuê chung cư ở Quận Tây Hồ
+    - Tìm người ở ghép
+    - Thuê homestay ở Hà Nội
+    - Thuê homestay ở Hồ Chí Minh
+
+- intent: mua_goi
+  examples: |
+    - Tư vấn gói LỌC HỒ SƠ
+    - Tư vấn gói GHIM TIN TRANG CHỦ BOX HẤP DẪN
+    - Tư vấn gói GHIM TIN TRANG CHỦ BOX THƯƠNG HIỆU
+    - Tư vấn gói GHIM TIN TRANG CHỦ BOX VIỆC LÀM TUYỂN GẤP
+    - Tư vấn gói GHIM TIN TRANG NGÀNH
+    - Mua gói có ưu đãi gì k
+    - Bảo lưu tin đăng kiểu gì
+    - Làm thế nào để gia hạn tin đăng
+
+- intent: hoan_diem
+  examples: |
+    - Làm thế nào được hoàn điểm
+    - Đăng tin không có ứng viên được hoàn tiền không
+    - Muốn sử dụng dịch vụ headhund
+    - Tại sao còn điểm mà k xem được sđt
+
+- intent: dien_cv_bi_mat
+  examples: |
+    - Tại sao tạo CV điền xong thông tin lại mất hết
+    - Tạo CV điền thông tin xong bị mất
+
+- intent: luu_cv_da_tao
+  examples: |
+    - CV đã tạo lưu ở đâu
+    - Lưu cv đã tạo ở đâu
+
+- intent: tao_xong_cv_moi_dki
+  examples: |
+    - Tạo CV xong bắt tạo tk thì còn CV đã tạo k
+    - Tạo Cv xong rồi mới tạo tk thì CV đã tạo còn ko ạ
+
+- intent: sdt_dki_nhieu_tk
+  examples: |
+    - Một số đt có đăng kí nhiều tk tìm việc được k?
+    - Một sđt có đki được nhiều tk ko
+
+- intent: dien_ba_noi_lam_viec
+  examples: |
+    - Địa điểm làm việc có bắt buộc điền 3 nơi k
+    - Điền 3 nơi địa điểm làm việc có cần ko
+
+- intent: an_tk
+  examples: |
+    - Ẩn tài khoản ở đâu
+    - Mình muốn ẩn tài khoản thì làm như nào nhỉ
+    - Ấn tài khoản làm ntn
+
+- intent: chi_tao_cv
+  examples: |
+    - Tôi chỉ muốn tạo cv và chưa có nhu cầu tìm việc thì làm thế nào
+    - Chỉ muốn tạo cv ko có nhu cầu khác
+    - Chỉ tạo cv
+
+- intent: an_cv
+  examples: |
+    - Làm thế nào để nhà tuyển dụng k làm phiền nữa
+    - Tôi đã tìm được việc thì và k muốn công ty gọi tới nữa thì thế nào
+    - Không muốn ntd làm phiền nữa
+    - Ko muốn cty gọi nữa
+
+- intent: sdt_bao_loi
+  examples: |
+    - Sao số điện thoại lại báo lỗi
+    - Sđt báo lỗi
+
+- intent: muc_gt_cty
+  examples: |
+    - Mục giới thiệu công ty phải điền thế nào
+    - Mục gt cty điền như nào
+
+- intent: tao_ho_so
+  examples: |
+    - Làm hồ sơ đi Hàn Quốc thế nào
+    - Làm hồ sơ đi Mỹ thế nào
+    - Làm hồ sơ đi Trung Quốc thế nào
+    - Làm hồ sơ đi Anh thế nào
+    - Cách làm hồ sơ đấu thầu từ A đến Z
+    - Hồ sơ xin việc bán hàng gồm những gì
+    - Hồ sơ xin việc có thời hạn bao lâu ?
+    - Top những trường đại học có việc làm cao
+    - Chuẩn bị hồ sơ kết nạp Đảng viên cần những gì
+    - Hồ sơ xin việc cần mấy tấm ảnh?
+    - Cách làm hồ sơ xét tuyển Đại học
+    - Cách làm Hồ sơ đăng ký doanh nghiệp
+    - Cách làm hồ sơ xin việc chưa đủ tuổi như thế nào?
+    - Chưa đủ tuổi có được nhận vào làm k?
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Hàn Quốc
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Anh
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Trung
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Nhật
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Pháp
+    - Tạo Mẫu Hồ Sơ Xin Việc Tiếng Đức
+    - Hồ Sơ Xin Việc Shipper Yêu Cầu Những Gì?
+
+- intent: app_tim_viec
+  examples: |
+    - Dùng app CV thế nào
+    - Tải CV trên app thế nào
+    - Tải app CV ở đâu
+    - Tạo tài khoản trên app tìm việc
+    - Tìm việc làm trên app tìm việc
+    - Tải app tìm việc ở đâu
+    - App tìm việc
+    - App cv
+
+- intent: xem_tin_dang
+  examples: |
+    - Xem tin đăng của mình ở đâu
+    - Xem tin mình đã đăng ở đâu
+
+- intent: tim_uv_moi_nhat
+  examples: |
+    - Cách tìm ứng viên mới nhất
+    - Tìm ứng viên mới nhất
+
+- intent: tim_uv_quanh_day
+  examples: |
+    - Cách tìm ứng viên quanh công ty
+    - Tìm ứng viên quanh nhà
+    - Tìm ứng viên quanh khu vực
+
+- intent: xem_uv
+  examples: |
+    - Xem ứng viên đã ứng tuyển ở đâu
+    - Xem ứng viên được gửi của chuyên viên ở đâu
+    - Các ứng viên đã xem có lưu được k
+    - Xem ứng viên đã lưu hồ sơ ở đâu
+    - Xem ứng viên cộng tác viên gửi ở đâu
+
+- intent: ko_xem_dc_cv_uv
+  examples: |
+    - Xem CV ứng viên như thế nào
+    - Sao tôi không xem được CV ứng viên
+    - Ko xem đc CV ứng viên
+    - Sao ko xem đc CV ứng viên
+    - Muốn xem CV ứng viên phải làm sao
+
+- intent: doi_mk_tk_uv
+  examples: |
+    - Đổi mật khẩu tài khoản ứng viên ở đâu
+    - Đổi mk tài khoản uv
+
+- intent: doi_mk_tk_ntd
+  examples: |
+    - Đổi mật khẩu tài khoản công ty ở đâu
+    - Đổi mật khẩu tài khoản ntd
+    - Đổi mk tk cty
+    - Đổi mk tk cty như thế nào
+    - Đổi mk tk ntd ở đâu
+
+- intent: quen_mk
+  examples: |
+    - Quên mật khẩu làm thế nào
+    - Quên mk thì phải làm sao
+    - quên mật khẩu
+    - quên mk
+    - Chị có mua tài khoản bên em, nhưng bị mất mật khẩu. Giờ làm như thế nào để lấy lại mật khẩu nhỉ
+    - Lấy lại mk
+    - Bị mất mật khẩu thì làm ntn
+
+- intent: qli_inf_ntd
+  examples: |
+    - Muốn cập nhật thông tin công ty ở đâu
+    - Chỉnh sửa thông tin ntd ở đâu
+    - Cập nhật thông tin công ty
+    - Cập nhật thông tin ntd
+
+- intent: cau_hoi_td
+  examples: |
+    - Đề kiểm tra nhân viên tham khảo ở đâu
+    - Đề kiểm tra nhân viên
+    - Câu hỏi tuyển dụng
+    - Tham khảo các câu hỏi tuyển dụng ở đâu
+
+- intent: tin_dang_het_han
+  examples: |
+    - Tin đăng hết hạn có ứng tuyển được k
+    - Tin đăng hết hạn ứng tuyển thế nào
+    - Tin đăng hết hạn ứng tuyển
+
+- intent: danh_gia_chuyen_vien
+  examples: |
+    - Đánh giá chuyên viên để làm gì
+    - Tại sao phải đánh giá chuyên viên
+
+- intent: sl_tren_web
+  examples: |
+    - Số liệu thống kê trên web có chuẩn xác k
+    - Số liệu trên web có chuẩn xác ko
+
+- intent: ko_tl
+  examples: |
+    - Sao tôi liên hệ với hỗ trợ viên k trả lời
+    - Hỗ trợ viên ko trả lời
+    - Tôi muốn gặp hỗ trợ viên để nói chuyện trực tiếp về dịch vụ
+    - Muốn gặp hỗ trợ viên để nói chuyện trực tiếp về dịch vụ
+    - Muốn gặp hỗ trợ viên để trao đổi về dịch vụ
+
+- intent: khieu_nai_ho_tro_vien
+  examples: |
+    - Tôi muốn khiếu nại về hỗ trợ viên
+    - Khiếu nại hỗ trợ viên
+
+- intent: de_nghi_hoan_tien
+  examples: |
+    - Dùng dịch vụ k hiệu quả, đề nghị hoàn lại tiền
+    - Dịch vụ kém , đề nghị hoàn tiền
+    - Dịch vụ lỗi đề nghị hoàn tiền
+
+- intent: web_ko_ho_tro
+  examples: |
+    - Tôi muốn xuất VAT thì chuyển tiền vào đâu
+    - Muốn rút tiền trên web kiểu gì
+
+- intent: qli_tin_dang
+  examples: |
+    - Làm mới tin ở đâu
+    - Xóa tin tuyển dụng đã đăng ở đâu
+    - Chỉnh sửa tin ở đâu
+    - Tôi muốn xác thực tin đăng làm thế nào
+    - Chỉnh sửa tin
+    - Làm mới tin
+    - Xóa tin
+
+- intent: cach_dang_tin_free
+  examples: |
+    - Muốn đăng tin miễn phí ở đâu
+    - Đăng tin miễn phí ở đâu
+
+- intent: tao_banner_quang_cao
+  examples: |
+    - Gim tin trên banner thế nào
+    - Muốn tạo banner quảng cáo trên web
+    - Tạo banner quảng cáo
+
+- intent: lam_ctv
+  examples: |
+    - Tôi muốn làm cộng tác viên
+    - Làm cộng tác viên như thế nào
+    - Làm cộng tác viên
+    - Làm cộng tác viên tuyển dụng nhân sự
+    - Đăng ký cộng tác viên kiểu gì
+
+- intent: cach_giao_dich
+  examples: |
+    - Làm thế nào để giao dịch
+    - Giao dịch như nào
+
+- intent: den_vp_trao_doi
+  examples: |
+    - Tôi muốn đến văn phòng để trao đổi trực tiếp
+    - Đến văn phòng trao đổi trực tiếp thì làm ntn
+
+- intent: lay_lai_tk_nhan_su_cu
+  examples: |
+    - Nhân sự cũ đã nghỉ làm thế nào lấy lại tài khoản được
+    - Muốn lấy lại tk nhân sự cũ làm thế nào
+    - Lấy lại tài khoản nhân sự cũ
+
+- intent: them_chi_nhanh_cty
+  examples: |
+    - Công ty có nhiều chi nhánh tạo tài khoản thế nào
+    - Tạo tk công ty có nhiều chi nhánh
+
+- intent: gt_ntd
+  examples: |
+    - Muốn Giới Thiệu Nhà Tuyển Dụng
+    - Để Giới Thiệu Ứng Viên làm thế nào
+    - Giới thiệu ntd
+    - Giới thiệu uv
+
+- intent: nhap_tt_tt_uv
+  examples: |
+    - Cách nhập trực tiếp thông tin ứng viên
+    - Nhập trực tiếp thông tin uv
+
+- intent: dang_tai_inf_uv
+  examples: |
+    - Cách đăng tải cv ứng viên để giới thiệu
+    - Cách tạo cv của ứng viên để giới thiệu
+    - Sử dụng cv của ứng viên để giới thiệu
+
+- intent: uu_dai_ctv
+  examples: |
+    - Ưu đãi nhận được khi làm cộng tác viên
+    - Ưu đãi của ctv
+    - Ưu đãi công tác viên
+
+- intent: nop_ho_qua_mang_ko
+  examples: |
+    - Nên nộp hồ sơ xin việc qua mạng hay không
+    - Nộp hồ sơ qua mạng có nên không
+
+- intent: dam_phan_cty
+  examples: |
+    - Đàm phán qua mail với công ty thế nào?
+    - Đàm phán với công ty
+
+- intent: tinh_luong_theo_ngay_cong
+  examples: |
+    - Cách tính lương theo ngày công
+    - Tính lương theo ngày công thế nào
+    - Tính lương theo ngày công
+
+- intent: cach_viet_ho_so
+  examples: |
+    - Cách viết hồ sơ xin việc
+    - Cách viết đơn xin việc
+
+- intent: don_xin_viec_word
+  examples: |
+    - Xin mẫu đơn xin việc file word
+    - Đơn xin việc file word
+
+- intent: don_ung_tuyen
+  examples: |
+    - Cách làm đơn ứng tuyển
+    - Làm đơn ứng tuyển thế nào
+
+- intent: lai_xe_xep_can_bang_ko
+  examples: |
+    - Lái xe cho sếp có cần bằng cấp không?
+    - Cần bằng cấp khi lái xe cho xếp ko
+
+- intent: ko_ho_tro_ship
+  examples: |
+    - Đây có phải dịch vụ giao hàng tiết kiệm k
+    - Đặt ship ở đâu
+    - Giao hàng tiết kiệm
+    - Đặt hàng ship
+
+- intent : thu_xin_viec_tieng_nhat
+  examples: |
+    - Viết thư xin việc tiếng Nhật thế nào
+    - Thư xin việc tiếng Nhật
+
+- intent: thu_xin_viec_tieng_trung
+  examples: |
+    - Viết thư xin việc tiếng Trung thế nào
+    - Thư xin việc tiếng trung
+
+- intent: thu_xin_viec_tieng_anh
+  examples: |
+    - Viết thư xin việc tiếng Anh thế nào
+    - Thư xin việc tiếng Anh
+
+- intent: viet_cover_letter_english
+  examples: |
+    - Cách viết Cover letter xin thực tập tiếng Anh
+    - Cover letter bằng tiếng anh
+
+- intent: xin_viec_lai_xe
+  examples: |
+    - Hồ sơ xin việc lái xe cần những gì?
+    - Hồ sơ xin việc lái xe
+
+- intent: thu_xin_viec_qua_mail
+  examples: |
+    - Cách viết thư xin việc qua email
+    - Viết thư xin việc qua mail
+
+- intent: mua_ho_so_xin_viec
+  examples: |
+    - Mua hồ sơ xin việc ở đâu
+    - Chỗ nào mua được hồ sơ xin việc nhỉ
+    - Mua hồ sơ xin việc
+
+- intent: viet_mau_ho_so_co_san
+  examples: |
+    - Cách viết mẫu hồ sơ xin việc có sẵn
+    - Mẫu hồ sơ xin việc có sẵn
+
+- intent: download_mau_ho_so_mail
+  examples: |
+    - Download mẫu hồ sơ xin việc qua email
+    - Download mẫu hồ sơ xin việc qua mail
+
+- intent: cv_bach_hoa_xanh
+  examples: |
+    - Công việc ở bách hóa xanh gồm những gì?
+    - Kinh nghiệm phỏng vấn tại bách hóa xanh
+
+- intent: ng_mau_nhi
+  examples: |
+    - Làm người mẫu nhí thế nào
+    - Làm mẫu ảnh nhí như nào
+
+- intent: kq_sau_pv
+  examples: |
+    - Em đã phỏng vấn tại công ty, khi nào thì có kết quả
+    - Kết quả sau phỏng vấn khi nào có
+
+- intent: bang_diem_trong_hs
+  examples: |
+    - Hồ sơ xin việc có cần bảng điểm k?
+    - Có cần bản điểm trong hồ sơ xin việc ko
+
+- intent: cong_chung_giay_to
+  examples: |
+    - Hồ sơ xin việc có bắt buộc phải công chứng k?
+    - Có cần công chứng khi đi xin việc ko
+
+- intent: giay_xac_nhan_nhan_than
+  examples: |
+    - Download mẫu giấy xác nhận nhân thân ở đâu
+    - Mẫu giấy xác nhận nhân thân
+
+- intent: mk_len_web
+  examples: |
+    - Tải biểu mẫu trên web có mật khẩu là gì
+    - Mật khẩu khi tải biểu mẫu lên web
+    - mk tải biểu mẫu lên web
+
+- intent: mau_bao_cao_cv
+  examples: |
+    - Tôi muốn xin mẫu báo cáo
+    - Download mẫu báo cáo cv
+    - Tải mẫu báo cáo công việc
+
+- intent: giay_kham_sk
+  examples: |
+    - Làm giấy khám sức khỏe ở đâu
+    - Download giấy khám sức khỏe
+    - Mẫu giấy khám sk
+
+- intent: hoc_qtkd_ra_lam_gi
+  examples: |
+    - Bây h e muốn học nghề quản trị kinh doanh thì mình cần những gì ạ?
+    - Học quản trị kinh doanh ra làm gì
+    - Học quản trị kinh doanh cần có những gì
+
+- intent: viec_lam_thcs
+  examples: |
+    - E là hs [lớp 8](lop) ko biết công việc nào phù hợp với e ạ?
+    - Dạ em mới [cấp 2](lop) nhưng cần một công việc online để kiếm thêm thu nhập thì công việc nào phù hợp và làm ở đâu uy tín ạ?
+    - Em là học sinh lớp [lớp 3](lop) ko biết có công việc nào phù hợp ko ạ
+    - Em mới học [cấp 1](lop) có công việc nào phù hợp ko ạ
+
+- intent: xac_thuc_mail
+  examples: |
+    - Xin chào, tài khoản nhà tuyển dụng của tôi yêu cầu xác thực qua email nhưng không thấy có email xác nhận gửi về
+    - Tài khoản ấn yêu cầu xác thực mail nhưng ko có mail gửi về
+
+- intent: xem_sdt_uv
+  examples: |
+    - mong bạn chỉ cách cho mình làm sao để xem đc số điện thoại và mail ứng viên ah
+    - Sao xem đc số điện thoại ứng viên
+    - Làm sao xem được mail ứng viên
+
+- intent: dki_cv_time_ntd_lh
+  examples: |
+    - Mình đăng ký rồi. Khi nào có việc người ta mới liên lạc à bạn?
+    - Đăng kí ứng tuyển rồi khi nào ntd liên lạc
+    - Mình đăng kí hồ sơ rồi bh ntd mới liên lạc
+    - Apply công việc rồi khi nào ntd mới liên lạc
+
+- intent: luu_cv_da_cu
+  examples: |
+    - mình vừa tạo CV mới, nhưng khi tải xuống thì lại là mẫu CV cũ ạ
+    - Tạo cv mới nhưng lưu về lại là mẫu cũ
+    - Cv mới tạo nhưng tải về là mẫu cũ
+
+- intent: luong_tinh_thanh
+  examples: |
+    - Lương tại [Hà Nội](province)
+    - Lương tại [Quảng Ninh](province)
+    - Lương tại [Hà Nam](province)
+    - Lương tại [Lào Cai](province)
+    - Lương tại [Phú Thọ](province)
+    - Thao khảo lương tại [Hải Dương](province)
+    - Thao khảo lương tại [Hải Phòng](province)
+    - Thao khảo lương tại [Bắc Cạn](province)
+    - Thao khảo lương tại [Yên Bái](province)
+    - Thao khảo lương tại [Hưng Yên](province)
+    - Thao khảo lương tại [Hồ Chí Minh](province)
+    - Thông tin lương khu vực [Thái Bình](province)
+    - Thông tin lương khu vực [Yên Bái](province)
+    - Thông tin lương khu vực [Bắc Ninh](province)
+    - Thông tin lương khu vực [Sơn La](province)
+    - Thông tin lương khu vực [Lai Châu](province)
+    - Lương ở [Điện Biên](province) như thế nào
+    - Lương ở [Đà Nẵng](province) như thế nào
+    - Lương ở [Bình Dương](province) như thế nào
+    - Lương ở [Quảng Bình](province) như thế nào
+    - Lương ở [Nghệ An](province) như thế nào
+    - Lương khu vực [Hà Tĩnh](province) có tốt ko
+    - Lương khu vực [Hồ Chí Minh](province) có tốt ko
+    - Tìm kiếm lương theo tỉnh thành
+
+#synonym
+
+- synonym: sức khỏe
+  examples: |
+    - sk
+
+- synonym: cộng tác viên
+  examples: |
+    - ctv
+
+- synonym: So sánh
+  examples: |
+    - ss
+
+- synonym: không
+  examples: |
+    - ko
+    - k
+
+- synonym: upload
+  examples: |
+    - upload
+    - up
+    - tải
+
+- synonym: như thế nào
+  examples: |
+    - ntn
+    - như nào
+
+- synonym: powerpoint
+  examples: |
+    - pp
+
+- synonym: nhà tuyển dụng
+  examples: |
+    - ntd
+
+- synonym: trung quốc
+  examples: |
+    - tq
+    - trung của
+
+- synonym: sơ yếu lí lịch
+  examples: |
+    - syll
+
+- synonym: ứng viên
+  examples: |
+    - uv
+
+- synonym: tài khoản
+  examples: |
+    - tk
+    - TK
+
+- synonym: đăng kí
+  examples: |
+    - đk
+    - dk
+    - dki
+
+- synonym: tìm kiếm
+  examples: |
+    - tìm
+
+- synonym: bảo mật
+  examples: |
+    - security
+
+- synonym: cảm ơn
+  examples: |
+    - thank
+    - thanks
+    - thank you
+
+- synonym: số điện thoại
+  examples: |
+    - sdt
+    - sđt
+    - số đt
+
+- synonym: mật khẩu
+  examples: |
+    - mk
+    - pass
+    - password
+
+- synonym: sử dụng
+  examples: |
+    - sd
+    - Dùng
+    - Xài

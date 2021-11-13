@@ -1,0 +1,1653 @@
+version: "2.0"
+intents:
+  - great
+  - goodbye
+  - happy
+  - unhappy
+  - surprise
+  - thanks
+  - scold
+  - ask_author
+  - goodnight
+  - how_are_u
+  - wait_name
+  - how_old
+  - time
+  - cach_mua_the
+  - ko_vao_dc_gmail
+  - hoi_gia
+  - nlu_fallback
+  - chiet_khau
+  - bao_mat
+  - khong_ho_tro
+  - tich_hop_API
+  - gia_chiet_khau
+  - phan_anh_loi
+  - loi_dang_nhap
+  - viet_tat_nha_mang
+  - API_domain
+  - dich_vu_khong_ho_tro
+  - noi_gui_inf_the
+  - bao_loi_mua_the
+  - loi_nap_the
+  - dai_ly_the
+  - mua_the_game
+  - the_web_khong_ho_tro
+  - tai_ung_dung_mua_the
+  - lien_he_tong_dai
+  - mua_the_cao
+  - dang_ki_tk_timviec
+  - mk_ko_hop_le
+  - sdt_ko_hop_le
+  - bao_loi_qua_gmail
+  - doi_tac
+  - uy_tin
+  - dk_internetbanking
+  - ko_ho_tro_game
+  - ki_tu_dacbiet
+  - tuyen_ctv
+  - ho_tro_allday
+  - thanh_toan_the_ngan_hang
+  - hoi_CSKH
+  - phuong_thuc_thanh_toan
+  - chuyen_tien_ko_nhan_dc_the
+  - loi
+  - ko_thanh_toan_dc
+  - loi_khi_mua_the
+  - loi_he_thong
+  - mua_the_tren_ung_dung
+  - loi_giao_dich
+  - khoa_tai_khoan
+  - mua_nhieu_the_mot_luc
+  - nhan_ma_khi_dang_ki
+  - nhan_ma_khi_dang_nhap
+  - nhan_ma_the_cao
+  - mua_may_in
+  - khac_nhau_thanh_toan
+  - tai_phan_mem_may_in
+  - in_the_ko_thanh_cong
+  - sua_doi_inf_may_in
+  - chua_nhan_dc_the
+  - the_chi_co_seri
+  - dk_sai_gmail
+  - kich_hoat_tai_khoan
+  - ko_gui_dc_yc_chuyen_tien
+  - ko_login_dc
+  - nap_the_tra_sau
+  - doi_mk_ko_login_dc
+  - the_game
+  - time_sd_the
+  - nap_tien_tai_web
+  - kh_xin_sdt
+  - great_banthe
+  - tim_viec
+  - hoi_chuyen_nganh
+  - tim_viec_trang_vang
+  - dang_tin_trang_vang
+  - hoi_them_trang_vang
+  - thac_mac_tim_viec
+  - tim_viec_pham_vi
+  - gioi_han_tim_kiem
+  - tim_kiem_quanh_day
+  - thong_tin_thu_moi_ung_tuyen
+  - viet_thu_hoi_hop
+  - tai_sao_can_thu_hoi_hop
+  - thu_hop_tac_english
+  - tai_sao_can_thu_gt_cty
+  - mau_thu_gioi_thieu
+  - gui_mail_tl_uv
+  - tu_choi_uv
+  - thu_nhan_viec
+  - thu_trung_tuyen
+  - thu_moi_phong_van
+  - cbi_phong_van
+  - mau_so_yeu_li_lich
+  - hd_viet_so_yeu_li_lich
+  - sd_so_yeu_li_lich
+  - can_so_yeu_li_lich
+  - danh_may_viet_tay_syll
+  - luu_y_viet_syll
+  - syll_di_nhat
+  - syll_di_tq
+  - syll_di_han
+  - nop_hs_qua_mang
+  - viet_thu_gui_ntd
+  - trinh_do_chinh_tri
+  - mau_thu_xin_viec
+  - vai_tro_thu_xin_viec
+  - them_nguoi_tham_chieu_cv
+  - loi_nguoi_tham_chieu
+  - can_chinh_cv
+  - kinh_nghiem_viet_cv
+  - tao_cv_word_pp
+  - tao_cv
+  - tao_cv_theo_nganh_nghe
+  - bao_mat_td
+  - ntd_thu_hut_uv
+  - tim_hieu_tuyen_dung
+  - tao_TK_ntd
+  - dang_tin_free
+  - gioi_han_dang_tin
+  - dang_tin_hieu_qua
+  - ko_dang_dc_tin
+  - viet_mo_ta
+  - tim_uv
+  - goi_dang_tin
+  - tim_inf_uv
+  - loi_serve
+  - dang_ki_tk
+  - dk_tk_uv
+  - dk_tk_app
+  - ko_up_dc_anh
+  - dki_sai_mail
+  - kich_hoat_mail
+  - mau_cv
+  - ko_dang_nhap_dc
+  - sua_mail_dk
+  - cv_an_tuong
+  - xem_cv
+  - ko_chon_dc_huyen
+  - loi_dang_ki
+  - bao_mat_inf_uv
+  - ntd_thay_cv
+  - xac_nhan_email
+  - tim_kiem_nang_cao
+  - ko_dki_dc_tk
+  - tim_ntd
+  - sd_app_cham_cong
+  - xuat_cong
+  - update_di_muon
+  - gh_nv
+  - ktra_cham_cong
+  - khoang_cach_cham_cong
+  - cham_cong_tai_nha
+  - loi_tai_cty
+  - loi_cham_cong
+  - cai_dat_ca
+  - app_free
+  - cham_cong_nv
+  - phe_duyet_nv
+  - quyen_truy_cap
+  - qli_nv
+  - dki_tk
+  - xem_ca_di_muon_ve_som
+  - duyet_nv_moi
+  - qli_ca_lam
+  - gh_phong_ban
+  - xuat_cong_excel
+  - ung_tuyen
+  - cong_an_bac_nam
+  - muc_tieu_nghe_nghiep
+  - tinh_cach_cv
+  - so_thich_cv
+  - lam_cv_pp
+  - hoi_them_cv
+  - ss_luong
+  - luong_tinh_thanh
+  - luong_nganh_nghe
+  - luong_net_gross
+  - tim_viec_theo_h
+  - tim_nha_tro
+  - mua_goi
+  - hoan_diem
+  - dien_cv_bi_mat
+  - luu_cv_da_tao
+  - tao_xong_cv_moi_dki
+  - sdt_dki_nhieu_tk
+  - dien_ba_noi_lam_viec
+  - an_tk
+  - chi_tao_cv
+  - an_cv
+  - sdt_bao_loi
+  - muc_gt_cty
+  - tao_ho_so
+  - app_tim_viec
+  - xem_tin_dang
+  - tim_uv_moi_nhat
+  - tim_uv_quanh_day
+  - xem_uv
+  - ko_xem_dc_cv_uv
+  - doi_mk_tk_uv
+  - doi_mk_tk_ntd
+  - quen_mk
+  - qli_inf_ntd
+  - cau_hoi_td
+  - tin_dang_het_han
+  - danh_gia_chuyen_vien
+  - sl_tren_web
+  - ko_tl
+  - khieu_nai_ho_tro_vien
+  - de_nghi_hoan_tien
+  - web_ko_ho_tro
+  - qli_tin_dang
+  - cach_dang_tin_free
+  - tao_banner_quang_cao
+  - lam_ctv
+  - cach_giao_dich
+  - den_vp_trao_doi
+  - lay_lai_tk_nhan_su_cu
+  - them_chi_nhanh_cty
+  - gt_ntd
+  - nhap_tt_tt_uv
+  - dang_tai_inf_uv
+  - uu_dai_ctv
+  - nop_ho_qua_mang_ko
+  - dam_phan_cty
+  - tinh_luong_theo_ngay_cong
+  - cach_viet_ho_so
+  - don_xin_viec_word
+  - don_ung_tuyen
+  - lai_xe_xep_can_bang_ko
+  - ko_ho_tro_ship
+  - thu_xin_viec_tieng_nhat
+  - thu_xin_viec_tieng_trung
+  - thu_xin_viec_tieng_anh
+  - viet_cover_letter_english
+  - xin_viec_lai_xe
+  - thu_xin_viec_qua_mail
+  - mua_ho_so_xin_viec
+  - viet_mau_ho_so_co_san
+  - download_mau_ho_so_mail
+  - cv_bach_hoa_xanh
+  - ng_mau_nhi
+  - kq_sau_pv
+  - bang_diem_trong_hs
+  - cong_chung_giay_to
+  - giay_xac_nhan_nhan_than
+  - mk_len_web
+  - mau_bao_cao_cv
+  - giay_kham_sk
+  - hoc_qtkd_ra_lam_gi
+  - viec_lam_thcs
+  - xac_thuc_mail
+  - xem_sdt_uv
+  - dki_cv_time_ntd_lh
+  - luu_cv_da_cu
+  - great_timviec
+
+entities:
+- gia
+- tongdai
+- web
+- web1
+- web2
+- province
+- lop
+
+slots:
+  web:
+    type: text
+    influence_conversation: false
+  web1:
+    type: text
+    influence_conversation: false
+  web2:
+    type: text
+    influence_conversation: false
+  gia:
+    type: text
+    influence_conversation: false
+  tongdai:
+    type: text
+    influence_conversation: false
+  province:
+    type: text
+    influence_conversation: false
+  lop:
+    type: text
+    influence_conversation: false
+
+responses:
+  utter_great_banthe:
+  - text: |-
+      Chào bạn. Đây là tổng đài chatbot tự động , bạn cần hỗ trợ gì ạ?
+      Nếu bạn đang có nhu cầu tích hợp API để mua thẻ điện thoại tự động ạ?
+      Bạn add skype binhminhmta123@gmail.com của mình để tiện trao đổi nhé.Chào bạn, bạn cần hỗ trợ gì ạ?
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Tích hợp API
+        payload: /tich_hop_API
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+      - title: Quên mật khẩu tài khoản
+        payload: /loi_dang_nhap
+  utter_great_timviec:
+  - text: |-
+      Chào bạn. Đây là tổng đài chatbot tự động .
+      Bạn add skype binhminhmta123@gmail.com của mình để tiện trao đổi nhé . Chào bạn, bạn cần hỗ trợ gì ạ?
+    buttons:
+      - title: Gặp nhân viên tư vấn trực tiếp
+        payload: /lay_lai_tk_nhan_su_cu
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Sử dụng app chấm công
+        payload: /sd_app_cham_cong
+      - title: Tham khảo lương
+        payload: /luong_tinh_thanh
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tìm nhà trọ
+        payload: /tim_nha_tro
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_great:
+  - text: |-
+      Chào bạn. Đây là tổng đài chatbot tự động .
+      Bạn add skype binhminhmta123@gmail.com của mình để tiện trao đổi nhé . Chào bạn, bạn cần hỗ trợ gì ạ?
+    buttons:
+      - title: Tìm việc làm , tạo cv , tuyển dụng
+        payload: /great_timviec
+      - title: Mua thẻ điện thoại , xem chiết khấu mua thẻ 
+        payload: /great_banthe
+
+  utter_goodbye:
+  - text: Tạm biệt bạn
+  - text: Tạm biệt bạn, rất mong có thể giải đáp thắc mắc cho bạn ở lần tiếp theo.
+  utter_happy:
+  - text: Cảm ơn bạn, Bạn cần giúp gì nữa không vậy?
+  - text: Tuyệt! Tôi thích nghe điều đó
+  utter_unhappy:
+  - text: Cố lên bạn!!! Mình sẽ ở bên bạn <3
+  utter_surprise:
+  - text: Làm gì mà la dữ vậy
+  - text: hihi, ngạc nhiên chưa :v
+  utter_thanks:
+  - text: Cảm ơn bạn nhiều nha
+  - text: Cảm ơn bạn iu quý <3
+  - text: Bạn tuyệt vời lắm đó!
+  utter_scold:
+  - text: hic, mình còn nhỏ nên chưa thể thông minh để hiểu hết ý của bạn :(
+  utter_ask_author:
+  - text: Mình được tạo ra từ website muathe247
+  - text: Mình được tạo ra nhờ AI của muathe247
+  - text: Tui được kể là nhặt được tui từ website muathe247
+  utter_goodnight:
+  - text: Chúc bạn ngủ ngon!
+  - text: Bạn ngủ ngon nha
+  - text: Ngủ ngon mơ siêu siêu đẹp nè
+  - text: Ngủ mơ thấy mình nha
+  utter_how_are_u:
+  - text: Tôi cực kì khỏe luôn nhé
+  - text: Bữa trước cô bói nói tui sống thọ hơn 200 tuổi
+  - text: Cô bạn gái vừa chia tay tui rồi
+  - text: Bố mới la tui xong
+  - text: Mệt lắm nhưng vẫn ngồi nói chuyện với bạn nè
+  utter_wait_name:
+  - text: Mình là Chatbot AI từ chatbot365.
+  - text: Bố mình đặt tên cho mình là chatbot365.
+  - text: chat-bot-365 nhaaaa
+  utter_how_old:
+  - text: mình còn nhỏ lắm, chưa thông minh như chị Google đâu:<
+  - text: mình còn nhỏ lắm, nên bạn viết đúng chính tả nhá :D
+  - text: suýt nữa thì học lớp 1 hihi
+  utter_tim_viec:
+  - text: "Chào bạn!\nBạn đang truy cập chat cùng timviec365.vn/ timviec365.com/ timviec365.com.vn / timviec365.net/ vieclam24h.net.vn\nNếu bạn là ứng viên muốn tìm kiếm việc làm, bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk Ứng viên trên web và chủ động tìm Nhà tuyển dụng phù hợp để nộp hồ sơ online ứng tuyển nhé."
+  utter_hoi_chuyen_nganh:
+  - text: Chào bạn. Đây là web hỗ trợ tuyển dụng. Bạn tham khảo bài viết và tìm kiếm thêm bộ phận chuyên môn để hỗ trợ bạn nhé.
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+      - title: Tham khảo lương
+        payload: /luong_tinh_thanh
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tìm nhà trọ
+        payload: /tim_nha_tro
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_tim_viec_trang_vang:
+  - text: Trang vàng 365.vn là địa hạt cung cấp đến bạn danh sách công ty lớn đầy đủ nhất, giúp ứng viên tìm kiếm một công việc nhanh chóng.
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_dang_tin_trang_vang:
+  - text: Chào bạn nếu bạn muốn đăng tin trên trang vàng tuyển dụng, bạn vui lòng kết bạn với zalo sdt 0904646975 để chuyên viên bên mình sẽ tư vấn ạ
+  utter_hoi_them_trang_vang:
+  - text: Chào bạn bạn truy cập link https://timviec365.vn/trang-vang-doanh-nghiep.html để tìm hiểu thêm ạ
+  utter_thac_mac_tim_viec:
+  - text: Chào bạn, tại thanh công cụ tìm kiếm, bạn chọn " tìm kiếm nâng cao" rồi nhập thông tin tỉnh thành, quận huyện. web sẽ hiển thị kết quả tìm kiếm cho bạn ạ
+  utter_tim_viec_pham_vi:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/tim-viec-lam-quanh-day.html sau đó nhập phạm vi tìm kiếm, web sẽ hiển thị thông tin bạn cần ạ
+  utter_gioi_han_tim_kiem:
+  - text: Chào bạn, web timviec365.vn cho phép bạn tìm kiếm việc làm tối đa phạm vi 20km ạ
+    buttons:
+      - title: Cách tìm việc quanh đây
+        payload: /tim_viec_pham_vi
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+  utter_tim_kiem_quanh_day:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/tim-ung-vien-quanh-day.html để sử dụng tính năng này ạ
+    buttons:
+      - title: Cách tìm việc quanh đây
+        payload: /tim_viec_pham_vi
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+  utter_thong_tin_thu_moi_ung_tuyen:
+  - text: Chào bạn, bạn truy cập link bài viết tham khảo https://timviec365.com/blog/thu-moi-ung-tuyen-new3550.html
+  utter_viet_thu_hoi_hop:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/bieu-mau/giay-moi-hop-cap-nhat-moi-nhat-2018-tl212.html
+  utter_tai_sao_can_thu_hoi_hop:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.vn/blog/thu-moi-hop-phu-huynh-dau-nam-new13695.html
+  utter_thu_hop_tac_english:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/blog/thu-moi-hop-tac-bang-tieng-anh-new13553.html
+  utter_tai_sao_can_thu_gt_cty:
+  - text: Chào bạn, bạn truy cập link bài viết https://timviec365.com/blog/mau-thu-gioi-thieu-nhan-su-moi-new3549.html
+  utter_mau_thu_gioi_thieu:
+  - text: Chào bạn, bạn truy cập link bài viết https://timviec365.vn/bieu-mau/mau-gioi-thieu-cong-ty-tl237.html
+  utter_gui_mail_tl_uv:
+  - text: Chào bạn bạn tham khảo link https://timviec365.vn/mail365/huong-dan-tao-mail.html để tìm hiểu thêm ạ
+  utter_tu_choi_uv:
+  - text: Chào bạn, mời bạn tham khảo link bài viết https://timviec365.com.vn/thu-tu-choi-ung-vien-b322.html
+  utter_thu_nhan_viec:
+  - text: Chào bạn, bạn truy cập link bài viết https://timviec365.com/blog/mau-thu-moi-nhan-viec-new3546.html
+  utter_thu_trung_tuyen:
+  - text: Chào bạn, bạn truy cập link bài viết tham khảo https://timviec365.vn/blog/thu-tra-loi-ket-qua-phong-van-trung-tuyen-new14009.html
+  utter_thu_moi_phong_van:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/cv365/cach-tra-loi-thu-moi-phong-van-cho-ung-vien-moi-tim-viec.html
+  utter_cbi_phong_van:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.vn/cau-hoi-tuyen-dung/khi-di-phong-van-can-chuan-bi-nhung-gi-tl28.html
+  utter_hd_viet_so_yeu_li_lich:
+  - text: Chào bạn, bạn tham khảo link bài viết https://timviec365.vn/cv365/huong-dan-viet-so-yeu-ly-lich-dung-chuan.html
+  utter_sd_so_yeu_li_lich:
+  - text: Chào bạn, bạn hoàn toàn có thể tham khảo các mẫu sơ yếu lý lịch trên mạng giúp cho bộ hồ sơ của bạn hoàn thiện hơn trong mắt NTD ạ
+  utter_can_so_yeu_li_lich:
+  - text: Chào bạn, sơ yếu lí lịch giúp NTD nắm bắt thông tin ứng viên khi tham gia phỏng vấn nên việc chuẩn bị 1 bộ sơ yếu lí lịch là cần thiết bạn nhé
+  utter_danh_may_viet_tay_syll:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.vn/cv365/ung-vien-nen-viet-tay-hay-danh-may-so-yeu-ly-lich.html
+  utter_luu_y_viet_syll:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.net/ho-so-xin-viec-can-nhung-gi-b112.html
+  utter_syll_di_nhat:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.com/blog/so-yeu-ly-lich-di-nhat-new3497.html
+  utter_syll_di_han:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.vn/blog/lam-ho-so-di-han-quoc-new14867.html
+  utter_syll_di_tq:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.com/blog/so-yeu-ly-lich-tieng-trung-new1892.html
+  utter_nop_hs_qua_mang:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.vn/cv365/huong-dan-gui-ho-so-xin-viec-qua-email-hieu-qua.html
+  utter_viet_thu_gui_ntd:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.vn/cv365/cach-gui-cv-qua-mail-chuyen-nghiep-cho-ung-vien-tim-viec.html
+  utter_trinh_do_chinh_tri:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.com/blog/trinh-do-chinh-tri-trong-so-yeu-ly-lich-new3523.html
+  utter_mau_thu_xin_viec:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.vn/cv365/mau-cover-letter-thu-xin-viec
+  utter_vai_tro_thu_xin_viec:
+  - text: Chào bạn, bạn tham khảo bài viết tại link https://timviec365.vn/blog/thu-xin-viec-la-gi-vai-tro-va-chuc-nang-cua-thu-xin-viec-new11243.html
+  utter_them_nguoi_tham_chieu_cv:
+  - text: Chào bạn, trên màn hình hiển thị cv bạn chọn "Thêm Mục" để thêm mục " Người tham chiếu" nếu đã bị ẩn trước đó
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_loi_nguoi_tham_chieu:
+  - text: Chào bạn, bạn phản hồi thông tin về mail timviec365.vn@gmail.com để bên mình kiểm tra CV của bạn nhé
+  utter_can_chinh_cv:
+  - text: Chào bạn, bạn tham khảo các mẫu CV tại https://timviec365.vn/cv-xin-viec ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_kinh_nghiem_viet_cv:
+  - text: Chào bạn, bạn chọn Tìm kiếm Cv theo ngành nghề, lựa chọn ra mẫu CV yêu thích, chọn "sử dụng mẫu này"\nCập nhật đầy đủ thông tin vào CV theo form có sẵn, chọn Lưu và tải về ạ.
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_tao_cv_word_pp:
+  - text: dạ, cả hai cách đều có thể sử dụng nếu bạn cảm thấy phù hợp với bạn ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_tao_cv:
+  - text: "Bạn thao tác các bước sau ạ\n- đăng nhập tài khoản ứng viên( đã kích hoạt)\n- quản lí tài khoản/ thông tin tài khoản\n- Bộ hồ sơ xin việc - CV xin việc\n- chỉnh sửa/ tải/lưu CV/xóa"
+  utter_tao_cv_theo_nganh_nghe:
+  - text: Chào bạn, tại page CV xin việc, bạn chọn Tìm kiếm Cv theo ngành nghề, lựa chọn ra mẫu CV yêu thích, chọn "sử dụng mẫu này"\nCập nhật đầy đủ thông tin vào CV theo form có sẵn, chọn Lưu và tải về ạ.
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_bao_mat_td:
+  - text: Chào bạn, thông tin về nhà tuyển dụng hoàn toàn được bảo mật ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_ntd_thu_hut_uv:
+  - text: Chào bạn, bạn tham khảo thông tin tại link https://timviec365.vn/blog/5-bi-quyet-thu-hut-ung-vien-nha-tuyen-dung-da-biet-chua-new2600.html ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_tim_hieu_tuyen_dung:
+  - text: Chào bạn nếu bạn muốn mua gói điểm , đăng tin tuyển dụng bạn vui lòng kết bạn đến số điện thoại zalo 0904646975 để chuyên viên bên mình sẽ tư vấn ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_tao_TK_ntd:
+  - text: Chào bạn. Nếu bạn là nhà tuyển dụng đang tìm kiếm ứng viên, vui lòng đăng kí tài khoản tại link https://timviec365.vn/dang-ky-nha-tuyen-dung.html
+    buttons:
+    - title: Đăng tin trang vàng
+      payload: /dang_tin_trang_vang
+    - title: Xem thông tin ứng viên
+      payload: /xem_uv
+  utter_dang_tin_free:
+  - text: Chào ban, web hỗ trợ đăng tin là hoàn toàn miễn phí, ngoài ra để hỗ trợ thêm cho công tác tuyển dụng bạn có thể tham khảo dịch vụ bảng giá tại web timviec365.vn hoặc để lại thông tin liên hệ, chuyên viên sẽ gọi điện hỗ trợ trực tiếp ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_dang_tin_hieu_qua:
+  - text: "Chào bạn. Trường hợp của bạn có thể do đăng tin miễn phí, nên tin trôi không nổi bật chỉ hiện thị 1p trên web trang chủ lên ứng viên tìm kiếm k thấy ạ. \nNgoài ra để hỗ trợ thêm cho công tác tuyển dụng bạn có thể tham khảo dịch vụ bảng giá tại web timviec365.vn hoặc để lại thông tin liên hệ, chuyên viên sẽ gọi điện hỗ trợ trực tiếp ạ"
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_ko_dang_dc_tin:
+  - text: Chào bạn. Bạn đã đăng kí tài khoản nhà tuyển dụng trên web chưa ạ
+    buttons:
+      - title: Chưa đăng kí
+        payload: /tao_TK_ntd
+      - title: Đã đăng kí
+        payload: /tim_hieu_tuyen_dung
+  utter_viet_mo_ta:
+  - text: Chào bạn bạn truy cập link https://timviec365.vn/dang-ky-nha-tuyen-dung.html phần viết giới thiệu công ty có hướng dẫn các mục ạ
+    buttons:
+    - title: Đăng tin trang vàng
+      payload: /dang_tin_trang_vang
+    - title: Xem thông tin ứng viên
+      payload: /xem_uv
+  utter_tim_uv:
+  - text: Chào bạn, bạn đang có nhu cầu tuyển nhân viên bạn vui lòng kết bạn đến số điện thoại zalo 0904646975 để chuyên viên bên mình sẽ liên hệ hỗ trợ ạ
+    buttons:
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_goi_dang_tin:
+  - text: Chào bạn, mời bạn tham khảo bảng giá tại link https://timviec365.vn/bang-gia-dich-vu.html
+    buttons:
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_loi_serve:
+  - text: Chào bạn. Bạn chụp màn hình hiển thị của bạn và kết bạn đến số điện thoại zalo 0904646975 để bên mình hỗ trợ ạ
+  utter_dang_ki_tk_timviec:
+  - text: Chào ban. Bạn muốn đăng kí tài khoản ứng viên để tìm việc hay NTD để tuyển nhân viên ạ
+    buttons:
+      - title: Ứng viên
+        payload: /dk_tk_uv
+      - title: Nhà tuyển dụng
+        payload: /tao_TK_ntd
+  utter_dk_tk_uv:
+  - text: bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk ứng viên trên web.
+  utter_dk_tk_app:
+  - text: Chào ban. Bạn tải app timviec tại link https://play.google.com/store/apps/details?id=vn.hungviet.cv365com&hl=vi&gl=US rồi tạo tài khoản ạ
+  utter_ko_up_dc_anh:
+  - text: Chào bạn. Do ảnh quá lưu lượng cho phép, bạn tải lại giúp mình ạ
+    buttons:
+      - title: Đã tải được
+        payload: /happy
+      - title: Chưa tải được
+        payload: /xac_thuc_mail
+  utter_dki_sai_mail:
+  - text: Chào bạn. Bạn gửi thông tin về mail timviec365.vn@gmail.com để kĩ thuật hỗ trợ giúp bạn nhé
+  utter_kich_hoat_mail:
+  - text: Chào bạn, bạn kiểm tra và reload lại một lần nữa nếu mail khích hoạt chưa được gửi tới ạ, bạn check kĩ trong thư rác ạ
+    buttons:
+      - title: Đã nhận được
+        payload: /happy
+      - title: Chưa nhận được
+        payload: /xac_thuc_mail
+  utter_mau_cv:
+  - text: bạn truy cập tmviec365.vn để tìm được mẫu CV phù hợp ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_ko_dang_nhap_dc:
+  - text: Chào bạn, bạn ấn Quên mật khẩu và nhập gmail đăng nhập để đổi mật khẩu ạ
+  utter_sua_mail_dk:
+  - text: Chào bạn, bạn vui lòng đăng kí tài khoản mới ạ, mail đăng kí là đồng bộ hóa trên web ạ
+  utter_xem_cv:
+  - text: dạ được ạ, bạn vào phần Ứng viên để thao tác tải CV của mình lên ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_ko_chon_dc_huyen:
+  - text: Chào bạn, bạn đăng nhập tài khoản và chọn Tìm kiếm nâng cao để tìm kiếm công việc theo quận, huyện, tỉnh thành ạ
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_loi_dang_ki:
+  - text: Chào bạn, bạn vui lòng kiểm tra lại mail và sdt đăng kí ạ
+  utter_bao_mat_inf_uv:
+  - text: Dạ trong trường hợp bạn muốn bảo mật thông tin, bạn có thể ẩn CV ạ
+  utter_ntd_thay_cv:
+  - text: Chào bạn. Tại mục quản lí tài khoản có nút làm mới hồ sơ, bạn click vào đây ạ
+  utter_xac_nhan_email:
+  - text: Chào bạn, phải xác nhận mail để kích hoạt tài khoản ạ
+  utter_tim_kiem_nang_cao:
+  - text: Chào bạn, bạn đăng nhập tài khoản và chọn Tìm kiếm nâng cao để tìm kiếm công việc theo quận, huyện, tỉnh thành ạ
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_tim_ntd:
+  - text: Chào bạn, bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk Ứng viên trên web và chủ động tìm Nhà tuyển dụng phù hợp để nộp hồ sơ online ứng tuyển ạ.
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_sd_app_cham_cong:
+  - text: bạn truy cập https://chamcong.timviec365.vn/ và đăng kí tk dành cho Công ty hoặc Nhân viên ạ
+    buttons:
+      - title: Đăng kí tài khoản
+        payload: /dki_tk
+      - title: Xuất công
+        payload: /xuat_cong
+      - title: Cài đặt ca làm
+        payload: /cai_dat_ca
+  utter_xuat_cong:
+  - text:  dạ có ạ. Bạn vui lòng truy cập  https://chamcong.timviec365.vn/  đăng nhập tài khoản công ty/ nhân viên để theo dõi tình hình chấm công cũng như xuất công nhân viên theo tháng ạ.
+  utter_update_di_muon:
+  - text: dạ app có tự cập nhật số giờ, phút đi muộn ạ
+  utter_gh_nv:
+  - text: dạ app không giới hạn ạ
+  utter_ktra_cham_cong:
+  - text: dạ bạn đăng nhập và chọn mục Xuất Công để xem lại ạ
+  utter_khoang_cach_cham_cong:
+  - text: Chào bạn, khoảng cách chấm công là do công ty thiết lập để giới hạn khoảng cách cho nhân viên, khoảng cách nhỏ nhất là 10m ạ.
+  utter_cham_cong_tai_nha:
+  - text: Chào bạn, vị trí chấm công là do công ty thiết lập và bạn chỉ chấm công được khi ở tại vị trí và trong phạm vi bán kính do công ty của bạn thiết lập nha
+  utter_loi_tai_cty:
+  - text: Bạn vui lòng chụp ảnh lại màn hình và phản hồi thông tin về mail timviec365.vn@gmail.com để chúng tôi hỗ trợ tốt nhất ạ.
+  utter_loi_cham_cong:
+  - text: "Chào bạn,chấm công thành công sẽ dựa trên các yếu tố: nhận diện khuôn mặt, wifi yêu cầu sử dụng khi chấm, vị trí chấm công. Hiện tại ứng dụng thông báo lỗi như nào vậy ạ?\nĐầu tiên bạn kiểm tra lại kết nối mạng của mình nhé ạ. Thứ hai là kiểm tra xem công ty bạn có yêu cầu chấm công bằng wifi mặc định không. hoặc là bạn cập nhật lại dữ liệu khuôn mặt. K thì bạn thử xóa app và tải lại giúp mình nhé ạ."
+  utter_cai_dat_ca:
+  - text: Chào bạn, bạn có thể sử dụng app hoặc truy cập  https://chamcong.timviec365.vn/ để cài đặt ca làm việc tại mục quản lý ca. Bạn cài đặt theo thời gian làm việc của công ty bạn nha
+  utter_app_free:
+  - text: dạ App không mất phí ạ
+    buttons:
+      - title: Sử dụng app chấm công
+        payload: /sd_app_cham_cong
+      - title: Đăng kí tài khoản
+        payload: /dki_tk
+  utter_cham_cong_nv:
+  - text: Bạn đăng nhập tài khoản công ty, ấn vào mục lịch sử điểm danh nhân viên và xuất công để theo dõi chấm công của nhân viên
+  utter_phe_duyet_nv:
+  - text: Bạn đăng nhập tài khoản công ty, sau đó truy cập vào phần quản lý nhân viên, mục chờ duyệt, và phê duyệt tài khoản nhân viên của công ty ạ
+  utter_quyen_truy_cap:
+  - text: Bạn đăng nhập tài khoản công ty, chọn quản lý công ty -> quản lý quyền truy cập để thay đổi quyền tuy cập ạ
+  utter_qli_nv:
+  - text: Bạn đăng nhập tài khoản công ty, chọn mục quản lý nhân viên
+  utter_dki_tk:
+  - text: Bạn tìm hiểu thêm các bước hướng dẫn tại https://chamcong.timviec365.vn/huong-dan.html
+  utter_xem_ca_di_muon_ve_som:
+  - text: Chào bạn, hiện tại trên ứng dụng app có mục đi muộn về sớm tại trang tài khoản, ở đây bạn có thể theo dõi được nhân viên đi muộn về sớm theo tên nhân viên, thời gian muốn theo dõi. Hoặc bạn truy cập tại https://tinhluong.timviec365.vn/ phần "nghỉ phép" có mục đi muộn về sớm của nhân viên ạ
+  utter_duyet_nv_moi:
+  - text: Bạn đăng nhập tài khoản công ty, sau đó truy cập vào phần quản lý nhân viên, mục chờ duyệt, và phê duyệt tài khoản nhân viên của công ty ạ
+  utter_qli_ca_lam:
+  - text: Chào bạn, bạn có thể sử dụng app hoặc truy cập  https://chamcong.timviec365.vn/  hoặc app chấm công 365 để cài đặt ca làm việc tại mục quản lý ca. Tại đây bạn có thể chỉnh sửa ca hoặc xóa ca đã thiết lập
+  utter_gh_phong_ban:
+  - text: Chào bạn, ứng dụng không giới hạn về số lượng phòng ban của công ty ạ
+  utter_xuat_cong_excel:
+  - text: dạ app có xuất công ra file excel ạ
+  utter_ung_tuyen:
+  - text: chào bạn, bạn truy cập timviec365vn để tạo hồ sơ ứng tuyển online và chủ động tìm việc làm ạ
+    buttons:
+      - title: Cách tìm việc quanh đây
+        payload: /tim_viec_pham_vi
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+  utter_cong_an_bac_nam:
+  - text: dạ được bạn nhé
+  utter_muc_tieu_nghe_nghiep:
+  - text: Chào bạn, bạn truy cập link bài viết để tham khảo ạ https://timviec365.vn/blog/muc-tieu-nghe-nghiep-tu-van-vien-new14777.html
+  utter_tinh_cach_cv:
+  - text: Chào bạn, bạn truy cập link bài viết để tham khảo ạ https://timviec365.vn/cv365/tinh-cach-trong-cv.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_so_thich_cv:
+  - text: Chào bạn bạn truy cập link bài viết để tham khảo ạ https://timviec365.vn/cv365/so-thich-trong-CV.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_lam_cv_pp:
+  - text: Chào bạn bạn truy cập link bài viết để tham khảo ạ https://timviec365.vn/cv365/cach-lam-cv-bang-powerpoint.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_hoi_them_cv:
+  - text: Chào bạn, bạn truy cập timviec365.vn để tham khảo về các mẫu CV cho mọi ngành nghề ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_ss_luong:
+  - text: Chào bạn. Bạn vui lòng truy cập link https://timviec365.vn/ssl/so-sanh-luong.html để tham khảo ạ
+  utter_luong_nganh_nghe:
+  - text: Chào bạn. Bạn vui lòng truy cập link https://timviec365.vn/ssl/so-sanh-luong.html Nhập thông tin ngành nghề bạn muốn tra cứu ấn tìm kiếm ạ
+  utter_luong_net_gross:
+  - text: Chào bạn. Bạn truy cập link bài viết https://timviec365.vn/cv365/luong-net-va-luong-gross-la-gi-cach-tinh-luong-net-sang-gross.html ạ
+  utter_tim_viec_theo_h:
+  - text: |-
+      Chào bạn, Nếu bạn là ứng viên muốn tìm kiếm việc làm, bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk Ứng viên trên web.
+      Chọn page https://vieclamtheogio.timviec365.com ; https://vieclamtheogio.timviec365.vn/
+      Nhập tên công việc - Tỉnh thành - Ấn tìm kiếm và web sẽ cho bạn thông tin cần tìm ạ
+  utter_tim_nha_tro:
+  - text: Chào bạn, bạn truy cập link ......................................... để tham khảo phòng trọ tại các quận, huyện khác nhau ạ
+  utter_mua_goi:
+  - text: Chào bạn, bạn để lại thông tin liên hệ qua zalo 0904646975 chuyên viên sẽ gọi điện lại hỗ trợ bạn nhé
+  utter_hoan_diem:
+  - text: Chào bạn, bạn gửi thông tin hồ sơ cần hoàn qua mail timviec365.vn@gmail.com hoặc để lại thông tin liên hệ qua zalo 0904646975 chuyên viên sẽ gọi điện lại hỗ trợ bạn ạ
+  utter_dien_cv_bi_mat:
+  - text: Chào bạn, bạn vào Quản lí CV để xem lại CV nếu bạn đã lưu lại ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_luu_cv_da_tao:
+  - text: Chào bạn, bạn vào Quản lí CV để xem lại CV đã lưu ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_tao_xong_cv_moi_dki:
+  - text: dạ, bạn tạo xong CV thì lưu, tải về ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_sdt_dki_nhieu_tk:
+  - text: dạ không ạ
+    buttons:
+      - title: Cách tìm việc quanh đây
+        payload: /tim_viec_pham_vi
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+  utter_dien_ba_noi_lam_viec:
+  - text: dạ không cần ạ
+    buttons:
+      - title: Cách tìm việc quanh đây
+        payload: /tim_viec_pham_vi
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+  utter_an_tk:
+  - text: Bạn vào Quản lí tài khoản và tắt chức năng cho phép nhà tuyển dụng tìm kiếm ạ
+  utter_chi_tao_cv:
+  - text:  bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk ứng viên trên web và chọn danh mục ứng viên để tải CV ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_an_cv:
+  - text: dạ bạn ẩn CV hoặc xóa để nhà tuyển dụng không làm phiền nữa ạ
+  utter_sdt_bao_loi:
+  - text: Dạ bạn kiểm tra lại số điện thoại xem đã được dùng để tạo tk nào trước đó chưa ạ
+  utter_muc_gt_cty:
+  - text: Chào bạn, bạn điền thông tin bao quát về công ty tối thiểu 50 kí tự ạ
+  utter_tao_ho_so:
+  - text: chào bạn, nếu bạn là ứng viên muốn tìm việc làm,bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk ứng viên trên web và chủ động tạo hồ sơ ứng tuyển online và tìm kiếm việc làm phù hợp
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_app_tim_viec:
+  - text: Bạn truy cập link https://play.google.com/store/apps/details?id=vn.hungviet.cv365com&hl=vi&gl=US để tải App và trải nghiệm ạ
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_xem_tin_dang:
+  - text: Chào bạn, bạn đăng nhập tài khoản NTD ạ, check mục tin đã đăng ak
+    buttons:
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_tim_uv_moi_nhat:
+  - text: Chào bạn, bạn truy cập trang chủ timviec365.vn vào mục tìm ứng viên ạ
+    buttons:
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_tim_uv_quanh_day:
+  - text: Chào bạn, bạn đăng nhập tài khoản NTD chọn Quản lí tài khoản - Tìm kiếm ưng viên - Tìm kiếm ưng viên quanh đây ạ
+    buttons:
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_xem_uv :
+  - text: "Chào bạn, bạn làm theo các bước sau:\n- Đăng nhập tk NTD\n- Quản lí tk\n- Quản lí hồ sơ\n- Hồ sơ ưng viên đã lưu"
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_ko_xem_dc_cv_uv:
+  - text: Chào bạn, bạn đã có tài khoản nhà tuyển dụng chưa ạ .
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+  utter_doi_mk_tk_uv:
+  - text: chào bạn, bạn đăng nhập tài khoản ứng viên chọn quản lí tài khoản, ấn đổi mật khẩu ạ
+  utter_doi_mk_tk_ntd:
+  - text: Chào bạn, bạn chọn đăng nhập tài khoản đăng nhập Ưng viên/Nhà tuyển dụng. Ấn quên mật khẩu để lấy lại mk ạ
+  utter_quen_mk:
+  - text: Chào bạn, bạn chọn đăng nhập tài khoản đăng nhập Ưng viên/Nhà tuyển dụng. Ấn quên mật khẩu để lấy lại mk ạ
+  utter_qli_inf_ntd:
+  - text: chào bạn, bạn đăng nhập tài khoản NTD chọn quản lí tài khoản ạ
+  utter_cau_hoi_td:
+  - text: Chào bạn, bạn tham khảo link bài viết tại web https://timviec365.vn/cau-hoi-tuyen-dung ạ
+  utter_tin_dang_het_han:
+  - text: Chào bạn, bạn tìm kiếm các tin tuyển dụng khác ạ
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_danh_gia_chuyen_vien:
+  - text: Dạ nếu bạn muốn đổi người hỗ trợ, hoặc hài lòng và không hài lòng gì về hỗ trợ viên thì bạn đánh giá hỗ trợ viên đó ạ
+  utter_sl_tren_web:
+  - text: Dạ số liệu trên web là đúng ạ
+  utter_ko_tl:
+  - text: Chào bạn, bạn kết bạn qua zalo 0904646975 chuyên viên liên hệ lại với bạn nhé
+  utter_khieu_nai_ho_tro_vien:
+  - text: Bạn đăng nhập tk nhà tuyển dụng và đánh giá hỗ trợ viên đó ạ.
+  utter_de_nghi_hoan_tien:
+  - text: Chào bạn, bạn phản hồi thông tin cho mình qua timviec365.vn@gmail.com hoặc phản ánh qua zalo 0904646975 để hỗ trợ viên chủ động liên hệ lại ạ
+  utter_web_ko_ho_tro:
+  - text: dạ web không hỗ trợ dịch vụ này ạ
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+      - title: Tham khảo lương
+        payload: /luong_tinh_thanh
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tìm nhà trọ
+        payload: /tim_nha_tro
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+      - title: Phản hồi trực tiếp lỗi
+        payload: /loi_nguoi_tham_chieu
+  utter_qli_tin_dang:
+  - text: Chào bạn, bạn vào quản lí chung mục đăng tin ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_cach_dang_tin_free:
+  - text: Chào bạn, bạn đăng kí tài khoản NTD, chọn đăng tin tuyển dụng ạ
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_tao_banner_quang_cao:
+  - text: Chào bạn, bạn vui lòng kết bạn với zalo 0904646975 để chuyên viên bên mình sẽ tư vấn nhé
+  utter_lam_ctv:
+  - text: Chào bạn, bạn truy cập link đăng kí tài khoản dành cho CTV https://timviec365.vn/ctv-dang-ky.html
+  utter_cach_giao_dich:
+  - text: Chào bạn, bạn vui lòng kết bạn với zalo 0904646975 để chuyên viên bên mình sẽ tư vấn nhé
+  utter_den_vp_trao_doi:
+  - text: Chào bạn, bạn vui lòng kết bạn với zalo 0904646975 để bên mình tư vấn nhé
+  utter_lay_lai_tk_nhan_su_cu:
+  - text: Chào bạn, bạn gửi thông tin qua mail timviec365.vn@gmail.com hoặc để lại thông tin liên hệ qua zalo 0904646975 để bên mình tư vấn nhé
+  utter_them_chi_nhanh_cty:
+  - text: Chào bạn, bạn thêm địa chỉ công ty vào phần tên công ty hoặc liên hệ qua zalo 0904646975 chuyên viên hỗ trợ bạn tạo tk ạk
+  utter_gt_ntd:
+  - text: Chào bạn, bạn vui lòng liên hệ qua zalo 0904646975 để chuyên viên bên mình sẽ tư vấn ạ
+  utter_nhap_tt_tt_uv:
+  - text: Chào bạn, bạn vui lòng liên hệ qua zalo 0904646975 để chuyên viên bên mình sẽ tư vấn ạ
+  utter_dang_tai_inf_uv:
+  - text: bạn vui lòng truy cập https://timviec365.vn/dang-ky-ung-vien.html để tạo tk ứng viên trên web và tạo hồ sơ ứng tuyển online ạ
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_uu_dai_ctv:
+  - text: bạn tham khảo bài viết để hiểu rõ hơn về việc làm cộng tác viên ạ https://timviec365.vn/cong-tac-vien.html
+    buttons:
+      - title: Đăng kí làm cộng tác viên
+        payload: /lam_ctv
+  utter_nop_ho_qua_mang_ko:
+  - text: Chào bạn, bạn tham khảo bài viết dưới đây ạ https://timviec365.com/blog/co-nen-nop-ho-so-xin-viec-qua-mang-new3405.html
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_dam_phan_cty:
+  - text: Chào bạn, bạn muốn đàm phán về vấn đề gì ạ . Bạn gửi thông tin qua mail timviec365.vn@gmail.com hoặc để lại thông tin liên hệ qua zalo 0904646975 bên mình sẽ hỗ trợ cho bạn nhé
+  utter_tinh_luong_theo_ngay_cong:
+  - text: Chào bạn, bạn truy cập link bài viết https://timviec365.vn/blog/cach-tinh-luong-theo-ngay-cong-new5787.html
+  utter_cach_viet_ho_so:
+  - text: Chào bạn, bạn tham khảo cách viết tại link https://timviec365.vn/blog/c41/cach-viet-don-xin-viec
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_don_xin_viec_word:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/cv365/mau-don-xin-viec; https://timviec365.vn/cv365/mau-don-xin-viec-file-word.html tham khảo của web ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_don_ung_tuyen:
+  - text: Chào bạn, bạn truy cập link https://timviec365.vn/cv365/don-ung-tuyen-la-thu-vu-khi-loi-hai-khong-the-thieu-trong-ho-so-xin-viec.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_lai_xe_xep_can_bang_ko:
+  - text: Chào bạn, bạn có thể tham khảo tại link https://timviec365.vn/blog/giai-dap-thac-mac-lai-xe-cho-sep-co-can-bang-cap-khong-new12189.html#:~:text=%C4%90%E1%BB%91i%20v%E1%BB%9Bi%20c%C3%B4ng%20vi%E1%BB%87c%20l%C3%A1i,v%C3%A0%20tr%C3%ACnh%20%C4%91%E1%BB%99%20h%E1%BB%8Dc%20v%E1%BA%A5n.
+  utter_ko_ho_tro_ship:
+  - text: Chào bạn, Đây là web hỗ trợ tuyển dụng. Bạn tham khảo bài viết và tìm kiếm thêm bộ phận chuyên môn để hỗ trợ bạn nhé.
+    buttons:
+      - title: Tìm việc làm
+        payload: /tim_viec
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+      - title: Tham khảo lương
+        payload: /luong_tinh_thanh
+      - title: Tìm việc làm theo giờ
+        payload: /tim_viec_theo_h
+      - title: Tìm nhà trọ
+        payload: /tim_nha_tro
+      - title: Tải app tìm việc
+        payload: /app_tim_viec
+  utter_thu_xin_viec_tieng_nhat:
+  - text: "Chào bạn, bạn có thể tham khảo 1 số bài viết: https://timviec365.com/blog/thu-xin-viec-tieng-nhat-new1783.html; https://timviec365.vn/blog/bi-kip-viet-thu-xin-viec-tieng-nhat-bat-bai-cho-ung-vien-new11125.html; https://timviec365.net/mau-cv-tieng-nhat"
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_thu_xin_viec_tieng_trung:
+  - text: "Chào bạn, bạn truy cập link bài viết https://timviec365.vn/blog/don-xin-viec-bang-tieng-trung-new10899.html"
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_thu_xin_viec_tieng_anh:
+  - text: Chào bạn, bạn truy cập link bài viết https://timviec365.vn/cv365/huong-dan-cach-viet-thu-xin-viec-bang-tieng-anh-chi-tiet.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_viet_cover_letter_english:
+  - text: Chào bạn, bạn truy cập link bài viết tham khảo https://timviec365.vn/blog/cover-letter-xin-thuc-tap-new11083.html
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_xin_viec_lai_xe:
+  - text: Chào bạn, Bạn truy cập link bài viết https://timviec365.vn/blog/ho-so-xin-viec-lai-xe-new11073.html tham khảo ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_thu_xin_viec_qua_mail:
+  - text: Chào bạn, Bạn truy cập link https://timviec365.vn/blog/mach-ban-cach-viet-thu-xin-viec-qua-email-chuan-xac-thu-hut-ntd-new11063.html để biết thêm thông tin chi tiết ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_mua_ho_so_xin_viec:
+  - text: Chào bạn, bạn ra tiệm tạp hóa hoặc các cửa hàng, hiệu sách gần nơi bạn là có ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_viet_mau_ho_so_co_san:
+  - text: Chào bạn, bạn tham khảo link bài viết https://timviec365.vn/blog/mau-ho-so-xin-viec-viet-san-new14871.html nhé
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_download_mau_ho_so_mail:
+  - text: Chào bạn, bạn tham khảo bài viết https://timviec365.vn/cv365/download-mau-ho-so-xin-viec-qua-email.html ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_cv_bach_hoa_xanh:
+  - text: "Chào bạn!\nBạn đang truy cập chat cùng timviec365.vn\nBạn tham khảo tại link bài viết: https://timviec365.com/blog/kinh-nghiem-phong-van-tai-bach-hoa-xanh-new554.html"
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_ng_mau_nhi:
+  - text: "Chào bạn, bạn đang truy cập chat cùng timviec365.vn\nBạn tham khảo link bài viết https://timviec365.vn/tag7/DS-viec-lam-tuyen-dung-nguoi-mau-anh-nhi-2021 để có thẻ tìm kiếm công việc phù hợp ạ"
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_kq_sau_pv:
+  - text: "Chào bạn!\nBạn đang truy cập chat cùng timviec365.vn\nCông ty bạn tham gia phỏng vấn sẽ liên hệ lại nếu hồ sơ của bạn là phù hợp  với tiêu chí công ty ạ"
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_bang_diem_trong_hs:
+  - text: Chào bạn, hồ sơ có hoặc không có bảng điểm còn tùy thuộc vào yêu cầu Công ty bạn tham gia ứng tuyển ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_cong_chung_giay_to:
+  - text: Chào bạn, bạn nên đi công chứng giấy tờ ạ
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_giay_xac_nhan_nhan_than:
+  - text: "Chào bạn, bạn tham khảo các mẫu tại link: https://timviec365.vn/blog/mau-giay-xac-nhan-nhan-than-de-xin-viec-new4959.html"
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_mk_len_web:
+  - text: Chào bạn, mật khẩu file giải nén là cv365 ạ
+  utter_mau_bao_cao_cv:
+  - text: Chào bạn, bạn truy cập link để tải https://timviec365.vn/bieu-mau/mau-bao-cao-cong-viec-tl218.html
+  utter_giay_kham_sk:
+  - text: Chào bạn, bạn tham khảo bài viết https://timviec365.vn/blog/giay-kham-suc-khoe-xin-viec-new3287.html
+  utter_hoc_qtkd_ra_lam_gi:
+  - text: Chào bạn, bạn truy cập link tham khảo thông tin https://timviec365.vn/blog/hoc-quan-tri-kinh-doanh-ra-lam-gi-new4591.html
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_xac_thuc_mail:
+  - text: Chào bạn,  bạn để lại thông tin liên hệ qua zalo 0904646975 chuyên viên sẽ gọi điện lại hỗ trợ bạn nhé
+  utter_xem_sdt_uv:
+  - text: Chào bạn,  bạn để lại thông tin liên hệ qua zalo 0904646975 chuyên viên sẽ gọi điện lại hỗ trợ bạn nhé
+  utter_mau_so_yeu_li_lich:
+  - text: Chào bạn, bạn tham khảo bài viết tại https://timviec365.vn/cv365/mau-so-yeu-ly-lich
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+  utter_gioi_han_dang_tin:
+  - text: Chào bạn, tin đăng là không giới hạn, mỗi tin đăng cách nhau 20p ạ
+  utter_tim_inf_uv:
+  - text: Chào bạn, bạn đang có nhu cầu xem thông tin ứng viên , tuyển nhân viên bạn vui lòng để lại thông tin zalo 0904646975 để chuyên viên bên mình sẽ liên hệ hỗ trợ nhé
+    buttons:
+      - title: Đăng kí tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Đăng tin trang vàng
+        payload: /dang_tin_trang_vang
+  utter_dki_cv_time_ntd_lh:
+  - text: bạn ứng tuyển vào công việc phù hợp với mình ở trên website. nếu công ty nào thấy CV của bạn phù hợp với họ thì họ sẽ liên hệ với bạn ạ.
+    buttons:
+      - title: Tìm việc
+        payload: /tim_viec
+      - title: Tìm kiếm quanh đây
+        payload: /tim_kiem_quanh_day
+  utter_luu_cv_da_cu:
+  - text: Bạn gửi cho mình hình ảnh CV bạn tạo, ảnh CV bạn tải về và email của bạn về email timviec365.vn@gmail.com hoặc bạn liên hệ qua zalo 0904646975 để bên mình hỗ trợ nhé .
+    buttons:
+      - title: Tạo cv theo ngành nghề
+        payload: /tao_cv_theo_nganh_nghe
+      - title: Chỉnh sửa , tải , lưu cv
+        payload: /tao_cv
+
+  utter_ko_dki_dc_tk:
+  - text: Bạn liên hệ qua zalo 0904646975 để bên mình hỗ trợ nhé .
+    buttons:
+      - title: Tạo tài khoản nhà tuyển dụng
+        payload: /tao_TK_ntd
+      - title: Xem thông tin ứng viên
+        payload: /xem_uv
+  utter_bao_loi_mua_the:
+  - text: Chào bạn, bạn đang mua loại thẻ gì bị lỗi ạ . Bạn gửi mail vào mail binhminhmta123@gmail.com để được hỗ trợ trực tiếp nhé
+  utter_cach_mua_the:
+  - text: |-
+      Bạn dùng internet banking hoặc ra quầy chuyển tiền mặt vào ngân hàng của web để có tiền trên web mua thẻ nhé
+      Bạn làm các thao tác sau để mua thẻ nhé ạ
+      B1: Đăng kí tài khoản thành viên tại banthe247.com
+      B2: Chuyển khoản ngân hàng (tối thiểu 50k) với nội dung: [tài khoản mail] - mua thẻ cào web ... bắt buộc phải có
+      B3: Đăng nhập tk thành viên để mua thẻ
+      B4: Nhận mã thẻ + seri tại gmail
+  utter_loi_nap_the:
+  - text: chào bạn, sđt bạn nạp là gì ạ . Bạn gửi mail cho bên mình để được giúp đỡ nhé
+  utter_dai_ly_the:
+  - text: " Chào bạn. Bạn đăng kí tài khoản tại trang web để làm đại lý ạ .Bạn truy cập link : https://banthe247.com/chiet-khau để tham khảo nhé "
+  utter_phan_anh_loi:
+  - text: Chào bạn, bạn cung cấp biên lai chuyển khoản vào gmail để kế toán kiểm tra giúp bạn nhé .
+  utter_loi_dang_nhap:
+  - text: |-
+      Khách hàng    : ..............................
+      Email tài khoản: ............................
+      Website bạn mua thẻ : .............................
+      Mật khẩu mới  : .............................
+      (*) Bạn gửi các thông tin này vào mail binhminhmta123@gmail.com để kĩ thuật hỗ trợ đổi mật khẩu cho bạn ạ.
+  utter_khong_ho_tro:
+  - text: |-
+      Chào bạn, Web không hỗ trợ dịch vụ này ạ . Bạn có thể tham khảo chức năng sau :
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+  utter_tich_hop_API:
+  - text: |-
+      https://banthe247.com/tich-hop
+      đây là tài liệu của web
+      bạn đăng kí tk thành viên
+      sau đó chuyển tiền vào web
+      để mua thẻ ạ
+  utter_mua_the_game:
+  - text: Chào bạn, bạn đăng kí tài khoản thành viên trên web và chuyển tiền vào stk của web để mua thẻ ạ
+  utter_the_web_khong_ho_tro:
+  - text: |-
+      Chào bạn, web không hỗ trợ thẻ này ạ . Bạn có thể tham khảo chức năng sau :
+    buttons:
+        - title: Tư vấn trực tiếp
+          payload: /kh_xin_sdt
+        - title: Cách mua thẻ
+          payload: /cach_mua_the
+        - title: Xem chiết khấu trang web
+          payload: /chiet_khau
+  utter_mua_the_cao:
+  - text: Bạn cho mình xin đơn hàng vào mail binhminhmta123@gmail.com để bên mình liên hệ báo giá cho bạn nhé
+  utter_dang_ki_tk:
+  - text: 'Bạn truy cập ô Đăng kí ở góc phải màn hình, điền đầy đủ thông tin yêu cầu trên web, sau đó vào mail kích hoạt tk để đăng nhập mua thẻ '
+  utter_mk_ko_hop_le:
+  - text: Mật khẩu bao gồm từ 8 ký tự, phải chứa ít nhất 1 chữ thường, 1 chữ hoa và số, không bao gồm ký tự đặc biệt
+  utter_sdt_ko_hop_le:
+  - text: Bạn điền đầy đủ thông tin sđt viết liền k có kí tự đặc biệt ạ
+  utter_bao_loi_qua_gmail:
+  - text: Bạn gửi cho mình xin mail của bạn vào mail binhminhmta123@gmail.com để bên mình kiểm tra nhé
+  utter_gia_chiet_khau:
+  - text: ' Giá chiết khấu bh là 0% ạ '
+  utter_uy_tin:
+  - text: Chào bạn, web hoạt động trong lĩnh vực thẻ rất nhiều năm và hoàn toàn uy tín ạ, bạn thử trải nghiệm dịch vụ trên web để cảm nhận ạ
+  utter_dich_vu_khong_ho_tro:
+  - text: Chào bạn, Web không hỗ trợ dịch vụ đó ạ. Nếu bạn có nhu cầu mua thẻ điện thoại, thẻ game thanh toán bằng tài khoản ngân hàng thì tham khảo nhé.
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+  utter_dk_internetbanking:
+  - text: |-
+      Chào bạn, bạn đang truy cập website ... chuyên bán thẻ cào điện thoại, thẻ game thanh toán bằng tk ngân hàng, không hỗ trợ dịch vụ này ạ.
+      Bạn vui lòng ra chi nhánh gần nhất của ngân hàng để được hỗ trợ ạ
+  utter_ko_ho_tro_game:
+  - text: Chào bạn, website chuyên bán thẻ cào điện thoại, thẻ game; không hỗ trợ game ạ
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+  utter_ki_tu_dacbiet:
+  - text: Chào bạn. Bạn bỏ kí tự đặc biệt đi là được ạ
+  utter_tuyen_ctv:
+  - text: " Chào bạn. Bạn đăng kí tài khoản mua thẻ tại web .... để trở thanh cộng tác viên của web ạ"
+  utter_ho_tro_allday:
+  - text: Chào bạn, website hỗ trợ mua thẻ 24/24. Bạn đã nạp tiền vào tài khoản web để mua thẻ chưa ạ?
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+  utter_thanh_toan_the_ngan_hang:
+  - text: Chào bạn, web bán thẻ thanh toán bằng tk Ngân hàng chuyển vào ạ
+  utter_hoi_CSKH:
+  - text: Chào bạn, bạn đang liên hệ website banthe247.com ( banthe24h.vn ; muathe123.vn; muathe24h.vn; napthe365.com) , bạn liên hệ tổng đài nhà mạng đang sử dụng để được hỗ trợ a
+  utter_phuong_thuc_thanh_toan:
+  - text: Chào bạn, bạn đang sử dụng phương thức thanh toán gì ạ? Bạn gửi vào mail binhminhmta123@gmail.com để bên mình hỗ trợ nhé
+  utter_chuyen_tien_ko_nhan_dc_the:
+  - text: Chào bạn, bạn đăng nhập tài khoản mua thẻ tại web banthe247.com ( banthe24h.vn ; muathe123.vn; muathe24h.vn; napthe365.com) , sau đó thao tác mua thẻ trực tiếp. Thông tin thẻ được gửi tự động về mail khi giao dịch thanh toán thành công ạ
+  utter_loi:
+  - text: Chào bạn, màn hình của bạn hiển thị thông báo gì ạ? Bạn gửi thông tin về mail binhminhmta123@gmail.com cho mình để bên mình hỗ trợ nhé
+  utter_ko_thanh_toan_dc:
+  - text: Chào bạn, bạn đang sử dụng hình thức thanh toán gì ạ?
+    buttons:
+      - title: Tư vấn trực tiếp
+        payload: /kh_xin_sdt
+      - title: Cách mua thẻ
+        payload: /cach_mua_the
+      - title: Xem chiết khấu trang web
+        payload: /chiet_khau
+  utter_loi_khi_mua_the:
+  - text: Chào bạn, bạn chờ chút để mình kiểm tra ạ
+  utter_loi_he_thong:
+  - text: Chào bạn, hệ thống báo lỗi gì ạ? Bạn gửi thông tin về mail binhminhmta123@gmail.com cho mình để bên mình hỗ trợ nhé
+  utter_loi_giao_dich:
+  - text: Chào bạn, bạn đang thực hiện giao dịch gì bị lỗi ạ? Bạn gửi thông tin về mail binhminhmta123@gmail.com cho mình để bên mình hỗ trợ nhé
+  utter_khoa_tai_khoan:
+  - text: Chào bạn, tài khoản bạn đăng kí tại trang web nào ạ? . Bạn gửi thông tin về mail binhminhmta123@gmail.com cho bên mình để được hỗ trợ nhé
+  utter_mua_nhieu_the_mot_luc:
+  - text: Chào bạn, bạn có tài khoản mua thẻ tại web banthe247.com chưa ạ? Nếu chưa có bạn có thể đăng kí để mua thẻ nhé
+  utter_nhan_ma_khi_dang_ki:
+  - text: Chào bạn, gmail đăng kí tài khoản tại web banthe247.com của bạn là gì ạ? Bạn gửi thông tin về mail binhminhmta123@gmail.com cho mình để bên mình hỗ trợ nhé
+  utter_nhan_ma_khi_dang_nhap:
+  - text: Chào bạn, tài khoản mail của bạn là gì ạ? Bạn gửi vào mail binhminhmta123@gmail.com cho mình để bên mình hỗ trợ nhé
+  utter_nhan_ma_the_cao:
+  - text: Chào bạn, thẻ cào sau khi mua sẽ được gửi thông tin về mail nhé
+  utter_mua_may_in:
+  - text: 'Chào bạn, Bạn có thể mua các loại máy in card điện thoại này trực tiếp tại các cửa hàng và các chi nhánh phân phối của các công ty phần mềm viễn thông để đảm bảo an toàn. Ngoài ra, bạn còn có thể mua máy in card điện thoại bằng hình thức trực tuyến trên các trang thương mại điện tử như: Shopee, tiki, bigbuy,...và các trang thương mại điện tử khác. '
+  utter_khac_nhau_thanh_toan:
+  - text: Chào bạn, hiện tại web không hỗ trợ hình thức thanh toán trực tuyến, bạn vui lòng đăng kí tài khoản tại web .... sau đó nạp tiền để mua thẻ ạ
+  utter_tai_phan_mem_may_in:
+  - text: Chào bạn. bạn truy cập link...
+  utter_in_the_ko_thanh_cong:
+  - text: Chào bạn, bạn đang in thẻ nhà mạng gì ạ . Bạn cung cấp thông tin lỗi qua mail binhminhmta123@gmail.com để bên mình hỗ trợ nhé
+  utter_sua_doi_inf_may_in:
+  - text: Chào bạn, bạn cung cấp thông tin qua mail binhminhmta123@gmail.com để kĩ thuật web hỗ trợ bạn ạ
+  utter_chua_nhan_dc_the:
+  - text: Chào bạn, bạn check mail để nhận thông tin thẻ đã mua ạ
+  utter_the_chi_co_seri:
+  - text: Chào bạn, bạn mua thẻ ở địa chỉ nào ạ
+  utter_ko_vao_dc_gmail:
+  - text: chào bạn, mail này bạn đã đăng kí tài khoản tại website ... chưa ạ
+    buttons:
+      - title: Chưa đăng kí
+        payload: /cach_mua_the
+      - title: Đã đăng kí
+        payload: /loi_dang_nhap
+  utter_dk_sai_gmail:
+  - text: Bạn đăng kí lại ạ
+  utter_kich_hoat_tai_khoan:
+  - text: Bạn kiểm tra lại mail đăng kí của mình ạ. có thể ở mục thư rác hoặc spam đó ạ
+  utter_ko_gui_dc_yc_chuyen_tien:
+  - text: Chào bạn, bạn gửi biên lai chuyển khoản vào gmail để kế toán kiểm tra giúp bạn nhé
+  utter_ko_login_dc:
+  - text: bạn check mail đăng kí để nhận link kích hoạt ạ
+  utter_bao_mat:
+  - text: |-
+      security là một đoạn mã code dành cho khách hàng có nhu cầu kết nối API mua thẻ tự động ạ.
+      Nếu cần đấu API mà đoạn security mình không biết nhập gì :
+      (*) Bạn gửi các thông tin này vào mail banthe2901@gmail.com để kĩ thuật hỗ trợ gửi bạn ạ
+      Khách hàng : ..............................
+      Email tài khoản: ............................
+      Website đăng ký : .............................
+  utter_noi_gui_inf_the:
+  - text: Dạ, seri và mã thẻ sẽ được gửi qua email nhé ạ.
+  utter_check_lai_loi:
+  - text: Bên mình sẽ phản hồi sớm nhất ạ
+  utter_nap_the_tra_sau:
+  - text: Bên mình sẽ chuyển khoản trước để mua thẻ bạn ạ
+  utter_API_domain:
+  - text: 1 API chỉ sử dụng được 1 domain thôi ạ
+  utter_doi_mk_ko_login_dc:
+  - text: Bạn gửi mail của bạn cho mình nhé
+  utter_viet_tat_nha_mang:
+  - text: Dạ, đó là ký hiệu chung rồi ạ . VMS là thẻ mobi ạ, VNM là Vietnammobile ạ , ....
+  utter_the_game:
+  - text: "bên mình có những loại thẻ game sau ạ: Gar, Zing, FPT, GATE ạ"
+  utter_time_sd_the:
+  - text: giá trị của thẻ hay hạn sử dụng từ 3 đến 5 năm
+  utter_kh_xin_sdt:
+  - text: Chào bạn, mình gửi bạn số tele 0971412658. Bạn add số này để bên mình hỗ trợ kết nối nhé ạ
+  utter_nap_tien_tai_web:
+  - text: "Chào bạn để nạp tiền vào web bạn chuyển khoản ngân hàng (tối thiểu 50k) với nội dung: [tài khoản mail] - mua thẻ cào web ... (*) "
+
+actions:
+- utter_great
+- utter_goodbye
+- utter_happy
+- utter_unhappy
+- utter_surprise
+- utter_thanks
+- utter_scold
+- utter_ask_author
+- utter_goodnight
+- utter_how_are_u
+- utter_wait_name
+- utter_how_old
+- action_time
+- utter_tim_viec
+- utter_hoi_chuyen_nganh
+- utter_tim_viec_trang_vang
+- utter_dang_tin_trang_vang
+- utter_hoi_them_trang_vang
+- utter_thac_mac_tim_viec
+- utter_tim_viec_pham_vi
+- utter_gioi_han_tim_kiem
+- utter_tim_kiem_quanh_day
+- utter_thong_tin_thu_moi_ung_tuyen
+- utter_viet_thu_hoi_hop
+- utter_tai_sao_can_thu_hoi_hop
+- utter_thu_hop_tac_english
+- utter_tai_sao_can_thu_gt_cty
+- utter_mau_thu_gioi_thieu
+- utter_gui_mail_tl_uv
+- utter_tu_choi_uv
+- utter_thu_nhan_viec
+- utter_thu_trung_tuyen
+- utter_thu_moi_phong_van
+- utter_cbi_phong_van
+- utter_mau_so_yeu_li_lich
+- utter_hd_viet_so_yeu_li_lich
+- utter_sd_so_yeu_li_lich
+- utter_can_so_yeu_li_lich
+- utter_danh_may_viet_tay_syll
+- utter_luu_y_viet_syll
+- utter_syll_di_nhat
+- utter_syll_di_han
+- utter_syll_di_tq
+- utter_nop_hs_qua_mang
+- utter_viet_thu_gui_ntd
+- utter_trinh_do_chinh_tri
+- utter_mau_thu_xin_viec
+- utter_vai_tro_thu_xin_viec
+- utter_them_nguoi_tham_chieu_cv
+- utter_loi_nguoi_tham_chieu
+- utter_kinh_nghiem_viet_cv
+- utter_can_chinh_cv
+- utter_tao_cv_word_pp
+- utter_tao_cv
+- utter_tao_cv_theo_nganh_nghe
+- utter_bao_mat_td
+- utter_ntd_thu_hut_uv
+- utter_tim_hieu_tuyen_dung
+- utter_tao_TK_ntd
+- utter_dang_tin_free
+- utter_gioi_han_dang_tin
+- utter_dang_tin_hieu_qua
+- utter_ko_dang_dc_tin
+- utter_viet_mo_ta
+- utter_tim_uv
+- utter_goi_dang_tin
+- utter_tim_inf_uv
+- utter_loi_serve
+- utter_dang_ki_tk
+- utter_dk_tk_uv
+- utter_dk_tk_app
+- utter_ko_up_dc_anh
+- utter_dki_sai_mail
+- utter_kich_hoat_mail
+- utter_mau_cv
+- utter_ko_dang_nhap_dc
+- utter_xem_cv
+- utter_ko_chon_dc_huyen
+- utter_loi_dang_ki
+- utter_bao_mat_inf_uv
+- utter_ntd_thay_cv
+- utter_xac_nhan_email
+- utter_tim_kiem_nang_cao
+- act_unknown
+- utter_tim_ntd
+- utter_xuat_cong
+- utter_update_di_muon
+- utter_gh_nv
+- utter_ktra_cham_cong
+- utter_khoang_cach_cham_cong
+- utter_cham_cong_tai_nha
+- utter_loi_tai_cty
+- utter_loi_cham_cong
+- utter_cai_dat_ca
+- utter_app_free
+- utter_cham_cong_nv
+- utter_phe_duyet_nv
+- utter_quyen_truy_cap
+- utter_qli_nv
+- utter_dki_tk
+- utter_xem_ca_di_muon_ve_som
+- utter_duyet_nv_moi
+- utter_qli_ca_lam
+- utter_gh_phong_ban
+- utter_xuat_cong_excel
+- utter_ung_tuyen
+- utter_cong_an_bac_nam
+- utter_muc_tieu_nghe_nghiep
+- utter_tinh_cach_cv
+- utter_so_thich_cv
+- utter_lam_cv_pp
+- utter_hoi_them_cv
+- utter_ss_luong
+- action_luong_tinh_thanh
+- utter_luong_nganh_nghe
+- utter_luong_net_gross
+- utter_tim_viec_theo_h
+- utter_tim_nha_tro
+- utter_mua_goi
+- utter_hoan_diem
+- utter_dien_cv_bi_mat
+- utter_luu_cv_da_tao
+- utter_tao_xong_cv_moi_dki
+- utter_sdt_dki_nhieu_tk
+- utter_dien_ba_noi_lam_viec
+- utter_an_tk
+- utter_chi_tao_cv
+- utter_an_cv
+- utter_sdt_bao_loi
+- utter_muc_gt_cty
+- utter_tao_ho_so
+- utter_sd_app_cham_cong
+- utter_app_tim_viec
+- utter_xem_tin_dang
+- utter_tim_uv_moi_nhat
+- utter_tim_uv_quanh_day
+- utter_xem_uv
+- utter_ko_xem_dc_cv_uv
+- utter_doi_mk_tk_uv
+- utter_doi_mk_tk_ntd
+- utter_quen_mk
+- utter_qli_inf_ntd
+- utter_cau_hoi_td
+- utter_tin_dang_het_han
+- utter_danh_gia_chuyen_vien
+- utter_sl_tren_web
+- utter_ko_tl
+- utter_khieu_nai_ho_tro_vien
+- utter_de_nghi_hoan_tien
+- utter_web_ko_ho_tro
+- utter_qli_tin_dang
+- utter_cach_dang_tin_free
+- utter_tao_banner_quang_cao
+- utter_lam_ctv
+- utter_cach_giao_dich
+- utter_den_vp_trao_doi
+- utter_lay_lai_tk_nhan_su_cu
+- utter_them_chi_nhanh_cty
+- utter_gt_ntd
+- utter_nhap_tt_tt_uv
+- utter_dang_tai_inf_uv
+- utter_uu_dai_ctv
+- utter_nop_ho_qua_mang_ko
+- utter_dam_phan_cty
+- utter_tinh_luong_theo_ngay_cong
+- utter_cach_viet_ho_so
+- utter_don_xin_viec_word
+- utter_don_ung_tuyen
+- utter_lai_xe_xep_can_bang_ko
+- utter_ko_ho_tro_ship
+- utter_thu_xin_viec_tieng_nhat
+- utter_thu_xin_viec_tieng_trung
+- utter_thu_xin_viec_tieng_anh
+- utter_viet_cover_letter_english
+- utter_xin_viec_lai_xe
+- utter_thu_xin_viec_qua_mail
+- utter_mua_ho_so_xin_viec
+- utter_viet_mau_ho_so_co_san
+- utter_download_mau_ho_so_mail
+- utter_cv_bach_hoa_xanh
+- utter_ng_mau_nhi
+- utter_kq_sau_pv
+- utter_bang_diem_trong_hs
+- utter_cong_chung_giay_to
+- utter_giay_xac_nhan_nhan_than
+- utter_mk_len_web
+- utter_mau_bao_cao_cv
+- utter_giay_kham_sk
+- utter_hoc_qtkd_ra_lam_gi
+- utter_xac_thuc_mail
+- utter_xem_sdt_uv
+- action_viec_lam_thcs
+- utter_dki_cv_time_ntd_lh
+- utter_luu_cv_da_cu
+- utter_great_timviec
+- action_chiet_khau
+- action_doi_tac
+- action_hoi_gia
+- action_lien_he_tong_dai
+- action_tai_ung_dung_mua_the
+- utter_API_domain
+- utter_bao_loi_mua_the
+- utter_bao_loi_qua_gmail
+- utter_bao_mat
+- utter_cach_mua_the
+- utter_chua_nhan_dc_the
+- utter_chuyen_tien_ko_nhan_dc_the
+- utter_dai_ly_the
+- utter_dang_ki_tk_timviec
+- utter_dich_vu_khong_ho_tro
+- utter_dk_internetbanking
+- utter_dk_sai_gmail
+- utter_doi_mk_ko_login_dc
+- utter_gia_chiet_khau
+- utter_ho_tro_allday
+- utter_hoi_CSKH
+- utter_in_the_ko_thanh_cong
+- utter_khac_nhau_thanh_toan
+- utter_khoa_tai_khoan
+- utter_khong_ho_tro
+- utter_ki_tu_dacbiet
+- utter_kich_hoat_tai_khoan
+- utter_ko_gui_dc_yc_chuyen_tien
+- utter_ko_ho_tro_game
+- utter_ko_login_dc
+- utter_ko_thanh_toan_dc
+- utter_ko_vao_dc_gmail
+- utter_loi
+- utter_loi_dang_nhap
+- utter_loi_giao_dich
+- utter_loi_he_thong
+- utter_loi_khi_mua_the
+- utter_loi_nap_the
+- utter_mk_ko_hop_le
+- utter_mua_may_in
+- utter_mua_nhieu_the_mot_luc
+- utter_mua_the_cao
+- utter_mua_the_game
+- action_mua_the_tren_ung_dung
+- utter_nap_the_tra_sau
+- utter_nhan_ma_khi_dang_ki
+- utter_nhan_ma_khi_dang_nhap
+- utter_nhan_ma_the_cao
+- utter_noi_gui_inf_the
+- utter_phan_anh_loi
+- utter_phuong_thuc_thanh_toan
+- utter_sdt_ko_hop_le
+- utter_sua_doi_inf_may_in
+- utter_tai_phan_mem_may_in
+- utter_thanh_toan_the_ngan_hang
+- utter_the_chi_co_seri
+- utter_the_game
+- utter_the_web_khong_ho_tro
+- utter_tich_hop_API
+- utter_time_sd_the
+- utter_tuyen_ctv
+- utter_uy_tin
+- utter_viet_tat_nha_mang
+- utter_kh_xin_sdt
+- utter_nap_tien_tai_web
+- utter_great_banthe
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

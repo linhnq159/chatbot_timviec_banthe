@@ -1,0 +1,18 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say hello anytime the user says chao_hoi
+  steps:
+  - intent: great
+  - action: utter_great
+
+- rule: Khong hieu y nguoi noi
+  steps:
+  - intent : nlu_fallback
+  - action: act_unknown
